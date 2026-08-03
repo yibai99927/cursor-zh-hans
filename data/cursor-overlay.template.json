@@ -98,7 +98,10 @@
       "cancel": "Cancel",
       "cantCreateBinFolder": "Unable to install the shell command '{0}'.",
       "warnEscalationUninstall": "{0} will now prompt with 'osascript' for Administrator privileges to uninstall the shell command.",
-      "cantUninstall": "Unable to uninstall the shell command '{0}'."
+      "cantUninstall": "Unable to uninstall the shell command '{0}'.",
+      "openExternalErrorLinkMessage": "An error occurred opening a link in your default browser.",
+      "openExternalProgramErrorMessage": "An error occurred opening an external program.",
+      "copyLink": "&&Copy Link"
     },
     "vs/platform/storage/electron-main/storageMainService": {
       "storageError.title": "Storage Error",
@@ -111,14 +114,13 @@
       "telemetry.telemetryLevelMd": "Controls {0} crash-reporting telemetry. Crash-reporting helps us better understand how {0} is performing, and debug crashes.",
       "telemetry.docsStatement": "Read more about the [Cursor's privacy posture]({0}) and [Cursor's security posture]({1}).",
       "telemetry.restart": "A full restart of the application is necessary for crash reporting changes to take effect.",
-      "telemetry.feedback.enabled": "Enable feedback mechanisms such as the issue reporter and feedback options in features like Copilot Chat.",
       "telemetry.enableTelemetry": "Enable diagnostic data to be collected. This helps us to better understand how {0} is performing and where improvements need to be made.",
       "telemetry.enableTelemetryMd": "Enable diagnostic data to be collected. This helps us to better understand how {0} is performing and where improvements need to be made. [Read more]({1}) about what we collect and our privacy statement.",
       "enableTelemetryDeprecated": "If this setting is false, no telemetry will be sent regardless of the new setting's value. Deprecated in favor of the {0} setting."
     },
     "vs/workbench/api/browser/mainThreadCursor": {
-      "extensionHostTimeoutTitle": "Agent Stream Start Timeout",
-      "extensionHostTimeoutDetail": "The extension host did not respond in time. Please reload the window to continue.",
+      "extensionHostTimeoutTitle": "Workspace Disconnected",
+      "extensionHostTimeoutDetail": "Cursor lost connection to the workspace while starting tool execution. Reload the window and try again.",
       "sessionInitFailedTitle": "Agent Session Initialization Failed",
       "sessionInitFailedDetail": "Failed to initialize the agent execution session. Please reload the window to continue.",
       "sessionNotFoundTitle": "Agent Session Not Found",
@@ -159,14 +161,11 @@
       "cursorSettings": "Cursor Settings"
     },
     "vs/workbench/browser/windowQuitConfirmation": {
-      "shutdownChatStreamingTitle": "Agent is still working"
+      "shutdownChatStreamingTitle": "Agent is still working",
+      "archiveRunningAgentDetail": "This agent is still working. Archiving will stop it and cancel the current task."
     },
     "vs/workbench/browser/workbench.contribution": {
       "agentsWindowButtonEnabled": "Controls whether the Agents Window button in the title bar is shown."
-    },
-    "vs/workbench/contrib/agents/browser/agents.contribution": {
-      "removeAgentLayoutIde.notice": "Prefer the Agent layout? Try the new Agents Window.",
-      "removeAgentLayoutIde.openAgentsWindow": "Open Agents Window"
     },
     "vs/workbench/contrib/agents/browser/agentsActions": {
       "quickOpenPreviousRecentlyUsedAgent": "Quick Open Previous Recently Used Agent",
@@ -194,16 +193,6 @@
     "vs/workbench/contrib/agents/browser/agentsViewPane": {
       "all-agents": "All Agents"
     },
-    "vs/workbench/contrib/agents/browser/components/AgentsFreeIdePromoModal": {
-      "agentsFreeIde.promoTitle": "Your agents now live in the Agents Window",
-      "agentsFreeIde.promoDescription": "Continue working with agents in a simpler, more powerful interface.",
-      "agentsFreeIde.promoClose": "Close",
-      "agentsFreeIde.openAgentsWindow": "Open Agents Window"
-    },
-    "vs/workbench/contrib/agents/browser/components/AgentsFreeIdeRedirect": {
-      "agentsFreeIde.redirectMessage": "Your agent chats now live in the Agents Window",
-      "agentsFreeIde.openAgentsWindow": "Open Agents Window"
-    },
     "vs/workbench/contrib/agents/browser/components/AgentSidebarUpdateButton": {
       "agentSidebarUpdateButton.tooltip": "Restart Cursor to install the pending update.",
       "agentSidebarUpdateButton.tooltipWithVersion": "Restart Cursor to install the pending update to {0}.",
@@ -229,10 +218,8 @@
       "switchToModelSlug.noAgentsWindow": "Couldn't open the Agents window to switch the model. Open the Agents window and try again.",
       "switchToModelSlug.agentsWindowRoutingFailed": "Couldn't switch the model in the Agents window. Try again.",
       "cursor.newAgentsWindow": "New Agents Window",
-      "cursor.newAdditionalAgentsWindowDev": "Developer: New Additional Agents Window"
-    },
-    "vs/workbench/contrib/composer/browser/__experimental-react-transcript-dont-read-unless-jais-agent/composerTranscriptToolRuntime": {
-      "composerTranscript.openFileFailed": "Unable to open {0}"
+      "cursor.newAdditionalAgentsWindowDev": "Developer: New Additional Agents Window",
+      "cursor.openGlassAndStartCloudAgent": "Open Agents Window and Start Cloud Agent"
     },
     "vs/workbench/contrib/composer/browser/browserEditor.contribution": {
       "closeBrowserTab.message": "Close Browser Tab",
@@ -254,11 +241,15 @@
       "chimes.source": "Cursor Chimes"
     },
     "vs/workbench/contrib/composer/browser/composer.contribution": {
-      "cursor ai": "Cursor AI"
+      "cursor ai": "Cursor AI",
+      "composerEditor": "Cursor AI"
     },
     "vs/workbench/contrib/composer/browser/composerMessageStorageService": {
       "checkpointHydrationErrorTitle": "Failed to Load Conversation",
       "checkpointHydrationErrorDetail": "The conversation checkpoint data may be corrupted. You can start a new conversation or try reloading the window."
+    },
+    "vs/workbench/contrib/composer/browser/transcript/composerTranscriptToolRuntime": {
+      "composerTranscript.openFileFailed": "Unable to open {0}"
     },
     "vs/workbench/contrib/composer/electron-sandbox/browserAutomation.contribution": {
       "crashBrowserWebviewRenderer": "Developer: Crash Browser Webview Renderer",
@@ -285,16 +276,16 @@
       "browserContextMenu.selectAll": "Select All",
       "browserContextMenu.inspectElement": "Inspect Element"
     },
-    "vs/workbench/contrib/cursorBlame/browser/aiBlameHover.contribution": {
-      "andXMore": "and {0} more",
-      "addLineToChat": "Reference Line in Chat",
-      "showFileBlame": "Show File Blame",
-      "copyCommitSha": "Copy SHA",
-      "copyCommitLink": "Copy Link",
-      "viewCommit": "View Commit",
-      "viewPullRequest": "View PR",
-      "cursorBlameConfigurationTitle": "Cursor Blame",
-      "cursor.blame.hoverDelay": "Controls the delay in milliseconds before the cursor blame hover appears. If not set, uses `#editor.hover.delay#` with a minimum of 500ms."
+    "vs/workbench/contrib/cursorAiFeedback/browser/aiFeedbackActions": {
+      "miReportIssue": "Report &&Issue",
+      "miGiveFeedback": "Give &&Feedback..."
+    },
+    "vs/workbench/contrib/cursorAiMarkdown/browser/chatFileReferenceContextMenu": {
+      "chatRevealInWindows": "Reveal in File Explorer",
+      "chatRevealInMac": "Reveal in Finder",
+      "chatOpenContainer": "Open Containing Folder",
+      "chatFileAddToChat": "Add to Chat",
+      "copyPath": "Copy Path"
     },
     "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution": {
       "cursorBlame.openFileBlameTitle": "Open File Blame",
@@ -307,19 +298,27 @@
       "cursorBlame.explorerContextMenu": "Cursor Blame",
       "cursorBlameSubmenu": "Cursor Blame",
       "toggleFileBlame": "Toggle file blame",
-      "cursorBlame.viewCommitUncommittedTitle": "View commit (uncommitted)",
       "cursorBlameConfigurationTitle": "Cursor Blame",
-      "cursorBlame.editorDecoration.enabled": "Controls whether to show blame information in the editor using editor decorations.",
-      "cursorBlame.editorDecoration.forceDisabled": "When enabled, forcibly disables the git blame editor decoration, overriding any workspace-level settings. This is an application-level setting."
-    },
-    "vs/workbench/contrib/cursorBlame/browser/cursorBlameFileDecoration": {
-      "cursorBlame.toggleEditorDecoration": "Toggle Editor Decoration",
-      "cursorBlame": "Cursor Blame"
+      "cursor.blame.hoverDelay": "Controls the delay in milliseconds before hovers in the Cursor Blame panes appear. If not set, uses `#editor.hover.delay#` with a minimum of 500ms."
     },
     "vs/workbench/contrib/cursorLocalTrace/browser/cursorLocalTrace.contribution": {
       "cursorLocalTraceModeConfigurationTitle": "Local Trace Mode",
       "cursorLocalTraceMode.settingTitle": "Local Trace Mode",
       "cursorLocalTraceMode": "When enabled, records performance marks and measures locally (for example in Chrome DevTools Performance) and mirrors VS Code RPCs into the DevTools Network tab."
+    },
+    "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions": {
+      "toggleMarkdownPlanEditorMode": "Toggle Editor Mode",
+      "markdownPlanEditor": "Markdown Plan Editor",
+      "acceptPlan": "Build Plan",
+      "find": "Find",
+      "findNext": "Find Next",
+      "findPrevious": "Find Previous",
+      "closeFindWidget": "Close Find Widget"
+    },
+    "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/usePlanEditorState": {
+      "markdownPlanEditor.fileChangedWhileDirty": "The content of the file is newer. Do you want to overwrite the file with your changes, or revert your changes?",
+      "overwrite": "Overwrite",
+      "revert": "Revert"
     },
     "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution": {
       "cursorOrigin.category": "Cursor Origin",
@@ -361,6 +360,9 @@
     },
     "vs/workbench/services/experiment/browser/featureFlagOverrideActions": {
       "statsigDummyConsoleLoopProductionWarning": "This command is only available for Cursor developers."
+    },
+    "vs/workbench/services/extensions/common/extensionHostManager": {
+      "communicationProfilerUnavailable": "The Network & IPC Profiler is only available in development builds or to internal Cursor developers."
     },
     "vs/workbench/services/extensions/common/extensionsRegistry": {
       "vscode.extension.activationEvents.onMcpCollection": "An activation event emitted whenver a tool from the MCP server is requested."

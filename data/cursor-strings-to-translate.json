@@ -450,6 +450,31 @@
     "en": "Unable to find shell script in '{0}'"
   },
   {
+    "module": "vs/platform/native/electron-main/nativeHostMainService",
+    "key": "openExternalErrorLinkMessage",
+    "en": "An error occurred opening a link in your default browser."
+  },
+  {
+    "module": "vs/platform/native/electron-main/nativeHostMainService",
+    "key": "openExternalProgramErrorMessage",
+    "en": "An error occurred opening an external program."
+  },
+  {
+    "module": "vs/platform/native/electron-main/nativeHostMainService",
+    "key": "copyLink",
+    "en": "&&Copy Link"
+  },
+  {
+    "module": "vs/platform/native/electron-main/nativeHostMainService",
+    "key": "cancel",
+    "en": "Cancel"
+  },
+  {
+    "module": "vs/platform/native/electron-main/nativeHostMainService",
+    "key": "ok",
+    "en": "&&OK"
+  },
+  {
     "module": "vs/platform/storage/electron-main/storageMainService",
     "key": "storageError.title",
     "en": "Storage Error"
@@ -491,11 +516,6 @@
   },
   {
     "module": "vs/platform/telemetry/common/telemetryService",
-    "key": "telemetry.feedback.enabled",
-    "en": "Enable feedback mechanisms such as the issue reporter and feedback options in features like Copilot Chat."
-  },
-  {
-    "module": "vs/platform/telemetry/common/telemetryService",
     "key": "telemetry.enableTelemetry",
     "en": "Enable diagnostic data to be collected. This helps us to better understand how {0} is performing and where improvements need to be made."
   },
@@ -516,18 +536,8 @@
   },
   {
     "module": "vs/workbench/api/browser/mainThreadCursor",
-    "key": "extensionHostTimeoutTitle",
-    "en": "Agent Stream Start Timeout"
-  },
-  {
-    "module": "vs/workbench/api/browser/mainThreadCursor",
     "key": "extensionHostTimeoutDetail",
     "en": "Cursor lost connection to the workspace while starting tool execution. Reload the window and try again."
-  },
-  {
-    "module": "vs/workbench/api/browser/mainThreadCursor",
-    "key": "extensionHostTimeoutDetail",
-    "en": "The extension host did not respond in time. Please reload the window to continue."
   },
   {
     "module": "vs/workbench/api/browser/mainThreadCursor",
@@ -635,19 +645,14 @@
     "en": "Agent is still working"
   },
   {
+    "module": "vs/workbench/browser/windowQuitConfirmation",
+    "key": "archiveRunningAgentDetail",
+    "en": "This agent is still working. Archiving will stop it and cancel the current task."
+  },
+  {
     "module": "vs/workbench/browser/workbench.contribution",
     "key": "agentsWindowButtonEnabled",
     "en": "Controls whether the Agents Window button in the title bar is shown."
-  },
-  {
-    "module": "vs/workbench/contrib/agents/browser/agents.contribution",
-    "key": "removeAgentLayoutIde.notice",
-    "en": "Prefer the Agent layout? Try the new Agents Window."
-  },
-  {
-    "module": "vs/workbench/contrib/agents/browser/agents.contribution",
-    "key": "removeAgentLayoutIde.openAgentsWindow",
-    "en": "Open Agents Window"
   },
   {
     "module": "vs/workbench/contrib/agents/browser/agentsActions",
@@ -755,36 +760,6 @@
     "en": "All Agents"
   },
   {
-    "module": "vs/workbench/contrib/agents/browser/components/AgentsFreeIdePromoModal",
-    "key": "agentsFreeIde.promoTitle",
-    "en": "Your agents now live in the Agents Window"
-  },
-  {
-    "module": "vs/workbench/contrib/agents/browser/components/AgentsFreeIdePromoModal",
-    "key": "agentsFreeIde.promoDescription",
-    "en": "Continue working with agents in a simpler, more powerful interface."
-  },
-  {
-    "module": "vs/workbench/contrib/agents/browser/components/AgentsFreeIdePromoModal",
-    "key": "agentsFreeIde.promoClose",
-    "en": "Close"
-  },
-  {
-    "module": "vs/workbench/contrib/agents/browser/components/AgentsFreeIdePromoModal",
-    "key": "agentsFreeIde.openAgentsWindow",
-    "en": "Open Agents Window"
-  },
-  {
-    "module": "vs/workbench/contrib/agents/browser/components/AgentsFreeIdeRedirect",
-    "key": "agentsFreeIde.redirectMessage",
-    "en": "Your agent chats now live in the Agents Window"
-  },
-  {
-    "module": "vs/workbench/contrib/agents/browser/components/AgentsFreeIdeRedirect",
-    "key": "agentsFreeIde.openAgentsWindow",
-    "en": "Open Agents Window"
-  },
-  {
     "module": "vs/workbench/contrib/agents/browser/components/AgentSidebarUpdateButton",
     "key": "agentSidebarUpdateButton.tooltip",
     "en": "Restart Cursor to install the pending update."
@@ -870,9 +845,9 @@
     "en": "Developer: New Additional Agents Window"
   },
   {
-    "module": "vs/workbench/contrib/composer/browser/__experimental-react-transcript-dont-read-unless-jais-agent/composerTranscriptToolRuntime",
-    "key": "composerTranscript.openFileFailed",
-    "en": "Unable to open {0}"
+    "module": "vs/workbench/contrib/appLayout/electron-sandbox/glassModeActions",
+    "key": "cursor.openGlassAndStartCloudAgent",
+    "en": "Open Agents Window and Start Cloud Agent"
   },
   {
     "module": "vs/workbench/contrib/composer/browser/browserEditor.contribution",
@@ -955,6 +930,11 @@
     "en": "Cursor AI"
   },
   {
+    "module": "vs/workbench/contrib/composer/browser/composer.contribution",
+    "key": "composerEditor",
+    "en": "Cursor AI"
+  },
+  {
     "module": "vs/workbench/contrib/composer/browser/composerMessageStorageService",
     "key": "checkpointHydrationErrorTitle",
     "en": "Failed to Load Conversation"
@@ -963,6 +943,11 @@
     "module": "vs/workbench/contrib/composer/browser/composerMessageStorageService",
     "key": "checkpointHydrationErrorDetail",
     "en": "The conversation checkpoint data may be corrupted. You can start a new conversation or try reloading the window."
+  },
+  {
+    "module": "vs/workbench/contrib/composer/browser/transcript/composerTranscriptToolRuntime",
+    "key": "composerTranscript.openFileFailed",
+    "en": "Unable to open {0}"
   },
   {
     "module": "vs/workbench/contrib/composer/electron-sandbox/browserAutomation.contribution",
@@ -1070,54 +1055,39 @@
     "en": "Inspect Element"
   },
   {
-    "module": "vs/workbench/contrib/cursorBlame/browser/aiBlameHover.contribution",
-    "key": "andXMore",
-    "en": "and {0} more"
+    "module": "vs/workbench/contrib/cursorAiFeedback/browser/aiFeedbackActions",
+    "key": "miReportIssue",
+    "en": "Report &&Issue"
   },
   {
-    "module": "vs/workbench/contrib/cursorBlame/browser/aiBlameHover.contribution",
-    "key": "addLineToChat",
-    "en": "Reference Line in Chat"
+    "module": "vs/workbench/contrib/cursorAiFeedback/browser/aiFeedbackActions",
+    "key": "miGiveFeedback",
+    "en": "Give &&Feedback..."
   },
   {
-    "module": "vs/workbench/contrib/cursorBlame/browser/aiBlameHover.contribution",
-    "key": "showFileBlame",
-    "en": "Show File Blame"
+    "module": "vs/workbench/contrib/cursorAiMarkdown/browser/chatFileReferenceContextMenu",
+    "key": "chatRevealInWindows",
+    "en": "Reveal in File Explorer"
   },
   {
-    "module": "vs/workbench/contrib/cursorBlame/browser/aiBlameHover.contribution",
-    "key": "copyCommitSha",
-    "en": "Copy SHA"
+    "module": "vs/workbench/contrib/cursorAiMarkdown/browser/chatFileReferenceContextMenu",
+    "key": "chatRevealInMac",
+    "en": "Reveal in Finder"
   },
   {
-    "module": "vs/workbench/contrib/cursorBlame/browser/aiBlameHover.contribution",
-    "key": "copyCommitLink",
-    "en": "Copy Link"
+    "module": "vs/workbench/contrib/cursorAiMarkdown/browser/chatFileReferenceContextMenu",
+    "key": "chatOpenContainer",
+    "en": "Open Containing Folder"
   },
   {
-    "module": "vs/workbench/contrib/cursorBlame/browser/aiBlameHover.contribution",
-    "key": "viewCommit",
-    "en": "View Commit"
+    "module": "vs/workbench/contrib/cursorAiMarkdown/browser/chatFileReferenceContextMenu",
+    "key": "chatFileAddToChat",
+    "en": "Add to Chat"
   },
   {
-    "module": "vs/workbench/contrib/cursorBlame/browser/aiBlameHover.contribution",
-    "key": "viewCommit",
-    "en": "View Commit"
-  },
-  {
-    "module": "vs/workbench/contrib/cursorBlame/browser/aiBlameHover.contribution",
-    "key": "viewPullRequest",
-    "en": "View PR"
-  },
-  {
-    "module": "vs/workbench/contrib/cursorBlame/browser/aiBlameHover.contribution",
-    "key": "cursorBlameConfigurationTitle",
-    "en": "Cursor Blame"
-  },
-  {
-    "module": "vs/workbench/contrib/cursorBlame/browser/aiBlameHover.contribution",
-    "key": "cursor.blame.hoverDelay",
-    "en": "Controls the delay in milliseconds before the cursor blame hover appears. If not set, uses `#editor.hover.delay#` with a minimum of 500ms."
+    "module": "vs/workbench/contrib/cursorAiMarkdown/browser/chatFileReferenceContextMenu",
+    "key": "copyPath",
+    "en": "Copy Path"
   },
   {
     "module": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
@@ -1186,33 +1156,13 @@
   },
   {
     "module": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
-    "key": "cursorBlame.viewCommitUncommittedTitle",
-    "en": "View commit (uncommitted)"
-  },
-  {
-    "module": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
     "key": "cursorBlameConfigurationTitle",
     "en": "Cursor Blame"
   },
   {
     "module": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
-    "key": "cursorBlame.editorDecoration.enabled",
-    "en": "Controls whether to show blame information in the editor using editor decorations."
-  },
-  {
-    "module": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
-    "key": "cursorBlame.editorDecoration.forceDisabled",
-    "en": "When enabled, forcibly disables the git blame editor decoration, overriding any workspace-level settings. This is an application-level setting."
-  },
-  {
-    "module": "vs/workbench/contrib/cursorBlame/browser/cursorBlameFileDecoration",
-    "key": "cursorBlame.toggleEditorDecoration",
-    "en": "Toggle Editor Decoration"
-  },
-  {
-    "module": "vs/workbench/contrib/cursorBlame/browser/cursorBlameFileDecoration",
-    "key": "cursorBlame",
-    "en": "Cursor Blame"
+    "key": "cursor.blame.hoverDelay",
+    "en": "Controls the delay in milliseconds before hovers in the Cursor Blame panes appear. If not set, uses `#editor.hover.delay#` with a minimum of 500ms."
   },
   {
     "module": "vs/workbench/contrib/cursorLocalTrace/browser/cursorLocalTrace.contribution",
@@ -1228,6 +1178,81 @@
     "module": "vs/workbench/contrib/cursorLocalTrace/browser/cursorLocalTrace.contribution",
     "key": "cursorLocalTraceMode",
     "en": "When enabled, records performance marks and measures locally (for example in Chrome DevTools Performance) and mirrors VS Code RPCs into the DevTools Network tab."
+  },
+  {
+    "module": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions",
+    "key": "toggleMarkdownPlanEditorMode",
+    "en": "Toggle Editor Mode"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions",
+    "key": "markdownPlanEditor",
+    "en": "Markdown Plan Editor"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions",
+    "key": "acceptPlan",
+    "en": "Build Plan"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions",
+    "key": "markdownPlanEditor",
+    "en": "Markdown Plan Editor"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions",
+    "key": "find",
+    "en": "Find"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions",
+    "key": "markdownPlanEditor",
+    "en": "Markdown Plan Editor"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions",
+    "key": "findNext",
+    "en": "Find Next"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions",
+    "key": "markdownPlanEditor",
+    "en": "Markdown Plan Editor"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions",
+    "key": "findPrevious",
+    "en": "Find Previous"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions",
+    "key": "markdownPlanEditor",
+    "en": "Markdown Plan Editor"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions",
+    "key": "closeFindWidget",
+    "en": "Close Find Widget"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions",
+    "key": "markdownPlanEditor",
+    "en": "Markdown Plan Editor"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/usePlanEditorState",
+    "key": "markdownPlanEditor.fileChangedWhileDirty",
+    "en": "The content of the file is newer. Do you want to overwrite the file with your changes, or revert your changes?"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/usePlanEditorState",
+    "key": "overwrite",
+    "en": "Overwrite"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/usePlanEditorState",
+    "key": "revert",
+    "en": "Revert"
   },
   {
     "module": "vs/workbench/contrib/cursorOrigin/browser/cursorOrigin.contribution",
@@ -1343,6 +1368,11 @@
     "module": "vs/workbench/services/experiment/browser/featureFlagOverrideActions",
     "key": "statsigDummyConsoleLoopProductionWarning",
     "en": "This command is only available for Cursor developers."
+  },
+  {
+    "module": "vs/workbench/services/extensions/common/extensionHostManager",
+    "key": "communicationProfilerUnavailable",
+    "en": "The Network & IPC Profiler is only available in development builds or to internal Cursor developers."
   },
   {
     "module": "vs/workbench/services/extensions/common/extensionsRegistry",
