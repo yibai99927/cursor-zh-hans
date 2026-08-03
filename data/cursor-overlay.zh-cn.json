@@ -289,16 +289,16 @@
     },
     "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution": {
       "cursorBlame.openFileBlameTitle": "打开文件 Blame",
-      "cursorBlame.category": "Cursor 代码追溯",
+      "cursorBlame.category": "Cursor 追溯",
       "cursorBlame.openCommitTitle": "查看提交",
       "cursorBlame.pasteCommitHash": "粘贴提交哈希",
       "cursorBlame.viewCommitTitle": "查看提交",
       "cursorBlame.noGit": "未找到 Git 仓库",
       "cursorBlame.uncommittedLine": "此行尚未提交",
-      "cursorBlame.explorerContextMenu": "Cursor 代码追溯",
-      "cursorBlameSubmenu": "Cursor 代码追溯",
+      "cursorBlame.explorerContextMenu": "Cursor 追溯",
+      "cursorBlameSubmenu": "Cursor 追溯",
       "toggleFileBlame": "切换文件 Blame",
-      "cursorBlameConfigurationTitle": "Cursor 代码追溯",
+      "cursorBlameConfigurationTitle": "Cursor 追溯",
       "cursor.blame.hoverDelay": "控制 Cursor Blame 窗格中悬停提示出现前的延迟（毫秒）。如果未设置，则使用 `#editor.hover.delay#`，最小为 500 毫秒。"
     },
     "vs/workbench/contrib/cursorLocalTrace/browser/cursorLocalTrace.contribution": {
@@ -309,7 +309,7 @@
     "vs/workbench/contrib/cursorMarkdownPlanEditor/browser/markdownPlanEditorActions": {
       "toggleMarkdownPlanEditorMode": "切换编辑器模式",
       "markdownPlanEditor": "Markdown 计划编辑器",
-      "acceptPlan": "构建计划",
+      "acceptPlan": "生成计划",
       "find": "查找",
       "findNext": "查找下一个",
       "findPrevious": "查找上一个",
