@@ -1,6 +1,6 @@
 {
   "description": "部分匹配片段（仅用于叶子节点整段文本的包含替换，慎用短词）",
-  "updatedAt": "2026-07-11",
+  "updatedAt": "2026-08-06",
   "entries": [
     [
       "Open Agents Window",
@@ -39,8 +39,28 @@
       "工具与 MCP"
     ],
     [
-      "Self-driving PRs",
+      "Self-Driving PRs",
       "自动驾驶 PR"
+    ],
+    [
+      "Cloud Automations",
+      "云端自动化"
+    ],
+    [
+      "Team Marketplaces",
+      "团队市场"
+    ],
+    [
+      "Cursor Marketplace",
+      "Cursor 市场"
+    ],
+    [
+      "Side chats",
+      "侧边对话"
+    ],
+    [
+      "Multitask Mode",
+      "多任务模式"
     ]
   ]
 }

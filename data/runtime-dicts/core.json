@@ -1,6 +1,6 @@
 {
   "description": "通用界面精确匹配词典（设置侧栏、Agent 窗口等）",
-  "updatedAt": "2026-07-13",
+  "updatedAt": "2026-08-06",
   "entries": [
     [
       "Cannot create project rules without a workspace. Please open a folder first.",
@@ -267,7 +267,7 @@
       "重构预览"
     ],
     [
-      "Self-driving PRs",
+      "Self-Driving PRs",
       "自动驾驶 PR"
     ],
     [
@@ -683,16 +683,348 @@
       "阻止 Agent 自动运行浏览器工具"
     ],
     [
-      "Show Localhost Links in Browser",
-      "在浏览器中显示 Localhost 链接"
+      "Open Local Links in Cursor Browser",
+      "在 Cursor 浏览器中打开本地链接"
     ],
     [
-      "Open Web Links in Browser",
-      "在浏览器中打开网页链接"
+      "Open Web Links in Cursor Browser",
+      "在 Cursor 浏览器中打开网页链接"
     ],
     [
       "Browser",
       "浏览器"
+    ],
+    [
+      "Team Marketplaces",
+      "团队市场"
+    ],
+    [
+      "Cursor Marketplace",
+      "Cursor 市场"
+    ],
+    [
+      "Allow Members to Publish",
+      "允许成员发布"
+    ],
+    [
+      "Remove plugin",
+      "移除插件"
+    ],
+    [
+      "Open in Marketplace",
+      "在市场中打开"
+    ],
+    [
+      "Skill Publishing",
+      "技能发布"
+    ],
+    [
+      "Skill publishing",
+      "技能发布"
+    ],
+    [
+      "We've introduced a new home for all the ways to customize Cursor.",
+      "我们为所有自定义 Cursor 的方式提供了新入口。"
+    ],
+    [
+      "Add plugins to this marketplace so your team can install them.",
+      "向此市场添加插件，供团队成员安装。"
+    ],
+    [
+      "This marketplace will be removed from your account. The source repository won't be affected.",
+      "此市场将从你的账户中移除，源仓库不受影响。"
+    ],
+    [
+      "Remove an installed plugin. Type a search query after the command to find plugins to uninstall.",
+      "移除已安装的插件。在命令后输入搜索词以查找要卸载的插件。"
+    ],
+    [
+      "Let any team member publish plugins to this marketplace. When off, only team admins can publish.",
+      "允许任意团队成员向此市场发布插件。关闭后仅团队管理员可发布。"
+    ],
+    [
+      "Browse and install plugins from the Cursor marketplace. Type a search query after the command to find plugins.",
+      "从 Cursor 市场浏览并安装插件。在命令后输入搜索词以查找插件。"
+    ],
+    [
+      "The plugins you're removing from the marketplace will no longer be available to users and Cloud Agents that rely on them.",
+      "你从市场移除的插件将不再对依赖它们的用户和云端 Agent 可用。"
+    ],
+    [
+      "Automation",
+      "自动化"
+    ],
+    [
+      "Cloud Automations",
+      "云端自动化"
+    ],
+    [
+      "Automation name",
+      "自动化名称"
+    ],
+    [
+      "Automation Run",
+      "自动化运行"
+    ],
+    [
+      "Automation failed",
+      "自动化失败"
+    ],
+    [
+      "Self-Driving",
+      "自动驾驶"
+    ],
+    [
+      "Self-Driving Mode",
+      "自动驾驶模式"
+    ],
+    [
+      "Self-Drive PR",
+      "自动驾驶 PR"
+    ],
+    [
+      "Automation filters",
+      "自动化筛选"
+    ],
+    [
+      "Automation Location",
+      "自动化位置"
+    ],
+    [
+      "Self-driving update",
+      "自动驾驶更新"
+    ],
+    [
+      "Automation not found",
+      "未找到自动化"
+    ],
+    [
+      "Automation not found.",
+      "未找到自动化。"
+    ],
+    [
+      "Automation is missing",
+      "自动化缺失"
+    ],
+    [
+      "Self-driving Settings",
+      "自动驾驶设置"
+    ],
+    [
+      "Local self-driving could not be started for this task. Try again from the agent panel.",
+      "无法为此任务启动本地自动驾驶。请从 Agent 面板重试。"
+    ],
+    [
+      "This task does not have an active agent run yet. Start self-driving on the pull request or wait for triage to finish.",
+      "此任务尚无进行中的 Agent 运行。请在拉取请求上启动自动驾驶，或等待分诊完成。"
+    ],
+    [
+      "Used when Self-driving starts automatically from account defaults.",
+      "当自动驾驶按账户默认设置自动启动时使用。"
+    ],
+    [
+      "Cloud automations run agents from a variety of environment triggers or on a scheduled basis",
+      "云端自动化可通过多种环境触发器或定时计划运行 Agent"
+    ],
+    [
+      "Canvases",
+      "画布"
+    ],
+    [
+      "Canvas",
+      "画布"
+    ],
+    [
+      "Open Canvas",
+      "打开画布"
+    ],
+    [
+      "Desktop",
+      "桌面"
+    ],
+    [
+      "Open Desktop",
+      "打开桌面"
+    ],
+    [
+      "Multitask Mode",
+      "多任务模式"
+    ],
+    [
+      "Side chats",
+      "侧边对话"
+    ],
+    [
+      "Supplemental sidebar",
+      "辅助侧栏"
+    ],
+    [
+      "Desktop Bridge",
+      "桌面桥接"
+    ],
+    [
+      "Show an expandable Project pill for Tasks, Working, and pull requests",
+      "为任务、进行中和拉取请求显示可展开的项目胶囊"
+    ],
+    [
+      "Show side chats, Canvases, and Desktop as sections in the supplemental sidebar",
+      "在辅助侧栏中将侧边对话、画布和桌面显示为分区"
+    ],
+    [
+      "Group pull requests into Open, Draft, Merged, and Closed sections in the supplemental sidebar",
+      "在辅助侧栏中将拉取请求分组为打开、草稿、已合并和已关闭"
+    ],
+    [
+      "Allow CLI to access desktop agents",
+      "允许 CLI 访问桌面 Agent"
+    ],
+    [
+      "Working on a Long Task?",
+      "正在处理长任务？"
+    ],
+    [
+      "Working",
+      "进行中"
+    ],
+    [
+      "Add to Side Chat",
+      "添加到侧边对话"
+    ],
+    [
+      "Ask Sidechat",
+      "询问侧边对话"
+    ],
+    [
+      "Agent Window",
+      "Agent 窗口"
+    ],
+    [
+      "Agent Stores",
+      "Agent 商店"
+    ],
+    [
+      "Accept Partial Edit",
+      "接受部分编辑"
+    ],
+    [
+      "Allow Agents on My PRs",
+      "允许 Agent 处理我的 PR"
+    ],
+    [
+      "Archive Prior Chats",
+      "归档先前对话"
+    ],
+    [
+      "Auto-Run on Agent Finish",
+      "Agent 完成后自动运行"
+    ],
+    [
+      "Background agent",
+      "后台 Agent"
+    ],
+    [
+      "New Agent in Project",
+      "在项目中新建 Agent"
+    ],
+    [
+      "Open Agent as Pane",
+      "将 Agent 作为窗格打开"
+    ],
+    [
+      "Open Agent Changes",
+      "打开 Agent 更改"
+    ],
+    [
+      "Side chats are disabled",
+      "侧边对话已禁用"
+    ],
+    [
+      "Automatically open project threads in split view",
+      "自动在分屏视图中打开项目线程"
+    ],
+    [
+      "Open Task and subagent threads in a pane beside the project coordinator. When off, open them as tabs in the current pane. Option-click or Cmd-click always opens in a split.",
+      "在项目协调器旁的窗格中打开任务与子 Agent 线程。关闭后，在当前窗格以标签页打开。Option/Cmd-点击始终分屏打开。"
+    ],
+    [
+      "Automatically resume the Project coordinator when a thread completes",
+      "线程完成时自动恢复项目协调器"
+    ],
+    [
+      "Run Security Review",
+      "运行安全审查"
+    ],
+    [
+      "Authenticate MCP",
+      "验证 MCP"
+    ],
+    [
+      "About Allowlist",
+      "关于白名单"
+    ],
+    [
+      "Allowlist Options",
+      "白名单选项"
+    ],
+    [
+      "Add Secrets",
+      "添加密钥"
+    ],
+    [
+      "Add to Home",
+      "添加到主页"
+    ],
+    [
+      "Branch Prefix",
+      "分支前缀"
+    ],
+    [
+      "Branch Changes",
+      "分支更改"
+    ],
+    [
+      "Await task",
+      "等待任务"
+    ],
+    [
+      "Capture Snapshot",
+      "捕获快照"
+    ],
+    [
+      "New Project Rule",
+      "新建项目规则"
+    ],
+    [
+      "Open in Cursor Browser",
+      "在 Cursor 浏览器中打开"
+    ],
+    [
+      "Open in External Browser",
+      "在外部浏览器中打开"
+    ],
+    [
+      "Hooks run custom scripts at lifecycle events to observe, control, and extend the agent loop.",
+      "钩子在生命周期事件运行自定义脚本，用于观察、控制并扩展 Agent 循环。"
+    ],
+    [
+      "Skills are specialized capabilities that help the agent accomplish specific tasks. Skills will be invoked by the agent when relevant or can be triggered manually with / in chat.",
+      "技能是帮助 Agent 完成特定任务的专用能力。相关时由 Agent 自动调用，也可在对话中用 / 手动触发。"
+    ],
+    [
+      "Commands are reusable prompts you invoke with /name to standardize common workflows across your team.",
+      "命令是可用 /名称 调用的可复用提示词，用于在团队中标准化常见工作流。"
+    ],
+    [
+      "Enable language server by default to provide code intelligence in agent worktree workspaces",
+      "默认启用语言服务器，以便在 Agent 工作树工作区提供代码智能"
+    ],
+    [
+      "Maximum number of Cursor-managed worktrees to keep across all workspaces. Older worktrees are removed first. Default is 25.",
+      "跨所有工作区保留的 Cursor 管理工作树上限。较旧的工作树会优先移除。默认 25。"
+    ],
+    [
+      "Agent Inbox",
+      "Agent 收件箱"
     ]
   ]
 }

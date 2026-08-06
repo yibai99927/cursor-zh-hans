@@ -1,5 +1,5 @@
 {
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "Cursor Glass/Settings/Automations UI 硬编码文案替换表（macOS / Windows）",
   "targets": [
     {
@@ -20,14 +20,14 @@
       "id": "settings-nav-labels",
       "optional": true,
       "note": "压缩变量名易变；主路径改走 structured-patches.json",
-      "from": "kci={general:\"General\",profile:\"Profile\",\"vscode-settings\":\"VS Code Settings\",appearance:\"Appearance\",fun:\"Fun\",\"plan-usage\":\"Plan & Usage\",chat:\"Agents\",browser:\"Browser & Network\",tab:\"Tab\",models:\"Models\",\"git-prs\":\"Git & PRs\",rules:\"Rules, Skills, Subagents\",plugins:\"Plugins\",customize:\"Customize\",indexing:\"Indexing & Docs\",mcp:\"Tools & MCPs\",hooks:\"Hooks\",beta:\"Beta\",network:\"Network\",\"background-composer\":\"Cloud Agents\",\"self-driving\":\"Self-driving PRs\",worktrees:\"Worktrees\",developer:\"Developer\"}",
-      "to": "kci={general:\"通用\",profile:\"个人资料\",\"vscode-settings\":\"VS Code 设置\",appearance:\"外观\",fun:\"趣味\",\"plan-usage\":\"套餐与用量\",chat:\"Agent\",browser:\"浏览器与网络\",tab:\"Tab 补全\",models:\"模型\",\"git-prs\":\"Git 与 PR\",rules:\"规则、技能与子 Agent\",plugins:\"插件\",customize:\"自定义\",indexing:\"索引与文档\",mcp:\"工具与 MCP\",hooks:\"钩子\",beta:\"测试版\",network:\"网络\",\"background-composer\":\"云端 Agent\",\"self-driving\":\"自动驾驶 PR\",worktrees:\"工作树\",developer:\"开发者\"}"
+      "from": "$9t={general:\"General\",profile:\"Profile\",\"vscode-settings\":\"VS Code Settings\",appearance:\"Appearance\",fun:\"Fun\",\"plan-usage\":\"Plan & Usage\",chat:\"Agents\",browser:\"Browser & Network\",tab:\"Tab\",models:\"Models\",\"git-prs\":\"Git & PRs\",rules:\"Rules, Skills, Subagents\",plugins:\"Plugins\",customize:\"Customize\",indexing:\"Indexing & Docs\",mcp:\"Tools & MCPs\",hooks:\"Hooks\",beta:\"Beta\",network:\"Network\",\"background-composer\":\"Cloud Agents\",\"self-driving\":\"Self-Driving PRs\",worktrees:\"Worktrees\",developer:\"Developer\"}",
+      "to": "$9t={general:\"通用\",profile:\"个人资料\",\"vscode-settings\":\"VS Code 设置\",appearance:\"外观\",fun:\"趣味\",\"plan-usage\":\"套餐与用量\",chat:\"Agent\",browser:\"浏览器与网络\",tab:\"Tab 补全\",models:\"模型\",\"git-prs\":\"Git 与 PR\",rules:\"规则、技能与子 Agent\",plugins:\"插件\",customize:\"自定义\",indexing:\"索引与文档\",mcp:\"工具与 MCP\",hooks:\"钩子\",beta:\"测试版\",network:\"网络\",\"background-composer\":\"云端 Agent\",\"self-driving\":\"自动驾驶 PR\",worktrees:\"工作树\",developer:\"开发者\"}"
     },
     {
       "id": "settings-nav-labels-desktop",
       "optional": true,
       "note": "压缩变量名易变；主路径改走 structured-patches.json",
-      "from": "general:\"General\",profile:\"Profile\",\"vscode-settings\":\"VS Code Settings\",appearance:\"Appearance\",fun:\"Fun\",\"plan-usage\":\"Plan & Usage\",chat:\"Agents\",browser:\"Browser & Network\",tab:\"Tab\",models:\"Models\",\"git-prs\":\"Git & PRs\",rules:\"Rules, Skills, Subagents\",plugins:\"Plugins\",customize:\"Customize\",indexing:\"Indexing & Docs\",mcp:\"Tools & MCPs\",hooks:\"Hooks\",beta:\"Beta\",network:\"Network\",\"background-composer\":\"Cloud Agents\",\"self-driving\":\"Self-driving PRs\",worktrees:\"Worktrees\",developer:\"Developer\"",
+      "from": "general:\"General\",profile:\"Profile\",\"vscode-settings\":\"VS Code Settings\",appearance:\"Appearance\",fun:\"Fun\",\"plan-usage\":\"Plan & Usage\",chat:\"Agents\",browser:\"Browser & Network\",tab:\"Tab\",models:\"Models\",\"git-prs\":\"Git & PRs\",rules:\"Rules, Skills, Subagents\",plugins:\"Plugins\",customize:\"Customize\",indexing:\"Indexing & Docs\",mcp:\"Tools & MCPs\",hooks:\"Hooks\",beta:\"Beta\",network:\"Network\",\"background-composer\":\"Cloud Agents\",\"self-driving\":\"Self-Driving PRs\",worktrees:\"Worktrees\",developer:\"Developer\"",
       "to": "general:\"通用\",profile:\"个人资料\",\"vscode-settings\":\"VS Code 设置\",appearance:\"外观\",fun:\"趣味\",\"plan-usage\":\"套餐与用量\",chat:\"Agent\",browser:\"浏览器与网络\",tab:\"Tab 补全\",models:\"模型\",\"git-prs\":\"Git 与 PR\",rules:\"规则、技能与子 Agent\",plugins:\"插件\",customize:\"自定义\",indexing:\"索引与文档\",mcp:\"工具与 MCP\",hooks:\"钩子\",beta:\"测试版\",network:\"网络\",\"background-composer\":\"云端 Agent\",\"self-driving\":\"自动驾驶 PR\",worktrees:\"工作树\",developer:\"开发者\""
     },
     {
@@ -46,8 +46,15 @@
       "id": "browser-settings-labels",
       "optional": true,
       "note": "压缩变量名易变；主路径改走 structured-patches + 运行时词典",
-      "from": "cbe={section:\"Browser\",automation:\"Browser Automation\",protection:\"Browser Protection\",protectionDescription:\"Prevent Agent from automatically running Browser tools\",showLocalhostLinks:\"Show Localhost Links in Browser\",openWebLinks:\"Open Web Links in Browser\"}",
-      "to": "cbe={section:\"浏览器\",automation:\"浏览器自动化\",protection:\"浏览器保护\",protectionDescription:\"阻止 Agent 自动运行浏览器工具\",showLocalhostLinks:\"在浏览器中显示 Localhost 链接\",openWebLinks:\"在浏览器中打开网页链接\"}"
+      "from": "age={section:\"Browser\",automation:\"Browser Automation\",protection:\"Browser Protection\",protectionDescription:\"Prevent Agent from automatically running Browser tools\",showLocalhostLinks:\"Open Local Links in Cursor Browser\",openWebLinks:\"Open Web Links in Cursor Browser\"}",
+      "to": "age={section:\"浏览器\",automation:\"浏览器自动化\",protection:\"浏览器保护\",protectionDescription:\"阻止 Agent 自动运行浏览器工具\",showLocalhostLinks:\"在 Cursor 浏览器中打开本地链接\",openWebLinks:\"在 Cursor 浏览器中打开网页链接\"}"
+    },
+    {
+      "id": "browser-settings-labels-fragment",
+      "optional": true,
+      "note": "不依赖压缩变量名的浏览器设置片段",
+      "from": "section:\"Browser\",automation:\"Browser Automation\",protection:\"Browser Protection\",protectionDescription:\"Prevent Agent from automatically running Browser tools\",showLocalhostLinks:\"Open Local Links in Cursor Browser\",openWebLinks:\"Open Web Links in Cursor Browser\"",
+      "to": "section:\"浏览器\",automation:\"浏览器自动化\",protection:\"浏览器保护\",protectionDescription:\"阻止 Agent 自动运行浏览器工具\",showLocalhostLinks:\"在 Cursor 浏览器中打开本地链接\",openWebLinks:\"在 Cursor 浏览器中打开网页链接\""
     },
     {
       "id": "run-mode-html-description",
@@ -3178,11 +3185,11 @@
       "to": "title:\"索引与文档\""
     },
     {
-      "from": "label:\"Self-driving PRs\"",
+      "from": "label:\"Self-Driving PRs\"",
       "to": "label:\"自动驾驶 PR\""
     },
     {
-      "from": "title:\"Self-driving PRs\"",
+      "from": "title:\"Self-Driving PRs\"",
       "to": "title:\"自动驾驶 PR\""
     },
     {
@@ -4122,16 +4129,16 @@
       "to": "阻止 Agent 自动运行浏览器工具"
     },
     {
-      "from": "Show Localhost Links in Browser",
-      "to": "在浏览器中显示 Localhost 链接"
+      "from": "Open Local Links in Cursor Browser",
+      "to": "在 Cursor 浏览器中打开本地链接"
     },
     {
       "from": "Automatically open localhost links in the Browser Tab",
       "to": "自动在浏览器标签页中打开 localhost 链接"
     },
     {
-      "from": "Open Web Links in Browser",
-      "to": "在浏览器中打开网页链接"
+      "from": "Open Web Links in Cursor Browser",
+      "to": "在 Cursor 浏览器中打开网页链接"
     },
     {
       "from": "Automatically open http and https links in the Browser Tab",
@@ -8120,6 +8127,342 @@
     {
       "from": "aria-label:\"Cursor Blame\"",
       "to": "aria-label:\"Cursor 追溯\""
+    },
+    {
+      "from": "Self-Driving PRs",
+      "to": "自动驾驶 PR"
+    },
+    {
+      "from": "Team Marketplaces",
+      "to": "团队市场"
+    },
+    {
+      "from": "Cursor Marketplace",
+      "to": "Cursor 市场"
+    },
+    {
+      "from": "Allow Members to Publish",
+      "to": "允许成员发布"
+    },
+    {
+      "from": "Remove plugin",
+      "to": "移除插件"
+    },
+    {
+      "from": "Open in Marketplace",
+      "to": "在市场中打开"
+    },
+    {
+      "from": "Skill Publishing",
+      "to": "技能发布"
+    },
+    {
+      "from": "Skill publishing",
+      "to": "技能发布"
+    },
+    {
+      "from": "We've introduced a new home for all the ways to customize Cursor.",
+      "to": "我们为所有自定义 Cursor 的方式提供了新入口。"
+    },
+    {
+      "from": "Add plugins to this marketplace so your team can install them.",
+      "to": "向此市场添加插件，供团队成员安装。"
+    },
+    {
+      "from": "This marketplace will be removed from your account. The source repository won't be affected.",
+      "to": "此市场将从你的账户中移除，源仓库不受影响。"
+    },
+    {
+      "from": "Remove an installed plugin. Type a search query after the command to find plugins to uninstall.",
+      "to": "移除已安装的插件。在命令后输入搜索词以查找要卸载的插件。"
+    },
+    {
+      "from": "Let any team member publish plugins to this marketplace. When off, only team admins can publish.",
+      "to": "允许任意团队成员向此市场发布插件。关闭后仅团队管理员可发布。"
+    },
+    {
+      "from": "Browse and install plugins from the Cursor marketplace. Type a search query after the command to find plugins.",
+      "to": "从 Cursor 市场浏览并安装插件。在命令后输入搜索词以查找插件。"
+    },
+    {
+      "from": "The plugins you're removing from the marketplace will no longer be available to users and Cloud Agents that rely on them.",
+      "to": "你从市场移除的插件将不再对依赖它们的用户和云端 Agent 可用。"
+    },
+    {
+      "from": "Automations",
+      "to": "自动化"
+    },
+    {
+      "from": "Automation",
+      "to": "自动化"
+    },
+    {
+      "from": "Cloud Automations",
+      "to": "云端自动化"
+    },
+    {
+      "from": "Automation name",
+      "to": "自动化名称"
+    },
+    {
+      "from": "Automation Run",
+      "to": "自动化运行"
+    },
+    {
+      "from": "Automation failed",
+      "to": "自动化失败"
+    },
+    {
+      "from": "Self-Driving",
+      "to": "自动驾驶"
+    },
+    {
+      "from": "Self-Driving Mode",
+      "to": "自动驾驶模式"
+    },
+    {
+      "from": "Self-Drive PR",
+      "to": "自动驾驶 PR"
+    },
+    {
+      "from": "Automation filters",
+      "to": "自动化筛选"
+    },
+    {
+      "from": "Automation Location",
+      "to": "自动化位置"
+    },
+    {
+      "from": "Self-driving update",
+      "to": "自动驾驶更新"
+    },
+    {
+      "from": "Automation not found",
+      "to": "未找到自动化"
+    },
+    {
+      "from": "Automation not found.",
+      "to": "未找到自动化。"
+    },
+    {
+      "from": "Automation is missing",
+      "to": "自动化缺失"
+    },
+    {
+      "from": "Self-driving Settings",
+      "to": "自动驾驶设置"
+    },
+    {
+      "from": "Local self-driving could not be started for this task. Try again from the agent panel.",
+      "to": "无法为此任务启动本地自动驾驶。请从 Agent 面板重试。"
+    },
+    {
+      "from": "This task does not have an active agent run yet. Start self-driving on the pull request or wait for triage to finish.",
+      "to": "此任务尚无进行中的 Agent 运行。请在拉取请求上启动自动驾驶，或等待分诊完成。"
+    },
+    {
+      "from": "Used when Self-driving starts automatically from account defaults.",
+      "to": "当自动驾驶按账户默认设置自动启动时使用。"
+    },
+    {
+      "from": "Cloud automations run agents from a variety of environment triggers or on a scheduled basis",
+      "to": "云端自动化可通过多种环境触发器或定时计划运行 Agent"
+    },
+    {
+      "from": "Canvases",
+      "to": "画布"
+    },
+    {
+      "from": "Canvas",
+      "to": "画布"
+    },
+    {
+      "from": "Open Canvas",
+      "to": "打开画布"
+    },
+    {
+      "from": "Desktop",
+      "to": "桌面"
+    },
+    {
+      "from": "Open Desktop",
+      "to": "打开桌面"
+    },
+    {
+      "from": "Multitask Mode",
+      "to": "多任务模式"
+    },
+    {
+      "from": "Side chats",
+      "to": "侧边对话"
+    },
+    {
+      "from": "Supplemental sidebar",
+      "to": "辅助侧栏"
+    },
+    {
+      "from": "Desktop Bridge",
+      "to": "桌面桥接"
+    },
+    {
+      "from": "Show an expandable Project pill for Tasks, Working, and pull requests",
+      "to": "为任务、进行中和拉取请求显示可展开的项目胶囊"
+    },
+    {
+      "from": "Show side chats, Canvases, and Desktop as sections in the supplemental sidebar",
+      "to": "在辅助侧栏中将侧边对话、画布和桌面显示为分区"
+    },
+    {
+      "from": "Group pull requests into Open, Draft, Merged, and Closed sections in the supplemental sidebar",
+      "to": "在辅助侧栏中将拉取请求分组为打开、草稿、已合并和已关闭"
+    },
+    {
+      "from": "Allow CLI to access desktop agents",
+      "to": "允许 CLI 访问桌面 Agent"
+    },
+    {
+      "from": "Working on a Long Task?",
+      "to": "正在处理长任务？"
+    },
+    {
+      "from": "Working",
+      "to": "进行中"
+    },
+    {
+      "from": "Add to Side Chat",
+      "to": "添加到侧边对话"
+    },
+    {
+      "from": "Ask Sidechat",
+      "to": "询问侧边对话"
+    },
+    {
+      "from": "Agent Window",
+      "to": "Agent 窗口"
+    },
+    {
+      "from": "Agent Stores",
+      "to": "Agent 商店"
+    },
+    {
+      "from": "Accept Partial Edit",
+      "to": "接受部分编辑"
+    },
+    {
+      "from": "Allow Agents on My PRs",
+      "to": "允许 Agent 处理我的 PR"
+    },
+    {
+      "from": "Archive Prior Chats",
+      "to": "归档先前对话"
+    },
+    {
+      "from": "Auto-Run on Agent Finish",
+      "to": "Agent 完成后自动运行"
+    },
+    {
+      "from": "Background agent",
+      "to": "后台 Agent"
+    },
+    {
+      "from": "New Agent in Project",
+      "to": "在项目中新建 Agent"
+    },
+    {
+      "from": "Open Agent as Pane",
+      "to": "将 Agent 作为窗格打开"
+    },
+    {
+      "from": "Open Agent Changes",
+      "to": "打开 Agent 更改"
+    },
+    {
+      "from": "Side chats are disabled",
+      "to": "侧边对话已禁用"
+    },
+    {
+      "from": "Automatically open project threads in split view",
+      "to": "自动在分屏视图中打开项目线程"
+    },
+    {
+      "from": "Open Task and subagent threads in a pane beside the project coordinator. When off, open them as tabs in the current pane. Option-click or Cmd-click always opens in a split.",
+      "to": "在项目协调器旁的窗格中打开任务与子 Agent 线程。关闭后，在当前窗格以标签页打开。Option/Cmd-点击始终分屏打开。"
+    },
+    {
+      "from": "Automatically resume the Project coordinator when a thread completes",
+      "to": "线程完成时自动恢复项目协调器"
+    },
+    {
+      "from": "Run Security Review",
+      "to": "运行安全审查"
+    },
+    {
+      "from": "Authenticate MCP",
+      "to": "验证 MCP"
+    },
+    {
+      "from": "About Allowlist",
+      "to": "关于白名单"
+    },
+    {
+      "from": "Allowlist Options",
+      "to": "白名单选项"
+    },
+    {
+      "from": "Add Secrets",
+      "to": "添加密钥"
+    },
+    {
+      "from": "Add to Home",
+      "to": "添加到主页"
+    },
+    {
+      "from": "Branch Prefix",
+      "to": "分支前缀"
+    },
+    {
+      "from": "Branch Changes",
+      "to": "分支更改"
+    },
+    {
+      "from": "Await task",
+      "to": "等待任务"
+    },
+    {
+      "from": "Capture Snapshot",
+      "to": "捕获快照"
+    },
+    {
+      "from": "New Project Rule",
+      "to": "新建项目规则"
+    },
+    {
+      "from": "Open in Cursor Browser",
+      "to": "在 Cursor 浏览器中打开"
+    },
+    {
+      "from": "Open in External Browser",
+      "to": "在外部浏览器中打开"
+    },
+    {
+      "from": "Hooks run custom scripts at lifecycle events to observe, control, and extend the agent loop.",
+      "to": "钩子在生命周期事件运行自定义脚本，用于观察、控制并扩展 Agent 循环。"
+    },
+    {
+      "from": "Skills are specialized capabilities that help the agent accomplish specific tasks. Skills will be invoked by the agent when relevant or can be triggered manually with / in chat.",
+      "to": "技能是帮助 Agent 完成特定任务的专用能力。相关时由 Agent 自动调用，也可在对话中用 / 手动触发。"
+    },
+    {
+      "from": "Commands are reusable prompts you invoke with /name to standardize common workflows across your team.",
+      "to": "命令是可用 /名称 调用的可复用提示词，用于在团队中标准化常见工作流。"
+    },
+    {
+      "from": "Enable language server by default to provide code intelligence in agent worktree workspaces",
+      "to": "默认启用语言服务器，以便在 Agent 工作树工作区提供代码智能"
+    },
+    {
+      "from": "Maximum number of Cursor-managed worktrees to keep across all workspaces. Older worktrees are removed first. Default is 25.",
+      "to": "跨所有工作区保留的 Cursor 管理工作树上限。较旧的工作树会优先移除。默认 25。"
     }
   ]
 }

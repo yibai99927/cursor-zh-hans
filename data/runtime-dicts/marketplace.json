@@ -1,6 +1,6 @@
 {
   "description": "插件市场常见界面文案",
-  "updatedAt": "2026-07-11",
+  "updatedAt": "2026-08-06",
   "entries": [
     [
       "No browser view available",
@@ -105,6 +105,34 @@
     [
       "Enable",
       "启用"
+    ],
+    [
+      "Team Marketplaces",
+      "团队市场"
+    ],
+    [
+      "Cursor Marketplace",
+      "Cursor 市场"
+    ],
+    [
+      "Allow Members to Publish",
+      "允许成员发布"
+    ],
+    [
+      "Remove plugin",
+      "移除插件"
+    ],
+    [
+      "Open in Marketplace",
+      "在市场中打开"
+    ],
+    [
+      "Skill Publishing",
+      "技能发布"
+    ],
+    [
+      "We've introduced a new home for all the ways to customize Cursor.",
+      "我们为所有自定义 Cursor 的方式提供了新入口。"
     ]
   ]
 }
