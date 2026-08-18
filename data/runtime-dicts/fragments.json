@@ -1,6 +1,6 @@
 {
   "description": "部分匹配片段（仅用于叶子节点整段文本的包含替换，慎用短词）",
-  "updatedAt": "2026-08-06",
+  "updatedAt": "2026-08-18",
   "entries": [
     [
       "Open Agents Window",
@@ -61,6 +61,10 @@
     [
       "Multitask Mode",
       "多任务模式"
+    ],
+    [
+      "Code Intelligence",
+      "代码智能"
     ]
   ]
 }

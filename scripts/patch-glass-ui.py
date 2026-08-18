@@ -82,9 +82,21 @@ def ensure_writable(app_root: Path) -> None:
 # 短词裸替换极易误伤邻近英文（如 Accept → Accepted 变成 接受ed）
 MIN_UNQUOTED_EXACT_LEN = 16
 
+# label:"Theme" 这类条目本身已带代码上下文，不能再外包一层引号
+_CONTEXTUAL_SRC = re.compile(
+    r"^(?:label|title|description|name|placeholder|original|actionTitle|"
+    r"fallback|collectionLabel|children|aria-label)\s*:"
+)
+
 
 def replace_exact_string(content: str, src: str, dst: str) -> tuple[str, int]:
     """优先替换引号包裹的 UI 文案；短词禁止裸替换以防污染标识符/其它词。"""
+    if _CONTEXTUAL_SRC.search(src) and ("'" in src or '"' in src):
+        n = content.count(src)
+        if n:
+            return content.replace(src, dst), n
+        return content, 0
+
     hits = 0
     for quote in ('"', "'"):
         needle = f"{quote}{src}{quote}"

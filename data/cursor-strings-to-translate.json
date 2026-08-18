@@ -656,6 +656,11 @@
   },
   {
     "module": "vs/workbench/contrib/agents/browser/agentsActions",
+    "key": "all-agents",
+    "en": "All Agents"
+  },
+  {
+    "module": "vs/workbench/contrib/agents/browser/agentsActions",
     "key": "quickOpenPreviousRecentlyUsedAgent",
     "en": "Quick Open Previous Recently Used Agent"
   },
@@ -755,11 +760,6 @@
     "en": "Switch between recently used agents"
   },
   {
-    "module": "vs/workbench/contrib/agents/browser/agentsViewPane",
-    "key": "all-agents",
-    "en": "All Agents"
-  },
-  {
     "module": "vs/workbench/contrib/agents/browser/components/AgentSidebarUpdateButton",
     "key": "agentSidebarUpdateButton.tooltip",
     "en": "Restart Cursor to install the pending update."
@@ -787,7 +787,7 @@
   {
     "module": "vs/workbench/contrib/agents/common/agentsContextKeys",
     "key": "agentsPaneFocused",
-    "en": "Whether the Agents view pane currently contains keyboard focus."
+    "en": "Whether the Agents sidebar currently contains keyboard focus."
   },
   {
     "module": "vs/workbench/contrib/agents/common/agentsContextKeys",
@@ -876,11 +876,6 @@
   },
   {
     "module": "vs/workbench/contrib/composer/browser/browserEditor.contribution",
-    "key": "focusOrOpenBrowser",
-    "en": "Focus or Open Browser"
-  },
-  {
-    "module": "vs/workbench/contrib/composer/browser/browserEditor.contribution",
     "key": "newBrowserTab",
     "en": "New Browser Tab"
   },
@@ -898,11 +893,6 @@
     "module": "vs/workbench/contrib/composer/browser/browserEditor.contribution",
     "key": "openCursorWebsite",
     "en": "Open cursor.com in Browser"
-  },
-  {
-    "module": "vs/workbench/contrib/composer/browser/browserEditor.contribution",
-    "key": "openYearInReview",
-    "en": "Open Year in Review"
   },
   {
     "module": "vs/workbench/contrib/composer/browser/capabilities/chimes",
@@ -962,7 +952,12 @@
   {
     "module": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
     "key": "passkeyRequestStalled",
-    "en": "This security key or passkey request is taking longer than expected in the Cursor browser."
+    "en": "This page is waiting for a passkey or security key. If using a hardware security key, insert and tap it to continue."
+  },
+  {
+    "module": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
+    "key": "passkeyHybridUnsupported",
+    "en": "This sign-in needs a passkey from your phone or tablet via QR code, which the Cursor browser can't display. Open this page in your regular browser to continue."
   },
   {
     "module": "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager",
@@ -1163,6 +1158,91 @@
     "module": "vs/workbench/contrib/cursorBlame/browser/cursorBlame.contribution",
     "key": "cursor.blame.hoverDelay",
     "en": "Controls the delay in milliseconds before hovers in the Cursor Blame panes appear. If not set, uses `#editor.hover.delay#` with a minimum of 500ms."
+  },
+  {
+    "module": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+    "key": "exampleUtilityHost.echo",
+    "en": "Example Utility Host Echo"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+    "key": "exampleUtilityHost.echo.ok",
+    "en": "Example Utility Host Echo: \"{0}\" ({1}ms round-trip)"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+    "key": "exampleUtilityHost.echo.err",
+    "en": "Example Utility Host Echo failed: {0}"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+    "key": "exampleUtilityHost.ping",
+    "en": "Example Utility Host Ping"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+    "key": "exampleUtilityHost.ping.ok",
+    "en": "Example Utility Host Ping: host time {0}, {1}ms round-trip"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+    "key": "exampleUtilityHost.ping.err",
+    "en": "Example Utility Host Ping failed: {0}"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+    "key": "exampleUtilityHost.tick",
+    "en": "Example Utility Host Tick"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+    "key": "exampleUtilityHost.tick.start",
+    "en": "Example Utility Host Tick: waiting for ticks…"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+    "key": "exampleUtilityHost.tick.progress",
+    "en": "Example Utility Host Tick: {0}/{1} (host time {2})"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+    "key": "exampleUtilityHost.tick.ok",
+    "en": "Example Utility Host Tick: received {0} ticks in {1}ms (last host time {2})"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+    "key": "exampleUtilityHost.tick.partial",
+    "en": "Example Utility Host Tick: cancelled after {0}/{1} ticks"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+    "key": "exampleUtilityHost.tick.err",
+    "en": "Example Utility Host Tick: no ticks received (stream ended early)"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+    "key": "exampleUtilityHost.stressTest.start",
+    "en": "Example Utility Host Stress Test ({0}): receiving payload…"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+    "key": "exampleUtilityHost.stressTest.ok",
+    "en": "Example Utility Host Stress Test ({0}): received {1} MiB in {2}ms ({3} MiB/s)"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+    "key": "exampleUtilityHost.stressTest.err",
+    "en": "Example Utility Host Stress Test ({0}) failed: {1}"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+    "key": "exampleUtilityHost.stressTest",
+    "en": "Example Utility Host Stress Test (16 MiB)"
+  },
+  {
+    "module": "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands",
+    "key": "exampleUtilityHost.stressTestLarge",
+    "en": "Example Utility Host Stress Test Large (63 MiB, under 64 MiB tunnel cap)"
   },
   {
     "module": "vs/workbench/contrib/cursorLocalTrace/browser/cursorLocalTrace.contribution",

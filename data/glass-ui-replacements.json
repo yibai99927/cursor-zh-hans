@@ -1,5 +1,5 @@
 {
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "Cursor Glass/Settings/Automations UI 硬编码文案替换表（macOS / Windows）",
   "targets": [
     {
@@ -483,6 +483,12 @@
     {
       "from": "ary=t=>t.isGlass?\"Indexing\":\"Indexing & Docs\"",
       "to": "ary=t=>t.isGlass?\"索引\":\"索引与文档\""
+    },
+    {
+      "id": "settings-nav-code-intelligence",
+      "optional": true,
+      "from": "isGlass?\"Code Intelligence\":\"Indexing & Docs\"",
+      "to": "isGlass?\"代码智能\":\"索引与文档\""
     },
     {
       "from": "title:e?\"Indexing\":\"Indexing & Docs\"",
@@ -8463,6 +8469,338 @@
     {
       "from": "Maximum number of Cursor-managed worktrees to keep across all workspaces. Older worktrees are removed first. Default is 25.",
       "to": "跨所有工作区保留的 Cursor 管理工作树上限。较旧的工作树会优先移除。默认 25。"
+    },
+    {
+      "from": "Code Intelligence",
+      "to": "代码智能"
+    },
+    {
+      "from": "Enable LSPs",
+      "to": "启用语言服务器"
+    },
+    {
+      "from": "Enable LSPs for Worktrees",
+      "to": "为工作树启用语言服务器"
+    },
+    {
+      "from": "Enable language server by default to provide code intelligence in workspaces",
+      "to": "默认启用语言服务器，以便在工作区提供代码智能"
+    },
+    {
+      "from": "Maximum Local LSP Workspaces",
+      "to": "本地语言服务器工作区上限"
+    },
+    {
+      "from": "Maximum Remote LSP Workspaces",
+      "to": "远程语言服务器工作区上限"
+    },
+    {
+      "from": "Maximum local workspaces that can run language servers at the same time",
+      "to": "可同时运行语言服务器的本地工作区数量上限"
+    },
+    {
+      "from": "Maximum remote workspaces that can run language servers at the same time",
+      "to": "可同时运行语言服务器的远程工作区数量上限"
+    },
+    {
+      "from": "Follow System High Contrast",
+      "to": "跟随系统高对比度"
+    },
+    {
+      "from": "Switch to a high contrast theme when your OS is in a high contrast mode",
+      "to": "当系统处于高对比度模式时切换到高对比度主题"
+    },
+    {
+      "from": "Choose the theme used when your system is in light high contrast mode",
+      "to": "选择系统处于浅色高对比度模式时使用的主题"
+    },
+    {
+      "from": "Choose the theme used when your system is in dark high contrast mode",
+      "to": "选择系统处于深色高对比度模式时使用的主题"
+    },
+    {
+      "from": "High Contrast Light Theme",
+      "to": "浅色高对比度主题"
+    },
+    {
+      "from": "High Contrast Dark Theme",
+      "to": "深色高对比度主题"
+    },
+    {
+      "from": "Auto-Hide Editor When Empty",
+      "to": "编辑器为空时自动隐藏"
+    },
+    {
+      "from": "Open Chat as Editor Tabs",
+      "to": "以编辑器标签页打开对话"
+    },
+    {
+      "from": "Window Restoration",
+      "to": "窗口还原"
+    },
+    {
+      "from": "Controls which windows Cursor restores on startup",
+      "to": "控制 Cursor 启动时还原哪些窗口"
+    },
+    {
+      "from": "Continue Interrupted Agents",
+      "to": "继续中断的 Agent"
+    },
+    {
+      "from": "Automatically resume working on agents and their subagents after a reload or restart",
+      "to": "在重新加载或重启后自动继续处理 Agent 及其子 Agent"
+    },
+    {
+      "from": "Task Models",
+      "to": "任务模型"
+    },
+    {
+      "from": "Profile Image",
+      "to": "头像"
+    },
+    {
+      "from": "First Name",
+      "to": "名"
+    },
+    {
+      "from": "Last Name",
+      "to": "姓"
+    },
+    {
+      "from": "Public Profile",
+      "to": "公开主页"
+    },
+    {
+      "from": "Include Third-Party Plugins, Skills, and Other Configs",
+      "to": "包含第三方插件、技能及其他配置"
+    },
+    {
+      "from": "Start When I Open a PR",
+      "to": "打开 PR 时启动"
+    },
+    {
+      "from": "Max Worktrees",
+      "to": "工作树数量上限"
+    },
+    {
+      "from": "Max Total Size (GB)",
+      "to": "总大小上限 (GB)"
+    },
+    {
+      "from": "Cursor-Managed Worktrees",
+      "to": "Cursor 托管的工作树"
+    },
+    {
+      "from": "Read Access",
+      "to": "读取权限"
+    },
+    {
+      "from": "Read Allowlist",
+      "to": "读取白名单"
+    },
+    {
+      "from": "Import Claude Code Conversations",
+      "to": "导入 Claude Code 对话"
+    },
+    {
+      "from": "Sync chats and continue them in Cursor",
+      "to": "同步对话并在 Cursor 中继续"
+    },
+    {
+      "from": "Control whether agents can read files outside the workspace without approval.",
+      "to": "控制 Agent 是否可在未经批准时读取工作区外的文件。"
+    },
+    {
+      "from": "File paths and glob patterns agents can read without approval.",
+      "to": "Agent 无需批准即可读取的文件路径和 glob 模式。"
+    },
+    {
+      "from": "Account email shown on the profile page",
+      "to": "个人资料页显示的账户邮箱"
+    },
+    {
+      "from": "Upload or remove the profile photo",
+      "to": "上传或移除头像"
+    },
+    {
+      "from": "Name shown on the public profile page",
+      "to": "公开主页上显示的名称"
+    },
+    {
+      "from": "Social and website links on the public profile page",
+      "to": "公开主页上的社交与网站链接"
+    },
+    {
+      "from": "Make the cursor.com profile page visible to anyone with the link",
+      "to": "使 cursor.com 个人主页对任何持有链接的人可见"
+    },
+    {
+      "from": "Show Tasks, Agents, and pull request pills on Projects",
+      "to": "在项目上显示任务、Agent 和拉取请求胶囊"
+    },
+    {
+      "from": "Wake Project when threads finish",
+      "to": "线程完成后唤醒项目"
+    },
+    {
+      "from": "Dedicated Agent Runtime",
+      "to": "独立 Agent 运行时"
+    },
+    {
+      "from": "Run Private Inference in a separate local process to isolate it from remote workspace activity. Reload Cursor after changing this setting.",
+      "to": "在独立本地进程中运行 Private Inference，与远程工作区活动隔离。更改后请重新加载 Cursor。"
+    },
+    {
+      "from": "Highlight open sections",
+      "to": "高亮已展开分区"
+    },
+    {
+      "from": "Show a colored card behind expanded sections in the supplemental sidebar",
+      "to": "在附加侧栏已展开分区后显示彩色卡片"
+    },
+    {
+      "from": "Persistent sidebar",
+      "to": "固定侧栏"
+    },
+    {
+      "from": "Keep the supplemental sidebar visible as an icon rail when collapsed",
+      "to": "折叠时将附加侧栏保留为图标栏"
+    },
+    {
+      "from": "Collapse sidebar to icon rail when opening a tab",
+      "to": "打开标签页时将侧栏折叠为图标栏"
+    },
+    {
+      "from": "Collapse the supplemental sidebar to its icon rail after a sidebar item opens or focuses a tab",
+      "to": "侧栏项打开或聚焦标签页后，将附加侧栏折叠为图标栏"
+    },
+    {
+      "from": "Share open sections across agents",
+      "to": "在 Agent 之间共享展开分区"
+    },
+    {
+      "from": "Group PRs by status",
+      "to": "按状态分组 PR"
+    },
+    {
+      "from": "Group PRs like Projects",
+      "to": "按项目方式分组 PR"
+    },
+    {
+      "from": "Text Size",
+      "to": "文字大小"
+    },
+    {
+      "from": "Conversation",
+      "to": "对话"
+    },
+    {
+      "from": "Preferences",
+      "to": "偏好设置"
+    },
+    {
+      "from": "Notifications",
+      "to": "通知"
+    },
+    {
+      "from": "Authentication",
+      "to": "身份验证"
+    },
+    {
+      "from": "Attribution",
+      "to": "署名"
+    },
+    {
+      "from": "Branches",
+      "to": "分支"
+    },
+    {
+      "from": "Subagents",
+      "to": "子 Agent"
+    },
+    {
+      "from": "Commands",
+      "to": "命令"
+    },
+    {
+      "from": "Tracing",
+      "to": "追踪"
+    },
+    {
+      "from": "label:\"LSP\"",
+      "to": "label:\"语言服务器\""
+    },
+    {
+      "from": "title:\"LSP\"",
+      "to": "title:\"语言服务器\""
+    },
+    {
+      "from": "description:\"LSP\"",
+      "to": "description:\"语言服务器\""
+    },
+    {
+      "from": "label:\"Email\"",
+      "to": "label:\"邮箱\""
+    },
+    {
+      "from": "title:\"Email\"",
+      "to": "title:\"邮箱\""
+    },
+    {
+      "from": "description:\"Email\"",
+      "to": "description:\"邮箱\""
+    },
+    {
+      "from": "label:\"Links\"",
+      "to": "label:\"链接\""
+    },
+    {
+      "from": "title:\"Links\"",
+      "to": "title:\"链接\""
+    },
+    {
+      "from": "description:\"Links\"",
+      "to": "description:\"链接\""
+    },
+    {
+      "from": "label:\"Commands\"",
+      "to": "label:\"命令\""
+    },
+    {
+      "from": "title:\"Commands\"",
+      "to": "title:\"命令\""
+    },
+    {
+      "from": "label:\"Tracing\"",
+      "to": "label:\"追踪\""
+    },
+    {
+      "from": "title:\"Tracing\"",
+      "to": "title:\"追踪\""
+    },
+    {
+      "from": "label:\"Projects\"",
+      "to": "label:\"项目\""
+    },
+    {
+      "from": "title:\"Projects\"",
+      "to": "title:\"项目\""
+    },
+    {
+      "from": "Use one set of open sidebar sections and their heights for every agent. When off, each agent remembers its own open sections and heights until the window closes",
+      "to": "所有 Agent 共用一组展开分区及其高度。关闭后，每个 Agent 在窗口关闭前会记住各自的展开分区和高度"
+    },
+    {
+      "from": "Use the same pull request status groups as Projects in the supplemental sidebar, overriding Group PRs by status",
+      "to": "在附加侧栏中使用与项目相同的拉取请求状态分组，覆盖“按状态分组 PR”"
+    },
+    {
+      "from": "See warnings and tips that you\\u2019ve hidden",
+      "to": "查看你已隐藏的警告和提示"
+    },
+    {
+      "from": "Use one set of open sidebar sections for every agent. When off, each agent remembers its own open sections until the window closes",
+      "to": "所有 Agent 共用一组展开分区。关闭后，每个 Agent 在窗口关闭前会记住各自的展开分区"
     }
   ]
 }

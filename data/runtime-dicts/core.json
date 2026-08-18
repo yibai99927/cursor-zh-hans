@@ -1,6 +1,6 @@
 {
   "description": "通用界面精确匹配词典（设置侧栏、Agent 窗口等）",
-  "updatedAt": "2026-08-06",
+  "updatedAt": "2026-08-18",
   "entries": [
     [
       "Cannot create project rules without a workspace. Please open a folder first.",
@@ -1025,6 +1025,114 @@
     [
       "Agent Inbox",
       "Agent 收件箱"
+    ],
+    [
+      "Code Intelligence",
+      "代码智能"
+    ],
+    [
+      "Enable LSPs",
+      "启用语言服务器"
+    ],
+    [
+      "Enable LSPs for Worktrees",
+      "为工作树启用语言服务器"
+    ],
+    [
+      "Enable language server by default to provide code intelligence in workspaces",
+      "默认启用语言服务器，以便在工作区提供代码智能"
+    ],
+    [
+      "Maximum Local LSP Workspaces",
+      "本地语言服务器工作区上限"
+    ],
+    [
+      "Maximum Remote LSP Workspaces",
+      "远程语言服务器工作区上限"
+    ],
+    [
+      "Maximum local workspaces that can run language servers at the same time",
+      "可同时运行语言服务器的本地工作区数量上限"
+    ],
+    [
+      "Maximum remote workspaces that can run language servers at the same time",
+      "可同时运行语言服务器的远程工作区数量上限"
+    ],
+    [
+      "Follow System High Contrast",
+      "跟随系统高对比度"
+    ],
+    [
+      "Auto-Hide Editor When Empty",
+      "编辑器为空时自动隐藏"
+    ],
+    [
+      "Open Chat as Editor Tabs",
+      "以编辑器标签页打开对话"
+    ],
+    [
+      "Window Restoration",
+      "窗口还原"
+    ],
+    [
+      "Continue Interrupted Agents",
+      "继续中断的 Agent"
+    ],
+    [
+      "Task Models",
+      "任务模型"
+    ],
+    [
+      "Profile Image",
+      "头像"
+    ],
+    [
+      "Public Profile",
+      "公开主页"
+    ],
+    [
+      "Include Third-Party Plugins, Skills, and Other Configs",
+      "包含第三方插件、技能及其他配置"
+    ],
+    [
+      "Start When I Open a PR",
+      "打开 PR 时启动"
+    ],
+    [
+      "Max Worktrees",
+      "工作树数量上限"
+    ],
+    [
+      "Max Total Size (GB)",
+      "总大小上限 (GB)"
+    ],
+    [
+      "Cursor-Managed Worktrees",
+      "Cursor 托管的工作树"
+    ],
+    [
+      "Read Access",
+      "读取权限"
+    ],
+    [
+      "Read Allowlist",
+      "读取白名单"
+    ],
+    [
+      "Import Claude Code Conversations",
+      "导入 Claude Code 对话"
+    ],
+    [
+      "Dedicated Agent Runtime",
+      "独立 Agent 运行时"
+    ],
+    [
+      "High Contrast Light Theme",
+      "浅色高对比度主题"
+    ],
+    [
+      "High Contrast Dark Theme",
+      "深色高对比度主题"
     ]
   ]
 }

@@ -36,6 +36,14 @@ def test_short_exact_quote_only() -> None:
     assert "baz:Accept" in out  # 短词禁止裸替换
 
 
+def test_contextual_label_applies_without_extra_quotes() -> None:
+    src = 'kc("appearance","theme",{label:"Theme",surface:"glass"})'
+    out, n = replace_exact_string(src, 'label:"Theme"', 'label:"主题"')
+    assert n == 1, n
+    assert 'label:"主题"' in out
+    assert 'label:"Theme"' not in out
+
+
 def test_long_exact_unquoted_fallback() -> None:
     phrase = "Prevent Agent from automatically running Browser tools"
     zh = "阻止 Agent 自动运行浏览器工具"
@@ -170,6 +178,7 @@ def test_exact_coverage_counts_as_structured_ok() -> None:
 
 def main() -> int:
     test_short_exact_quote_only()
+    test_contextual_label_applies_without_extra_quotes()
     test_long_exact_unquoted_fallback()
     test_structured_translates_and_skips_already_done()
     test_optional_structured_missing_is_silent()

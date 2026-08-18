@@ -168,6 +168,7 @@
       "agentsWindowButtonEnabled": "Controls whether the Agents Window button in the title bar is shown."
     },
     "vs/workbench/contrib/agents/browser/agentsActions": {
+      "all-agents": "All Agents",
       "quickOpenPreviousRecentlyUsedAgent": "Quick Open Previous Recently Used Agent",
       "quickOpenLeastRecentlyUsedAgent": "Quick Open Least Recently Used Agent"
     },
@@ -190,9 +191,6 @@
       "agents.mru.placeholder": "Switch between recently used agents",
       "agents.mru.help": "Switch between recently used agents"
     },
-    "vs/workbench/contrib/agents/browser/agentsViewPane": {
-      "all-agents": "All Agents"
-    },
     "vs/workbench/contrib/agents/browser/components/AgentSidebarUpdateButton": {
       "agentSidebarUpdateButton.tooltip": "Restart Cursor to install the pending update.",
       "agentSidebarUpdateButton.tooltipWithVersion": "Restart Cursor to install the pending update to {0}.",
@@ -201,7 +199,7 @@
       "agentSidebarUpdateButton.installingLabel": "Installing"
     },
     "vs/workbench/contrib/agents/common/agentsContextKeys": {
-      "agentsPaneFocused": "Whether the Agents view pane currently contains keyboard focus.",
+      "agentsPaneFocused": "Whether the Agents sidebar currently contains keyboard focus.",
       "agentNavigationMode": "Whether currently in agent navigation mode (hold-and-release to switch)."
     },
     "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab": {
@@ -227,12 +225,10 @@
       "closeBrowserTab.hide": "&&Hide",
       "closeBrowserTab.close": "&&Close",
       "openBrowser": "Open Browser",
-      "focusOrOpenBrowser": "Focus or Open Browser",
       "newBrowserTab": "New Browser Tab",
       "reloadBrowserTab": "Reload Browser Tab",
       "focusBrowserLocationBar": "Focus Browser Location Bar",
-      "openCursorWebsite": "Open cursor.com in Browser",
-      "openYearInReview": "Open Year in Review"
+      "openCursorWebsite": "Open cursor.com in Browser"
     },
     "vs/workbench/contrib/composer/browser/capabilities/chimes": {
       "chimes.unsafePath.unc": "Custom chime sound path cannot be a network (UNC) path for security reasons. Please use a local file path.",
@@ -256,7 +252,8 @@
       "orphanBrowserViewEntry": "Developer: Orphan Browser View Entry"
     },
     "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager": {
-      "passkeyRequestStalled": "This security key or passkey request is taking longer than expected in the Cursor browser.",
+      "passkeyRequestStalled": "This page is waiting for a passkey or security key. If using a hardware security key, insert and tap it to continue.",
+      "passkeyHybridUnsupported": "This sign-in needs a passkey from your phone or tablet via QR code, which the Cursor browser can't display. Open this page in your regular browser to continue.",
       "browserContextMenu.openLinkExternalBrowser": "Open Link in Browser",
       "browserContextMenu.openLinkNewTab": "Open Link in New Tab",
       "browserContextMenu.openLinkBackgroundTab": "Open Link in Background Tab",
@@ -300,6 +297,25 @@
       "toggleFileBlame": "Toggle file blame",
       "cursorBlameConfigurationTitle": "Cursor Blame",
       "cursor.blame.hoverDelay": "Controls the delay in milliseconds before hovers in the Cursor Blame panes appear. If not set, uses `#editor.hover.delay#` with a minimum of 500ms."
+    },
+    "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands": {
+      "exampleUtilityHost.echo": "Example Utility Host Echo",
+      "exampleUtilityHost.echo.ok": "Example Utility Host Echo: \"{0}\" ({1}ms round-trip)",
+      "exampleUtilityHost.echo.err": "Example Utility Host Echo failed: {0}",
+      "exampleUtilityHost.ping": "Example Utility Host Ping",
+      "exampleUtilityHost.ping.ok": "Example Utility Host Ping: host time {0}, {1}ms round-trip",
+      "exampleUtilityHost.ping.err": "Example Utility Host Ping failed: {0}",
+      "exampleUtilityHost.tick": "Example Utility Host Tick",
+      "exampleUtilityHost.tick.start": "Example Utility Host Tick: waiting for ticks…",
+      "exampleUtilityHost.tick.progress": "Example Utility Host Tick: {0}/{1} (host time {2})",
+      "exampleUtilityHost.tick.ok": "Example Utility Host Tick: received {0} ticks in {1}ms (last host time {2})",
+      "exampleUtilityHost.tick.partial": "Example Utility Host Tick: cancelled after {0}/{1} ticks",
+      "exampleUtilityHost.tick.err": "Example Utility Host Tick: no ticks received (stream ended early)",
+      "exampleUtilityHost.stressTest.start": "Example Utility Host Stress Test ({0}): receiving payload…",
+      "exampleUtilityHost.stressTest.ok": "Example Utility Host Stress Test ({0}): received {1} MiB in {2}ms ({3} MiB/s)",
+      "exampleUtilityHost.stressTest.err": "Example Utility Host Stress Test ({0}) failed: {1}",
+      "exampleUtilityHost.stressTest": "Example Utility Host Stress Test (16 MiB)",
+      "exampleUtilityHost.stressTestLarge": "Example Utility Host Stress Test Large (63 MiB, under 64 MiB tunnel cap)"
     },
     "vs/workbench/contrib/cursorLocalTrace/browser/cursorLocalTrace.contribution": {
       "cursorLocalTraceModeConfigurationTitle": "Local Trace Mode",

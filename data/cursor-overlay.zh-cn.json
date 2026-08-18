@@ -168,6 +168,7 @@
       "agentsWindowButtonEnabled": "控制是否在标题栏中显示 Agents 窗口按钮。"
     },
     "vs/workbench/contrib/agents/browser/agentsActions": {
+      "all-agents": "所有 Agent",
       "quickOpenPreviousRecentlyUsedAgent": "快速打开最近使用的 Agent",
       "quickOpenLeastRecentlyUsedAgent": "快速打开最久未使用的 Agent"
     },
@@ -201,7 +202,7 @@
       "agentSidebarUpdateButton.installingLabel": "正在安装"
     },
     "vs/workbench/contrib/agents/common/agentsContextKeys": {
-      "agentsPaneFocused": "Agents 视图面板当前是否包含键盘焦点。",
+      "agentsPaneFocused": "Agents 侧栏当前是否包含键盘焦点。",
       "agentNavigationMode": "当前是否处于 Agent 导航模式（按住并释放以切换）。"
     },
     "vs/workbench/contrib/aiSettings/browser/components/settings/settingsRulesTab": {
@@ -256,7 +257,8 @@
       "orphanBrowserViewEntry": "开发者：孤立浏览器视图条目"
     },
     "vs/workbench/contrib/composer/electron-sandbox/webviewBrowserManager": {
-      "passkeyRequestStalled": "Cursor 浏览器中的安全密钥或通行密钥请求耗时超出预期。",
+      "passkeyRequestStalled": "此页面正在等待通行密钥或安全密钥。若使用硬件安全密钥，请插入并轻触以继续。",
+      "passkeyHybridUnsupported": "此次登录需要通过二维码使用手机或平板上的通行密钥，但 Cursor 浏览器无法显示。请在常用浏览器中打开此页面后继续。",
       "browserContextMenu.openLinkExternalBrowser": "在浏览器中打开链接",
       "browserContextMenu.openLinkNewTab": "在新标签页中打开链接",
       "browserContextMenu.openLinkBackgroundTab": "在后台标签页中打开链接",
