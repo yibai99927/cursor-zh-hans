@@ -1,5 +1,5 @@
 {
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "Cursor Glass/Settings/Automations UI 硬编码文案替换表（macOS / Windows）",
   "targets": [
     {
@@ -8801,6 +8801,94 @@
     {
       "from": "Use one set of open sidebar sections for every agent. When off, each agent remembers its own open sections until the window closes",
       "to": "所有 Agent 共用一组展开分区。关闭后，每个 Agent 在窗口关闭前会记住各自的展开分区"
+    },
+    {
+      "from": "Review Provider",
+      "to": "审查提供方"
+    },
+    {
+      "from": "PR Link Destination",
+      "to": "PR 链接打开位置"
+    },
+    {
+      "from": "Team Default",
+      "to": "团队默认"
+    },
+    {
+      "from": "GitHub or Graphite",
+      "to": "GitHub 或 Graphite"
+    },
+    {
+      "from": "Cursor Review or GitHub",
+      "to": "Cursor Review 或 GitHub"
+    },
+    {
+      "from": "Open pull request links inside Cursor or in the default browser",
+      "to": "在 Cursor 内或系统默认浏览器中打开拉取请求链接"
+    },
+    {
+      "from": "description:\"Open pull request links inside Cursor or the default browser\"",
+      "to": "description:\"在 Cursor 内或系统默认浏览器中打开拉取请求链接\""
+    },
+    {
+      "from": "Accept the next word of a suggestion via ${d}",
+      "to": "通过 ${d} 接受建议的下一个词"
+    },
+    {
+      "from": "Keybinding: ${NQs}",
+      "to": "快捷键：${NQs}"
+    },
+    {
+      "from": "Automatically import necessary modules for ${w}",
+      "to": "自动为 ${w} 导入必要模块"
+    },
+    {
+      "from": "Jump to Next Diff on Accept",
+      "to": "接受时跳到下一处差异"
+    },
+    {
+      "from": "Automatically jump to the next diff when accepting changes with ${ws?\"\\u2318\":\"Ctrl+\"}Y",
+      "to": "使用 ${ws?\"\\u2318\":\"Ctrl+\"}Y 接受更改时自动跳到下一处差异"
+    },
+    {
+      "from": "Show a hint for ${ws?\"\\u2318\":\"Ctrl+\"}K in the Terminal",
+      "to": "在终端中显示 ${ws?\"\\u2318\":\"Ctrl+\"}K 提示"
+    },
+    {
+      "from": "Automatically parse links when pasted into Quick Edit (${ws?\"\\u2318\":\"Ctrl+\"}K) input",
+      "to": "粘贴到快速编辑（${ws?\"\\u2318\":\"Ctrl+\"}K）输入框时自动解析链接"
+    },
+    {
+      "from": "aria-label:\"Review Provider\"",
+      "to": "aria-label:\"审查提供方\""
+    },
+    {
+      "from": "aria-label:\"PR Link Destination\"",
+      "to": "aria-label:\"PR 链接打开位置\""
+    },
+    {
+      "from": "Choose ${kLw(t)} for pull request links on web and desktop",
+      "to": "选择 ${kLw(t)} 用于网页和桌面端的拉取请求链接"
+    },
+    {
+      "from": "Accept the next word of a suggestion via ${h}",
+      "to": "通过 ${h} 接受建议的下一个词"
+    },
+    {
+      "from": "Automatically import necessary modules for ${C}",
+      "to": "自动为 ${C} 导入必要模块"
+    },
+    {
+      "from": "Automatically jump to the next diff when accepting changes with ${Ui?\"\\u2318\":\"Ctrl+\"}Y",
+      "to": "使用 ${Ui?\"\\u2318\":\"Ctrl+\"}Y 接受更改时自动跳到下一处差异"
+    },
+    {
+      "from": "Show a hint for ${Ui?\"\\u2318\":\"Ctrl+\"}K in the Terminal",
+      "to": "在终端中显示 ${Ui?\"\\u2318\":\"Ctrl+\"}K 提示"
+    },
+    {
+      "from": "Automatically parse links when pasted into Quick Edit (${Ui?\"\\u2318\":\"Ctrl+\"}K) input",
+      "to": "粘贴到快速编辑（${Ui?\"\\u2318\":\"Ctrl+\"}K）输入框时自动解析链接"
     }
   ]
 }

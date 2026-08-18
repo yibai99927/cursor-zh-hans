@@ -1133,6 +1133,38 @@
     [
       "High Contrast Dark Theme",
       "深色高对比度主题"
+    ],
+    [
+      "Review Provider",
+      "审查提供方"
+    ],
+    [
+      "PR Link Destination",
+      "PR 链接打开位置"
+    ],
+    [
+      "Team Default",
+      "团队默认"
+    ],
+    [
+      "GitHub or Graphite",
+      "GitHub 或 Graphite"
+    ],
+    [
+      "Cursor Review or GitHub",
+      "Cursor Review 或 GitHub"
+    ],
+    [
+      "Open pull request links inside Cursor or in the default browser",
+      "在 Cursor 内或系统默认浏览器中打开拉取请求链接"
+    ],
+    [
+      "Open pull request links inside Cursor or the default browser",
+      "在 Cursor 内或系统默认浏览器中打开拉取请求链接"
+    ],
+    [
+      "Jump to Next Diff on Accept",
+      "接受时跳到下一处差异"
     ]
   ]
 }
