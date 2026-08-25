@@ -191,9 +191,6 @@
       "agents.mru.placeholder": "在最近使用的 Agent 之间切换",
       "agents.mru.help": "在最近使用的 Agent 之间切换"
     },
-    "vs/workbench/contrib/agents/browser/agentsViewPane": {
-      "all-agents": "所有 Agent"
-    },
     "vs/workbench/contrib/agents/browser/components/AgentSidebarUpdateButton": {
       "agentSidebarUpdateButton.tooltip": "重启 Cursor 以安装待处理的更新。",
       "agentSidebarUpdateButton.tooltipWithVersion": "重启 Cursor 以安装待处理的更新至 {0}。",
@@ -228,12 +225,10 @@
       "closeBrowserTab.hide": "隐藏(&&H)",
       "closeBrowserTab.close": "关闭(&&C)",
       "openBrowser": "打开浏览器",
-      "focusOrOpenBrowser": "聚焦或打开浏览器",
       "newBrowserTab": "新建浏览器标签页",
       "reloadBrowserTab": "重新加载浏览器标签页",
       "focusBrowserLocationBar": "聚焦浏览器地址栏",
-      "openCursorWebsite": "在浏览器中打开 cursor.com",
-      "openYearInReview": "打开年度回顾"
+      "openCursorWebsite": "在浏览器中打开 cursor.com"
     },
     "vs/workbench/contrib/composer/browser/capabilities/chimes": {
       "chimes.unsafePath.unc": "出于安全原因，自定义提示音路径不能是网络 (UNC) 路径。请使用本地文件路径。",
@@ -302,6 +297,25 @@
       "toggleFileBlame": "切换文件 Blame",
       "cursorBlameConfigurationTitle": "Cursor 追溯",
       "cursor.blame.hoverDelay": "控制 Cursor Blame 窗格中悬停提示出现前的延迟（毫秒）。如果未设置，则使用 `#editor.hover.delay#`，最小为 500 毫秒。"
+    },
+    "vs/workbench/contrib/cursorExampleUtilityHost/electron-sandbox/exampleUtilityHostCommands": {
+      "exampleUtilityHost.echo": "示例工具宿主回显",
+      "exampleUtilityHost.echo.ok": "示例工具宿主回显：“{0}”（往返 {1}ms）",
+      "exampleUtilityHost.echo.err": "示例工具宿主回显失败：{0}",
+      "exampleUtilityHost.ping": "示例工具宿主 Ping",
+      "exampleUtilityHost.ping.ok": "示例工具宿主 Ping：宿主时间 {0}，往返 {1}ms",
+      "exampleUtilityHost.ping.err": "示例工具宿主 Ping 失败：{0}",
+      "exampleUtilityHost.tick": "示例工具宿主 Tick",
+      "exampleUtilityHost.tick.start": "示例工具宿主 Tick：正在等待心跳…",
+      "exampleUtilityHost.tick.progress": "示例工具宿主 Tick：{0}/{1}（宿主时间 {2}）",
+      "exampleUtilityHost.tick.ok": "示例工具宿主 Tick：在 {1}ms 内收到 {0} 次心跳（最近宿主时间 {2}）",
+      "exampleUtilityHost.tick.partial": "示例工具宿主 Tick：在 {0}/{1} 次心跳后已取消",
+      "exampleUtilityHost.tick.err": "示例工具宿主 Tick：未收到心跳（流提前结束）",
+      "exampleUtilityHost.stressTest.start": "示例工具宿主压力测试（{0}）：正在接收载荷…",
+      "exampleUtilityHost.stressTest.ok": "示例工具宿主压力测试（{0}）：在 {2}ms 内收到 {1} MiB（{3} MiB/s）",
+      "exampleUtilityHost.stressTest.err": "示例工具宿主压力测试（{0}）失败：{1}",
+      "exampleUtilityHost.stressTest": "示例工具宿主压力测试（16 MiB）",
+      "exampleUtilityHost.stressTestLarge": "示例工具宿主压力测试（大，63 MiB，低于 64 MiB 隧道上限）"
     },
     "vs/workbench/contrib/cursorLocalTrace/browser/cursorLocalTrace.contribution": {
       "cursorLocalTraceModeConfigurationTitle": "本地跟踪模式",

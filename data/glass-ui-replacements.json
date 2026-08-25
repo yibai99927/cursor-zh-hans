@@ -1,5 +1,5 @@
 {
-  "version": "1.7.1",
+  "version": "1.7.2",
   "description": "Cursor Glass/Settings/Automations UI 硬编码文案替换表（macOS / Windows）",
   "targets": [
     {
@@ -8889,6 +8889,5062 @@
     {
       "from": "Automatically parse links when pasted into Quick Edit (${Ui?\"\\u2318\":\"Ctrl+\"}K) input",
       "to": "粘贴到快速编辑（${Ui?\"\\u2318\":\"Ctrl+\"}K）输入框时自动解析链接"
+    },
+    {
+      "from": "Start New Chat",
+      "to": "开始新对话"
+    },
+    {
+      "from": "label:\"Start New Chat\"",
+      "to": "label:\"开始新对话\""
+    },
+    {
+      "from": "title:\"Start New Chat\"",
+      "to": "title:\"开始新对话\""
+    },
+    {
+      "from": "description:\"Start New Chat\"",
+      "to": "description:\"开始新对话\""
+    },
+    {
+      "from": "aria-label:\"Start New Chat\"",
+      "to": "aria-label:\"开始新对话\""
+    },
+    {
+      "from": "Start New Chat?",
+      "to": "开始新对话？"
+    },
+    {
+      "from": "label:\"Start New Chat?\"",
+      "to": "label:\"开始新对话？\""
+    },
+    {
+      "from": "title:\"Start New Chat?\"",
+      "to": "title:\"开始新对话？\""
+    },
+    {
+      "from": "description:\"Start New Chat?\"",
+      "to": "description:\"开始新对话？\""
+    },
+    {
+      "from": "aria-label:\"Start New Chat?\"",
+      "to": "aria-label:\"开始新对话？\""
+    },
+    {
+      "from": "Needs Attention",
+      "to": "需要关注"
+    },
+    {
+      "from": "label:\"Needs Attention\"",
+      "to": "label:\"需要关注\""
+    },
+    {
+      "from": "title:\"Needs Attention\"",
+      "to": "title:\"需要关注\""
+    },
+    {
+      "from": "description:\"Needs Attention\"",
+      "to": "description:\"需要关注\""
+    },
+    {
+      "from": "aria-label:\"Needs Attention\"",
+      "to": "aria-label:\"需要关注\""
+    },
+    {
+      "from": "Connect your Repos to Cursor",
+      "to": "将仓库连接到 Cursor"
+    },
+    {
+      "from": "label:\"Connect your Repos to Cursor\"",
+      "to": "label:\"将仓库连接到 Cursor\""
+    },
+    {
+      "from": "title:\"Connect your Repos to Cursor\"",
+      "to": "title:\"将仓库连接到 Cursor\""
+    },
+    {
+      "from": "description:\"Connect your Repos to Cursor\"",
+      "to": "description:\"将仓库连接到 Cursor\""
+    },
+    {
+      "from": "aria-label:\"Connect your Repos to Cursor\"",
+      "to": "aria-label:\"将仓库连接到 Cursor\""
+    },
+    {
+      "from": "Data Sharing",
+      "to": "数据共享"
+    },
+    {
+      "from": "label:\"Data Sharing\"",
+      "to": "label:\"数据共享\""
+    },
+    {
+      "from": "title:\"Data Sharing\"",
+      "to": "title:\"数据共享\""
+    },
+    {
+      "from": "description:\"Data Sharing\"",
+      "to": "description:\"数据共享\""
+    },
+    {
+      "from": "aria-label:\"Data Sharing\"",
+      "to": "aria-label:\"数据共享\""
+    },
+    {
+      "from": "Export Transcript",
+      "to": "导出记录"
+    },
+    {
+      "from": "label:\"Export Transcript\"",
+      "to": "label:\"导出记录\""
+    },
+    {
+      "from": "title:\"Export Transcript\"",
+      "to": "title:\"导出记录\""
+    },
+    {
+      "from": "description:\"Export Transcript\"",
+      "to": "description:\"导出记录\""
+    },
+    {
+      "from": "aria-label:\"Export Transcript\"",
+      "to": "aria-label:\"导出记录\""
+    },
+    {
+      "from": "Share Transcript",
+      "to": "分享记录"
+    },
+    {
+      "from": "label:\"Share Transcript\"",
+      "to": "label:\"分享记录\""
+    },
+    {
+      "from": "title:\"Share Transcript\"",
+      "to": "title:\"分享记录\""
+    },
+    {
+      "from": "description:\"Share Transcript\"",
+      "to": "description:\"分享记录\""
+    },
+    {
+      "from": "aria-label:\"Share Transcript\"",
+      "to": "aria-label:\"分享记录\""
+    },
+    {
+      "from": "Import Chat",
+      "to": "导入对话"
+    },
+    {
+      "from": "label:\"Import Chat\"",
+      "to": "label:\"导入对话\""
+    },
+    {
+      "from": "title:\"Import Chat\"",
+      "to": "title:\"导入对话\""
+    },
+    {
+      "from": "description:\"Import Chat\"",
+      "to": "description:\"导入对话\""
+    },
+    {
+      "from": "aria-label:\"Import Chat\"",
+      "to": "aria-label:\"导入对话\""
+    },
+    {
+      "from": "Export Chat (Developer)",
+      "to": "导出对话（开发者）"
+    },
+    {
+      "from": "label:\"Export Chat (Developer)\"",
+      "to": "label:\"导出对话（开发者）\""
+    },
+    {
+      "from": "title:\"Export Chat (Developer)\"",
+      "to": "title:\"导出对话（开发者）\""
+    },
+    {
+      "from": "description:\"Export Chat (Developer)\"",
+      "to": "description:\"导出对话（开发者）\""
+    },
+    {
+      "from": "aria-label:\"Export Chat (Developer)\"",
+      "to": "aria-label:\"导出对话（开发者）\""
+    },
+    {
+      "from": "Servers available in this workspace.",
+      "to": "此工作区可用的服务器。"
+    },
+    {
+      "from": "label:\"Servers available in this workspace.\"",
+      "to": "label:\"此工作区可用的服务器。\""
+    },
+    {
+      "from": "title:\"Servers available in this workspace.\"",
+      "to": "title:\"此工作区可用的服务器。\""
+    },
+    {
+      "from": "description:\"Servers available in this workspace.\"",
+      "to": "description:\"此工作区可用的服务器。\""
+    },
+    {
+      "from": "aria-label:\"Servers available in this workspace.\"",
+      "to": "aria-label:\"此工作区可用的服务器。\""
+    },
+    {
+      "from": "Servers available to cloud agents.",
+      "to": "云端 Agent 可用的服务器。"
+    },
+    {
+      "from": "label:\"Servers available to cloud agents.\"",
+      "to": "label:\"云端 Agent 可用的服务器。\""
+    },
+    {
+      "from": "title:\"Servers available to cloud agents.\"",
+      "to": "title:\"云端 Agent 可用的服务器。\""
+    },
+    {
+      "from": "description:\"Servers available to cloud agents.\"",
+      "to": "description:\"云端 Agent 可用的服务器。\""
+    },
+    {
+      "from": "aria-label:\"Servers available to cloud agents.\"",
+      "to": "aria-label:\"云端 Agent 可用的服务器。\""
+    },
+    {
+      "from": "Delete MCP server",
+      "to": "删除 MCP 服务器"
+    },
+    {
+      "from": "label:\"Delete MCP server\"",
+      "to": "label:\"删除 MCP 服务器\""
+    },
+    {
+      "from": "title:\"Delete MCP server\"",
+      "to": "title:\"删除 MCP 服务器\""
+    },
+    {
+      "from": "description:\"Delete MCP server\"",
+      "to": "description:\"删除 MCP 服务器\""
+    },
+    {
+      "from": "aria-label:\"Delete MCP server\"",
+      "to": "aria-label:\"删除 MCP 服务器\""
+    },
+    {
+      "from": "Edit MCP configuration",
+      "to": "编辑 MCP 配置"
+    },
+    {
+      "from": "label:\"Edit MCP configuration\"",
+      "to": "label:\"编辑 MCP 配置\""
+    },
+    {
+      "from": "title:\"Edit MCP configuration\"",
+      "to": "title:\"编辑 MCP 配置\""
+    },
+    {
+      "from": "description:\"Edit MCP configuration\"",
+      "to": "description:\"编辑 MCP 配置\""
+    },
+    {
+      "from": "aria-label:\"Edit MCP configuration\"",
+      "to": "aria-label:\"编辑 MCP 配置\""
+    },
+    {
+      "from": "Edit MCP config",
+      "to": "编辑 MCP 配置"
+    },
+    {
+      "from": "label:\"Edit MCP config\"",
+      "to": "label:\"编辑 MCP 配置\""
+    },
+    {
+      "from": "title:\"Edit MCP config\"",
+      "to": "title:\"编辑 MCP 配置\""
+    },
+    {
+      "from": "description:\"Edit MCP config\"",
+      "to": "description:\"编辑 MCP 配置\""
+    },
+    {
+      "from": "aria-label:\"Edit MCP config\"",
+      "to": "aria-label:\"编辑 MCP 配置\""
+    },
+    {
+      "from": "Chat Too Old",
+      "to": "对话过旧"
+    },
+    {
+      "from": "label:\"Chat Too Old\"",
+      "to": "label:\"对话过旧\""
+    },
+    {
+      "from": "title:\"Chat Too Old\"",
+      "to": "title:\"对话过旧\""
+    },
+    {
+      "from": "description:\"Chat Too Old\"",
+      "to": "description:\"对话过旧\""
+    },
+    {
+      "from": "aria-label:\"Chat Too Old\"",
+      "to": "aria-label:\"对话过旧\""
+    },
+    {
+      "from": "Always Applied",
+      "to": "始终应用"
+    },
+    {
+      "from": "label:\"Always Applied\"",
+      "to": "label:\"始终应用\""
+    },
+    {
+      "from": "title:\"Always Applied\"",
+      "to": "title:\"始终应用\""
+    },
+    {
+      "from": "description:\"Always Applied\"",
+      "to": "description:\"始终应用\""
+    },
+    {
+      "from": "aria-label:\"Always Applied\"",
+      "to": "aria-label:\"始终应用\""
+    },
+    {
+      "from": "Apply to Specific Files & Folders",
+      "to": "应用到指定文件和文件夹"
+    },
+    {
+      "from": "label:\"Apply to Specific Files & Folders\"",
+      "to": "label:\"应用到指定文件和文件夹\""
+    },
+    {
+      "from": "title:\"Apply to Specific Files & Folders\"",
+      "to": "title:\"应用到指定文件和文件夹\""
+    },
+    {
+      "from": "description:\"Apply to Specific Files & Folders\"",
+      "to": "description:\"应用到指定文件和文件夹\""
+    },
+    {
+      "from": "aria-label:\"Apply to Specific Files & Folders\"",
+      "to": "aria-label:\"应用到指定文件和文件夹\""
+    },
+    {
+      "from": "Plugins, MCPs, Skills, and Rules have moved to Customize",
+      "to": "插件、MCP、技能和规则已移至「自定义」"
+    },
+    {
+      "from": "label:\"Plugins, MCPs, Skills, and Rules have moved to Customize\"",
+      "to": "label:\"插件、MCP、技能和规则已移至「自定义」\""
+    },
+    {
+      "from": "title:\"Plugins, MCPs, Skills, and Rules have moved to Customize\"",
+      "to": "title:\"插件、MCP、技能和规则已移至「自定义」\""
+    },
+    {
+      "from": "description:\"Plugins, MCPs, Skills, and Rules have moved to Customize\"",
+      "to": "description:\"插件、MCP、技能和规则已移至「自定义」\""
+    },
+    {
+      "from": "aria-label:\"Plugins, MCPs, Skills, and Rules have moved to Customize\"",
+      "to": "aria-label:\"插件、MCP、技能和规则已移至「自定义」\""
+    },
+    {
+      "from": "Project Command",
+      "to": "项目命令"
+    },
+    {
+      "from": "label:\"Project Command\"",
+      "to": "label:\"项目命令\""
+    },
+    {
+      "from": "title:\"Project Command\"",
+      "to": "title:\"项目命令\""
+    },
+    {
+      "from": "description:\"Project Command\"",
+      "to": "description:\"项目命令\""
+    },
+    {
+      "from": "aria-label:\"Project Command\"",
+      "to": "aria-label:\"项目命令\""
+    },
+    {
+      "from": "Project Rule",
+      "to": "项目规则"
+    },
+    {
+      "from": "label:\"Project Rule\"",
+      "to": "label:\"项目规则\""
+    },
+    {
+      "from": "title:\"Project Rule\"",
+      "to": "title:\"项目规则\""
+    },
+    {
+      "from": "description:\"Project Rule\"",
+      "to": "description:\"项目规则\""
+    },
+    {
+      "from": "aria-label:\"Project Rule\"",
+      "to": "aria-label:\"项目规则\""
+    },
+    {
+      "from": "User Command",
+      "to": "用户命令"
+    },
+    {
+      "from": "label:\"User Command\"",
+      "to": "label:\"用户命令\""
+    },
+    {
+      "from": "title:\"User Command\"",
+      "to": "title:\"用户命令\""
+    },
+    {
+      "from": "description:\"User Command\"",
+      "to": "description:\"用户命令\""
+    },
+    {
+      "from": "aria-label:\"User Command\"",
+      "to": "aria-label:\"用户命令\""
+    },
+    {
+      "from": "Manually Sent Messages from Queue",
+      "to": "从队列手动发送的消息"
+    },
+    {
+      "from": "label:\"Manually Sent Messages from Queue\"",
+      "to": "label:\"从队列手动发送的消息\""
+    },
+    {
+      "from": "title:\"Manually Sent Messages from Queue\"",
+      "to": "title:\"从队列手动发送的消息\""
+    },
+    {
+      "from": "description:\"Manually Sent Messages from Queue\"",
+      "to": "description:\"从队列手动发送的消息\""
+    },
+    {
+      "from": "aria-label:\"Manually Sent Messages from Queue\"",
+      "to": "aria-label:\"从队列手动发送的消息\""
+    },
+    {
+      "from": "New Agents Window (Glass)",
+      "to": "新建 Agents 窗口 (Glass)"
+    },
+    {
+      "from": "label:\"New Agents Window (Glass)\"",
+      "to": "label:\"新建 Agents 窗口 (Glass)\""
+    },
+    {
+      "from": "title:\"New Agents Window (Glass)\"",
+      "to": "title:\"新建 Agents 窗口 (Glass)\""
+    },
+    {
+      "from": "description:\"New Agents Window (Glass)\"",
+      "to": "description:\"新建 Agents 窗口 (Glass)\""
+    },
+    {
+      "from": "aria-label:\"New Agents Window (Glass)\"",
+      "to": "aria-label:\"新建 Agents 窗口 (Glass)\""
+    },
+    {
+      "from": "Switch to Agents Window (Glass)",
+      "to": "切换到 Agents 窗口 (Glass)"
+    },
+    {
+      "from": "label:\"Switch to Agents Window (Glass)\"",
+      "to": "label:\"切换到 Agents 窗口 (Glass)\""
+    },
+    {
+      "from": "title:\"Switch to Agents Window (Glass)\"",
+      "to": "title:\"切换到 Agents 窗口 (Glass)\""
+    },
+    {
+      "from": "description:\"Switch to Agents Window (Glass)\"",
+      "to": "description:\"切换到 Agents 窗口 (Glass)\""
+    },
+    {
+      "from": "aria-label:\"Switch to Agents Window (Glass)\"",
+      "to": "aria-label:\"切换到 Agents 窗口 (Glass)\""
+    },
+    {
+      "from": "Open or Focus Agents Window (Glass)",
+      "to": "打开或聚焦 Agents 窗口 (Glass)"
+    },
+    {
+      "from": "label:\"Open or Focus Agents Window (Glass)\"",
+      "to": "label:\"打开或聚焦 Agents 窗口 (Glass)\""
+    },
+    {
+      "from": "title:\"Open or Focus Agents Window (Glass)\"",
+      "to": "title:\"打开或聚焦 Agents 窗口 (Glass)\""
+    },
+    {
+      "from": "description:\"Open or Focus Agents Window (Glass)\"",
+      "to": "description:\"打开或聚焦 Agents 窗口 (Glass)\""
+    },
+    {
+      "from": "aria-label:\"Open or Focus Agents Window (Glass)\"",
+      "to": "aria-label:\"打开或聚焦 Agents 窗口 (Glass)\""
+    },
+    {
+      "from": "Open Agent",
+      "to": "打开 Agent"
+    },
+    {
+      "from": "label:\"Open Agent\"",
+      "to": "label:\"打开 Agent\""
+    },
+    {
+      "from": "title:\"Open Agent\"",
+      "to": "title:\"打开 Agent\""
+    },
+    {
+      "from": "description:\"Open Agent\"",
+      "to": "description:\"打开 Agent\""
+    },
+    {
+      "from": "aria-label:\"Open Agent\"",
+      "to": "aria-label:\"打开 Agent\""
+    },
+    {
+      "from": "View Agent",
+      "to": "查看 Agent"
+    },
+    {
+      "from": "label:\"View Agent\"",
+      "to": "label:\"查看 Agent\""
+    },
+    {
+      "from": "title:\"View Agent\"",
+      "to": "title:\"查看 Agent\""
+    },
+    {
+      "from": "description:\"View Agent\"",
+      "to": "description:\"查看 Agent\""
+    },
+    {
+      "from": "aria-label:\"View Agent\"",
+      "to": "aria-label:\"查看 Agent\""
+    },
+    {
+      "from": "Ask Agent",
+      "to": "询问 Agent"
+    },
+    {
+      "from": "label:\"Ask Agent\"",
+      "to": "label:\"询问 Agent\""
+    },
+    {
+      "from": "title:\"Ask Agent\"",
+      "to": "title:\"询问 Agent\""
+    },
+    {
+      "from": "description:\"Ask Agent\"",
+      "to": "description:\"询问 Agent\""
+    },
+    {
+      "from": "aria-label:\"Ask Agent\"",
+      "to": "aria-label:\"询问 Agent\""
+    },
+    {
+      "from": "Past Chat",
+      "to": "历史对话"
+    },
+    {
+      "from": "label:\"Past Chat\"",
+      "to": "label:\"历史对话\""
+    },
+    {
+      "from": "title:\"Past Chat\"",
+      "to": "title:\"历史对话\""
+    },
+    {
+      "from": "description:\"Past Chat\"",
+      "to": "description:\"历史对话\""
+    },
+    {
+      "from": "aria-label:\"Past Chat\"",
+      "to": "aria-label:\"历史对话\""
+    },
+    {
+      "from": "Remove local plugin",
+      "to": "移除本地插件"
+    },
+    {
+      "from": "label:\"Remove local plugin\"",
+      "to": "label:\"移除本地插件\""
+    },
+    {
+      "from": "title:\"Remove local plugin\"",
+      "to": "title:\"移除本地插件\""
+    },
+    {
+      "from": "description:\"Remove local plugin\"",
+      "to": "description:\"移除本地插件\""
+    },
+    {
+      "from": "aria-label:\"Remove local plugin\"",
+      "to": "aria-label:\"移除本地插件\""
+    },
+    {
+      "from": "Retry cloud agent request",
+      "to": "重试云端 Agent 请求"
+    },
+    {
+      "from": "label:\"Retry cloud agent request\"",
+      "to": "label:\"重试云端 Agent 请求\""
+    },
+    {
+      "from": "title:\"Retry cloud agent request\"",
+      "to": "title:\"重试云端 Agent 请求\""
+    },
+    {
+      "from": "description:\"Retry cloud agent request\"",
+      "to": "description:\"重试云端 Agent 请求\""
+    },
+    {
+      "from": "aria-label:\"Retry cloud agent request\"",
+      "to": "aria-label:\"重试云端 Agent 请求\""
+    },
+    {
+      "from": "Show notifications for less urgent issues",
+      "to": "显示较低紧急程度问题的通知"
+    },
+    {
+      "from": "label:\"Show notifications for less urgent issues\"",
+      "to": "label:\"显示较低紧急程度问题的通知\""
+    },
+    {
+      "from": "title:\"Show notifications for less urgent issues\"",
+      "to": "title:\"显示较低紧急程度问题的通知\""
+    },
+    {
+      "from": "description:\"Show notifications for less urgent issues\"",
+      "to": "description:\"显示较低紧急程度问题的通知\""
+    },
+    {
+      "from": "aria-label:\"Show notifications for less urgent issues\"",
+      "to": "aria-label:\"显示较低紧急程度问题的通知\""
+    },
+    {
+      "from": "Submission blocked by hook",
+      "to": "提交被钩子拦截"
+    },
+    {
+      "from": "label:\"Submission blocked by hook\"",
+      "to": "label:\"提交被钩子拦截\""
+    },
+    {
+      "from": "title:\"Submission blocked by hook\"",
+      "to": "title:\"提交被钩子拦截\""
+    },
+    {
+      "from": "description:\"Submission blocked by hook\"",
+      "to": "description:\"提交被钩子拦截\""
+    },
+    {
+      "from": "aria-label:\"Submission blocked by hook\"",
+      "to": "aria-label:\"提交被钩子拦截\""
+    },
+    {
+      "from": "Team Pool",
+      "to": "团队池"
+    },
+    {
+      "from": "label:\"Team Pool\"",
+      "to": "label:\"团队池\""
+    },
+    {
+      "from": "title:\"Team Pool\"",
+      "to": "title:\"团队池\""
+    },
+    {
+      "from": "description:\"Team Pool\"",
+      "to": "description:\"团队池\""
+    },
+    {
+      "from": "aria-label:\"Team Pool\"",
+      "to": "aria-label:\"团队池\""
+    },
+    {
+      "from": "Upgrade to Pro+",
+      "to": "升级到 Pro+"
+    },
+    {
+      "from": "label:\"Upgrade to Pro+\"",
+      "to": "label:\"升级到 Pro+\""
+    },
+    {
+      "from": "title:\"Upgrade to Pro+\"",
+      "to": "title:\"升级到 Pro+\""
+    },
+    {
+      "from": "description:\"Upgrade to Pro+\"",
+      "to": "description:\"升级到 Pro+\""
+    },
+    {
+      "from": "aria-label:\"Upgrade to Pro+\"",
+      "to": "aria-label:\"升级到 Pro+\""
+    },
+    {
+      "from": "Upgrade to Ultra",
+      "to": "升级到 Ultra"
+    },
+    {
+      "from": "label:\"Upgrade to Ultra\"",
+      "to": "label:\"升级到 Ultra\""
+    },
+    {
+      "from": "title:\"Upgrade to Ultra\"",
+      "to": "title:\"升级到 Ultra\""
+    },
+    {
+      "from": "description:\"Upgrade to Ultra\"",
+      "to": "description:\"升级到 Ultra\""
+    },
+    {
+      "from": "aria-label:\"Upgrade to Ultra\"",
+      "to": "aria-label:\"升级到 Ultra\""
+    },
+    {
+      "from": "Help Improve Cursor",
+      "to": "帮助改进 Cursor"
+    },
+    {
+      "from": "label:\"Help Improve Cursor\"",
+      "to": "label:\"帮助改进 Cursor\""
+    },
+    {
+      "from": "title:\"Help Improve Cursor\"",
+      "to": "title:\"帮助改进 Cursor\""
+    },
+    {
+      "from": "description:\"Help Improve Cursor\"",
+      "to": "description:\"帮助改进 Cursor\""
+    },
+    {
+      "from": "aria-label:\"Help Improve Cursor\"",
+      "to": "aria-label:\"帮助改进 Cursor\""
+    },
+    {
+      "from": "Help improve Cursor for everyone",
+      "to": "帮助改进 Cursor，惠及所有人"
+    },
+    {
+      "from": "label:\"Help improve Cursor for everyone\"",
+      "to": "label:\"帮助改进 Cursor，惠及所有人\""
+    },
+    {
+      "from": "title:\"Help improve Cursor for everyone\"",
+      "to": "title:\"帮助改进 Cursor，惠及所有人\""
+    },
+    {
+      "from": "description:\"Help improve Cursor for everyone\"",
+      "to": "description:\"帮助改进 Cursor，惠及所有人\""
+    },
+    {
+      "from": "aria-label:\"Help improve Cursor for everyone\"",
+      "to": "aria-label:\"帮助改进 Cursor，惠及所有人\""
+    },
+    {
+      "from": "Last Used",
+      "to": "最近使用"
+    },
+    {
+      "from": "label:\"Last Used\"",
+      "to": "label:\"最近使用\""
+    },
+    {
+      "from": "title:\"Last Used\"",
+      "to": "title:\"最近使用\""
+    },
+    {
+      "from": "description:\"Last Used\"",
+      "to": "description:\"最近使用\""
+    },
+    {
+      "from": "aria-label:\"Last Used\"",
+      "to": "aria-label:\"最近使用\""
+    },
+    {
+      "from": "Most Used",
+      "to": "最常用"
+    },
+    {
+      "from": "label:\"Most Used\"",
+      "to": "label:\"最常用\""
+    },
+    {
+      "from": "title:\"Most Used\"",
+      "to": "title:\"最常用\""
+    },
+    {
+      "from": "description:\"Most Used\"",
+      "to": "description:\"最常用\""
+    },
+    {
+      "from": "aria-label:\"Most Used\"",
+      "to": "aria-label:\"最常用\""
+    },
+    {
+      "from": "Last 7 Days",
+      "to": "最近 7 天"
+    },
+    {
+      "from": "label:\"Last 7 Days\"",
+      "to": "label:\"最近 7 天\""
+    },
+    {
+      "from": "title:\"Last 7 Days\"",
+      "to": "title:\"最近 7 天\""
+    },
+    {
+      "from": "description:\"Last 7 Days\"",
+      "to": "description:\"最近 7 天\""
+    },
+    {
+      "from": "aria-label:\"Last 7 Days\"",
+      "to": "aria-label:\"最近 7 天\""
+    },
+    {
+      "from": "Last 30 Days",
+      "to": "最近 30 天"
+    },
+    {
+      "from": "label:\"Last 30 Days\"",
+      "to": "label:\"最近 30 天\""
+    },
+    {
+      "from": "title:\"Last 30 Days\"",
+      "to": "title:\"最近 30 天\""
+    },
+    {
+      "from": "description:\"Last 30 Days\"",
+      "to": "description:\"最近 30 天\""
+    },
+    {
+      "from": "aria-label:\"Last 30 Days\"",
+      "to": "aria-label:\"最近 30 天\""
+    },
+    {
+      "from": "Grant repository access",
+      "to": "授予仓库访问权限"
+    },
+    {
+      "from": "label:\"Grant repository access\"",
+      "to": "label:\"授予仓库访问权限\""
+    },
+    {
+      "from": "title:\"Grant repository access\"",
+      "to": "title:\"授予仓库访问权限\""
+    },
+    {
+      "from": "description:\"Grant repository access\"",
+      "to": "description:\"授予仓库访问权限\""
+    },
+    {
+      "from": "aria-label:\"Grant repository access\"",
+      "to": "aria-label:\"授予仓库访问权限\""
+    },
+    {
+      "from": "Configured in the dashboard",
+      "to": "已在控制台中配置"
+    },
+    {
+      "from": "label:\"Configured in the dashboard\"",
+      "to": "label:\"已在控制台中配置\""
+    },
+    {
+      "from": "title:\"Configured in the dashboard\"",
+      "to": "title:\"已在控制台中配置\""
+    },
+    {
+      "from": "description:\"Configured in the dashboard\"",
+      "to": "description:\"已在控制台中配置\""
+    },
+    {
+      "from": "aria-label:\"Configured in the dashboard\"",
+      "to": "aria-label:\"已在控制台中配置\""
+    },
+    {
+      "from": "Enable auto-keep",
+      "to": "启用自动保留"
+    },
+    {
+      "from": "label:\"Enable auto-keep\"",
+      "to": "label:\"启用自动保留\""
+    },
+    {
+      "from": "title:\"Enable auto-keep\"",
+      "to": "title:\"启用自动保留\""
+    },
+    {
+      "from": "description:\"Enable auto-keep\"",
+      "to": "description:\"启用自动保留\""
+    },
+    {
+      "from": "aria-label:\"Enable auto-keep\"",
+      "to": "aria-label:\"启用自动保留\""
+    },
+    {
+      "from": "Import from GitHub/GitLab",
+      "to": "从 GitHub/GitLab 导入"
+    },
+    {
+      "from": "label:\"Import from GitHub/GitLab\"",
+      "to": "label:\"从 GitHub/GitLab 导入\""
+    },
+    {
+      "from": "title:\"Import from GitHub/GitLab\"",
+      "to": "title:\"从 GitHub/GitLab 导入\""
+    },
+    {
+      "from": "description:\"Import from GitHub/GitLab\"",
+      "to": "description:\"从 GitHub/GitLab 导入\""
+    },
+    {
+      "from": "aria-label:\"Import from GitHub/GitLab\"",
+      "to": "aria-label:\"从 GitHub/GitLab 导入\""
+    },
+    {
+      "from": "MCP Servers",
+      "to": "MCP 服务器"
+    },
+    {
+      "from": "label:\"MCP Servers\"",
+      "to": "label:\"MCP 服务器\""
+    },
+    {
+      "from": "title:\"MCP Servers\"",
+      "to": "title:\"MCP 服务器\""
+    },
+    {
+      "from": "description:\"MCP Servers\"",
+      "to": "description:\"MCP 服务器\""
+    },
+    {
+      "from": "aria-label:\"MCP Servers\"",
+      "to": "aria-label:\"MCP 服务器\""
+    },
+    {
+      "from": "MCP Server",
+      "to": "MCP 服务器"
+    },
+    {
+      "from": "label:\"MCP Server\"",
+      "to": "label:\"MCP 服务器\""
+    },
+    {
+      "from": "title:\"MCP Server\"",
+      "to": "title:\"MCP 服务器\""
+    },
+    {
+      "from": "description:\"MCP Server\"",
+      "to": "description:\"MCP 服务器\""
+    },
+    {
+      "from": "aria-label:\"MCP Server\"",
+      "to": "aria-label:\"MCP 服务器\""
+    },
+    {
+      "from": "My Machines",
+      "to": "我的机器"
+    },
+    {
+      "from": "label:\"My Machines\"",
+      "to": "label:\"我的机器\""
+    },
+    {
+      "from": "title:\"My Machines\"",
+      "to": "title:\"我的机器\""
+    },
+    {
+      "from": "description:\"My Machines\"",
+      "to": "description:\"我的机器\""
+    },
+    {
+      "from": "aria-label:\"My Machines\"",
+      "to": "aria-label:\"我的机器\""
+    },
+    {
+      "from": "Use Multiple Models",
+      "to": "使用多个模型"
+    },
+    {
+      "from": "label:\"Use Multiple Models\"",
+      "to": "label:\"使用多个模型\""
+    },
+    {
+      "from": "title:\"Use Multiple Models\"",
+      "to": "title:\"使用多个模型\""
+    },
+    {
+      "from": "description:\"Use Multiple Models\"",
+      "to": "description:\"使用多个模型\""
+    },
+    {
+      "from": "aria-label:\"Use Multiple Models\"",
+      "to": "aria-label:\"使用多个模型\""
+    },
+    {
+      "from": "Review Changes",
+      "to": "审查更改"
+    },
+    {
+      "from": "label:\"Review Changes\"",
+      "to": "label:\"审查更改\""
+    },
+    {
+      "from": "title:\"Review Changes\"",
+      "to": "title:\"审查更改\""
+    },
+    {
+      "from": "description:\"Review Changes\"",
+      "to": "description:\"审查更改\""
+    },
+    {
+      "from": "aria-label:\"Review Changes\"",
+      "to": "aria-label:\"审查更改\""
+    },
+    {
+      "from": "About Cursor",
+      "to": "关于 Cursor"
+    },
+    {
+      "from": "label:\"About Cursor\"",
+      "to": "label:\"关于 Cursor\""
+    },
+    {
+      "from": "title:\"About Cursor\"",
+      "to": "title:\"关于 Cursor\""
+    },
+    {
+      "from": "description:\"About Cursor\"",
+      "to": "description:\"关于 Cursor\""
+    },
+    {
+      "from": "aria-label:\"About Cursor\"",
+      "to": "aria-label:\"关于 Cursor\""
+    },
+    {
+      "from": "Accept Edits",
+      "to": "接受编辑"
+    },
+    {
+      "from": "label:\"Accept Edits\"",
+      "to": "label:\"接受编辑\""
+    },
+    {
+      "from": "title:\"Accept Edits\"",
+      "to": "title:\"接受编辑\""
+    },
+    {
+      "from": "description:\"Accept Edits\"",
+      "to": "description:\"接受编辑\""
+    },
+    {
+      "from": "aria-label:\"Accept Edits\"",
+      "to": "aria-label:\"接受编辑\""
+    },
+    {
+      "from": "Cancel Edits",
+      "to": "取消编辑"
+    },
+    {
+      "from": "label:\"Cancel Edits\"",
+      "to": "label:\"取消编辑\""
+    },
+    {
+      "from": "title:\"Cancel Edits\"",
+      "to": "title:\"取消编辑\""
+    },
+    {
+      "from": "description:\"Cancel Edits\"",
+      "to": "description:\"取消编辑\""
+    },
+    {
+      "from": "aria-label:\"Cancel Edits\"",
+      "to": "aria-label:\"取消编辑\""
+    },
+    {
+      "from": "Continue Anyway",
+      "to": "仍要继续"
+    },
+    {
+      "from": "label:\"Continue Anyway\"",
+      "to": "label:\"仍要继续\""
+    },
+    {
+      "from": "title:\"Continue Anyway\"",
+      "to": "title:\"仍要继续\""
+    },
+    {
+      "from": "description:\"Continue Anyway\"",
+      "to": "description:\"仍要继续\""
+    },
+    {
+      "from": "aria-label:\"Continue Anyway\"",
+      "to": "aria-label:\"仍要继续\""
+    },
+    {
+      "from": "Copy Link",
+      "to": "复制链接"
+    },
+    {
+      "from": "label:\"Copy Link\"",
+      "to": "label:\"复制链接\""
+    },
+    {
+      "from": "title:\"Copy Link\"",
+      "to": "title:\"复制链接\""
+    },
+    {
+      "from": "description:\"Copy Link\"",
+      "to": "description:\"复制链接\""
+    },
+    {
+      "from": "aria-label:\"Copy Link\"",
+      "to": "aria-label:\"复制链接\""
+    },
+    {
+      "from": "Copy link",
+      "to": "复制链接"
+    },
+    {
+      "from": "label:\"Copy link\"",
+      "to": "label:\"复制链接\""
+    },
+    {
+      "from": "title:\"Copy link\"",
+      "to": "title:\"复制链接\""
+    },
+    {
+      "from": "description:\"Copy link\"",
+      "to": "description:\"复制链接\""
+    },
+    {
+      "from": "aria-label:\"Copy link\"",
+      "to": "aria-label:\"复制链接\""
+    },
+    {
+      "from": "Don't revert",
+      "to": "不还原"
+    },
+    {
+      "from": "label:\"Don't revert\"",
+      "to": "label:\"不还原\""
+    },
+    {
+      "from": "title:\"Don't revert\"",
+      "to": "title:\"不还原\""
+    },
+    {
+      "from": "description:\"Don't revert\"",
+      "to": "description:\"不还原\""
+    },
+    {
+      "from": "aria-label:\"Don't revert\"",
+      "to": "aria-label:\"不还原\""
+    },
+    {
+      "from": "Reset to default",
+      "to": "重置为默认"
+    },
+    {
+      "from": "label:\"Reset to default\"",
+      "to": "label:\"重置为默认\""
+    },
+    {
+      "from": "title:\"Reset to default\"",
+      "to": "title:\"重置为默认\""
+    },
+    {
+      "from": "description:\"Reset to default\"",
+      "to": "description:\"重置为默认\""
+    },
+    {
+      "from": "aria-label:\"Reset to default\"",
+      "to": "aria-label:\"重置为默认\""
+    },
+    {
+      "from": "Skip this parameter",
+      "to": "跳过此参数"
+    },
+    {
+      "from": "label:\"Skip this parameter\"",
+      "to": "label:\"跳过此参数\""
+    },
+    {
+      "from": "title:\"Skip this parameter\"",
+      "to": "title:\"跳过此参数\""
+    },
+    {
+      "from": "description:\"Skip this parameter\"",
+      "to": "description:\"跳过此参数\""
+    },
+    {
+      "from": "aria-label:\"Skip this parameter\"",
+      "to": "aria-label:\"跳过此参数\""
+    },
+    {
+      "from": "Submit from a previous message?",
+      "to": "从先前的消息提交？"
+    },
+    {
+      "from": "label:\"Submit from a previous message?\"",
+      "to": "label:\"从先前的消息提交？\""
+    },
+    {
+      "from": "title:\"Submit from a previous message?\"",
+      "to": "title:\"从先前的消息提交？\""
+    },
+    {
+      "from": "description:\"Submit from a previous message?\"",
+      "to": "description:\"从先前的消息提交？\""
+    },
+    {
+      "from": "aria-label:\"Submit from a previous message?\"",
+      "to": "aria-label:\"从先前的消息提交？\""
+    },
+    {
+      "from": "View Details",
+      "to": "查看详情"
+    },
+    {
+      "from": "label:\"View Details\"",
+      "to": "label:\"查看详情\""
+    },
+    {
+      "from": "title:\"View Details\"",
+      "to": "title:\"查看详情\""
+    },
+    {
+      "from": "description:\"View Details\"",
+      "to": "description:\"查看详情\""
+    },
+    {
+      "from": "aria-label:\"View Details\"",
+      "to": "aria-label:\"查看详情\""
+    },
+    {
+      "from": "Workspace Not Found",
+      "to": "未找到工作区"
+    },
+    {
+      "from": "label:\"Workspace Not Found\"",
+      "to": "label:\"未找到工作区\""
+    },
+    {
+      "from": "title:\"Workspace Not Found\"",
+      "to": "title:\"未找到工作区\""
+    },
+    {
+      "from": "description:\"Workspace Not Found\"",
+      "to": "description:\"未找到工作区\""
+    },
+    {
+      "from": "aria-label:\"Workspace Not Found\"",
+      "to": "aria-label:\"未找到工作区\""
+    },
+    {
+      "from": "Needs authentication",
+      "to": "需要身份验证"
+    },
+    {
+      "from": "label:\"Needs authentication\"",
+      "to": "label:\"需要身份验证\""
+    },
+    {
+      "from": "title:\"Needs authentication\"",
+      "to": "title:\"需要身份验证\""
+    },
+    {
+      "from": "description:\"Needs authentication\"",
+      "to": "description:\"需要身份验证\""
+    },
+    {
+      "from": "aria-label:\"Needs authentication\"",
+      "to": "aria-label:\"需要身份验证\""
+    },
+    {
+      "from": "Connection failed",
+      "to": "连接失败"
+    },
+    {
+      "from": "label:\"Connection failed\"",
+      "to": "label:\"连接失败\""
+    },
+    {
+      "from": "title:\"Connection failed\"",
+      "to": "title:\"连接失败\""
+    },
+    {
+      "from": "description:\"Connection failed\"",
+      "to": "description:\"连接失败\""
+    },
+    {
+      "from": "aria-label:\"Connection failed\"",
+      "to": "aria-label:\"连接失败\""
+    },
+    {
+      "from": "New Messages",
+      "to": "新消息"
+    },
+    {
+      "from": "label:\"New Messages\"",
+      "to": "label:\"新消息\""
+    },
+    {
+      "from": "title:\"New Messages\"",
+      "to": "title:\"新消息\""
+    },
+    {
+      "from": "description:\"New Messages\"",
+      "to": "description:\"新消息\""
+    },
+    {
+      "from": "aria-label:\"New Messages\"",
+      "to": "aria-label:\"新消息\""
+    },
+    {
+      "from": "All team members can view",
+      "to": "所有团队成员均可查看"
+    },
+    {
+      "from": "label:\"All team members can view\"",
+      "to": "label:\"所有团队成员均可查看\""
+    },
+    {
+      "from": "title:\"All team members can view\"",
+      "to": "title:\"所有团队成员均可查看\""
+    },
+    {
+      "from": "description:\"All team members can view\"",
+      "to": "description:\"所有团队成员均可查看\""
+    },
+    {
+      "from": "aria-label:\"All team members can view\"",
+      "to": "aria-label:\"所有团队成员均可查看\""
+    },
+    {
+      "from": "Conversation Corrupted",
+      "to": "对话已损坏"
+    },
+    {
+      "from": "label:\"Conversation Corrupted\"",
+      "to": "label:\"对话已损坏\""
+    },
+    {
+      "from": "title:\"Conversation Corrupted\"",
+      "to": "title:\"对话已损坏\""
+    },
+    {
+      "from": "description:\"Conversation Corrupted\"",
+      "to": "description:\"对话已损坏\""
+    },
+    {
+      "from": "aria-label:\"Conversation Corrupted\"",
+      "to": "aria-label:\"对话已损坏\""
+    },
+    {
+      "from": "Build in Cloud",
+      "to": "在云端构建"
+    },
+    {
+      "from": "label:\"Build in Cloud\"",
+      "to": "label:\"在云端构建\""
+    },
+    {
+      "from": "title:\"Build in Cloud\"",
+      "to": "title:\"在云端构建\""
+    },
+    {
+      "from": "description:\"Build in Cloud\"",
+      "to": "description:\"在云端构建\""
+    },
+    {
+      "from": "aria-label:\"Build in Cloud\"",
+      "to": "aria-label:\"在云端构建\""
+    },
+    {
+      "from": "Build in Parallel",
+      "to": "并行构建"
+    },
+    {
+      "from": "label:\"Build in Parallel\"",
+      "to": "label:\"并行构建\""
+    },
+    {
+      "from": "title:\"Build in Parallel\"",
+      "to": "title:\"并行构建\""
+    },
+    {
+      "from": "description:\"Build in Parallel\"",
+      "to": "description:\"并行构建\""
+    },
+    {
+      "from": "aria-label:\"Build in Parallel\"",
+      "to": "aria-label:\"并行构建\""
+    },
+    {
+      "from": "Build Locally",
+      "to": "在本地构建"
+    },
+    {
+      "from": "label:\"Build Locally\"",
+      "to": "label:\"在本地构建\""
+    },
+    {
+      "from": "title:\"Build Locally\"",
+      "to": "title:\"在本地构建\""
+    },
+    {
+      "from": "description:\"Build Locally\"",
+      "to": "description:\"在本地构建\""
+    },
+    {
+      "from": "aria-label:\"Build Locally\"",
+      "to": "aria-label:\"在本地构建\""
+    },
+    {
+      "from": "Change run mode",
+      "to": "更改运行模式"
+    },
+    {
+      "from": "label:\"Change run mode\"",
+      "to": "label:\"更改运行模式\""
+    },
+    {
+      "from": "title:\"Change run mode\"",
+      "to": "title:\"更改运行模式\""
+    },
+    {
+      "from": "description:\"Change run mode\"",
+      "to": "description:\"更改运行模式\""
+    },
+    {
+      "from": "aria-label:\"Change run mode\"",
+      "to": "aria-label:\"更改运行模式\""
+    },
+    {
+      "from": "Checkout & Move to Local",
+      "to": "检出并移至本地"
+    },
+    {
+      "from": "label:\"Checkout & Move to Local\"",
+      "to": "label:\"检出并移至本地\""
+    },
+    {
+      "from": "title:\"Checkout & Move to Local\"",
+      "to": "title:\"检出并移至本地\""
+    },
+    {
+      "from": "description:\"Checkout & Move to Local\"",
+      "to": "description:\"检出并移至本地\""
+    },
+    {
+      "from": "aria-label:\"Checkout & Move to Local\"",
+      "to": "aria-label:\"检出并移至本地\""
+    },
+    {
+      "from": "Add MCP",
+      "to": "添加 MCP"
+    },
+    {
+      "from": "label:\"Add MCP\"",
+      "to": "label:\"添加 MCP\""
+    },
+    {
+      "from": "title:\"Add MCP\"",
+      "to": "title:\"添加 MCP\""
+    },
+    {
+      "from": "description:\"Add MCP\"",
+      "to": "description:\"添加 MCP\""
+    },
+    {
+      "from": "aria-label:\"Add MCP\"",
+      "to": "aria-label:\"添加 MCP\""
+    },
+    {
+      "from": "Open MCPs",
+      "to": "打开 MCP"
+    },
+    {
+      "from": "label:\"Open MCPs\"",
+      "to": "label:\"打开 MCP\""
+    },
+    {
+      "from": "title:\"Open MCPs\"",
+      "to": "title:\"打开 MCP\""
+    },
+    {
+      "from": "description:\"Open MCPs\"",
+      "to": "description:\"打开 MCP\""
+    },
+    {
+      "from": "aria-label:\"Open MCPs\"",
+      "to": "aria-label:\"打开 MCP\""
+    },
+    {
+      "from": "Browse MCPs",
+      "to": "浏览 MCP"
+    },
+    {
+      "from": "label:\"Browse MCPs\"",
+      "to": "label:\"浏览 MCP\""
+    },
+    {
+      "from": "title:\"Browse MCPs\"",
+      "to": "title:\"浏览 MCP\""
+    },
+    {
+      "from": "description:\"Browse MCPs\"",
+      "to": "description:\"浏览 MCP\""
+    },
+    {
+      "from": "aria-label:\"Browse MCPs\"",
+      "to": "aria-label:\"浏览 MCP\""
+    },
+    {
+      "from": "Add Skills",
+      "to": "添加技能"
+    },
+    {
+      "from": "label:\"Add Skills\"",
+      "to": "label:\"添加技能\""
+    },
+    {
+      "from": "title:\"Add Skills\"",
+      "to": "title:\"添加技能\""
+    },
+    {
+      "from": "description:\"Add Skills\"",
+      "to": "description:\"添加技能\""
+    },
+    {
+      "from": "aria-label:\"Add Skills\"",
+      "to": "aria-label:\"添加技能\""
+    },
+    {
+      "from": "Open Skills",
+      "to": "打开技能"
+    },
+    {
+      "from": "label:\"Open Skills\"",
+      "to": "label:\"打开技能\""
+    },
+    {
+      "from": "title:\"Open Skills\"",
+      "to": "title:\"打开技能\""
+    },
+    {
+      "from": "description:\"Open Skills\"",
+      "to": "description:\"打开技能\""
+    },
+    {
+      "from": "aria-label:\"Open Skills\"",
+      "to": "aria-label:\"打开技能\""
+    },
+    {
+      "from": "Agent Name",
+      "to": "Agent 名称"
+    },
+    {
+      "from": "label:\"Agent Name\"",
+      "to": "label:\"Agent 名称\""
+    },
+    {
+      "from": "title:\"Agent Name\"",
+      "to": "title:\"Agent 名称\""
+    },
+    {
+      "from": "description:\"Agent Name\"",
+      "to": "description:\"Agent 名称\""
+    },
+    {
+      "from": "aria-label:\"Agent Name\"",
+      "to": "aria-label:\"Agent 名称\""
+    },
+    {
+      "from": "Agent Edit",
+      "to": "编辑 Agent"
+    },
+    {
+      "from": "label:\"Agent Edit\"",
+      "to": "label:\"编辑 Agent\""
+    },
+    {
+      "from": "title:\"Agent Edit\"",
+      "to": "title:\"编辑 Agent\""
+    },
+    {
+      "from": "description:\"Agent Edit\"",
+      "to": "description:\"编辑 Agent\""
+    },
+    {
+      "from": "aria-label:\"Agent Edit\"",
+      "to": "aria-label:\"编辑 Agent\""
+    },
+    {
+      "from": "No Plugins",
+      "to": "暂无插件"
+    },
+    {
+      "from": "label:\"No Plugins\"",
+      "to": "label:\"暂无插件\""
+    },
+    {
+      "from": "title:\"No Plugins\"",
+      "to": "title:\"暂无插件\""
+    },
+    {
+      "from": "description:\"No Plugins\"",
+      "to": "description:\"暂无插件\""
+    },
+    {
+      "from": "aria-label:\"No Plugins\"",
+      "to": "aria-label:\"暂无插件\""
+    },
+    {
+      "from": "Custom MCP",
+      "to": "自定义 MCP"
+    },
+    {
+      "from": "label:\"Custom MCP\"",
+      "to": "label:\"自定义 MCP\""
+    },
+    {
+      "from": "title:\"Custom MCP\"",
+      "to": "title:\"自定义 MCP\""
+    },
+    {
+      "from": "description:\"Custom MCP\"",
+      "to": "description:\"自定义 MCP\""
+    },
+    {
+      "from": "aria-label:\"Custom MCP\"",
+      "to": "aria-label:\"自定义 MCP\""
+    },
+    {
+      "from": "Team agents",
+      "to": "团队 Agent"
+    },
+    {
+      "from": "label:\"Team agents\"",
+      "to": "label:\"团队 Agent\""
+    },
+    {
+      "from": "title:\"Team agents\"",
+      "to": "title:\"团队 Agent\""
+    },
+    {
+      "from": "description:\"Team agents\"",
+      "to": "description:\"团队 Agent\""
+    },
+    {
+      "from": "aria-label:\"Team agents\"",
+      "to": "aria-label:\"团队 Agent\""
+    },
+    {
+      "from": "Go to Plugin",
+      "to": "前往插件"
+    },
+    {
+      "from": "label:\"Go to Plugin\"",
+      "to": "label:\"前往插件\""
+    },
+    {
+      "from": "title:\"Go to Plugin\"",
+      "to": "title:\"前往插件\""
+    },
+    {
+      "from": "description:\"Go to Plugin\"",
+      "to": "description:\"前往插件\""
+    },
+    {
+      "from": "aria-label:\"Go to Plugin\"",
+      "to": "aria-label:\"前往插件\""
+    },
+    {
+      "from": "New worktree",
+      "to": "新建工作树"
+    },
+    {
+      "from": "label:\"New worktree\"",
+      "to": "label:\"新建工作树\""
+    },
+    {
+      "from": "title:\"New worktree\"",
+      "to": "title:\"新建工作树\""
+    },
+    {
+      "from": "description:\"New worktree\"",
+      "to": "description:\"新建工作树\""
+    },
+    {
+      "from": "aria-label:\"New worktree\"",
+      "to": "aria-label:\"新建工作树\""
+    },
+    {
+      "from": "Open Plugins",
+      "to": "打开插件"
+    },
+    {
+      "from": "label:\"Open Plugins\"",
+      "to": "label:\"打开插件\""
+    },
+    {
+      "from": "title:\"Open Plugins\"",
+      "to": "title:\"打开插件\""
+    },
+    {
+      "from": "description:\"Open Plugins\"",
+      "to": "description:\"打开插件\""
+    },
+    {
+      "from": "aria-label:\"Open Plugins\"",
+      "to": "aria-label:\"打开插件\""
+    },
+    {
+      "from": "Other Agents",
+      "to": "其他 Agent"
+    },
+    {
+      "from": "label:\"Other Agents\"",
+      "to": "label:\"其他 Agent\""
+    },
+    {
+      "from": "title:\"Other Agents\"",
+      "to": "title:\"其他 Agent\""
+    },
+    {
+      "from": "description:\"Other Agents\"",
+      "to": "description:\"其他 Agent\""
+    },
+    {
+      "from": "aria-label:\"Other Agents\"",
+      "to": "aria-label:\"其他 Agent\""
+    },
+    {
+      "from": "Agent blocked",
+      "to": "Agent 已阻止"
+    },
+    {
+      "from": "label:\"Agent blocked\"",
+      "to": "label:\"Agent 已阻止\""
+    },
+    {
+      "from": "title:\"Agent blocked\"",
+      "to": "title:\"Agent 已阻止\""
+    },
+    {
+      "from": "description:\"Agent blocked\"",
+      "to": "description:\"Agent 已阻止\""
+    },
+    {
+      "from": "aria-label:\"Agent blocked\"",
+      "to": "aria-label:\"Agent 已阻止\""
+    },
+    {
+      "from": "Copy Agent ID",
+      "to": "复制 Agent ID"
+    },
+    {
+      "from": "label:\"Copy Agent ID\"",
+      "to": "label:\"复制 Agent ID\""
+    },
+    {
+      "from": "title:\"Copy Agent ID\"",
+      "to": "title:\"复制 Agent ID\""
+    },
+    {
+      "from": "description:\"Copy Agent ID\"",
+      "to": "description:\"复制 Agent ID\""
+    },
+    {
+      "from": "aria-label:\"Copy Agent ID\"",
+      "to": "aria-label:\"复制 Agent ID\""
+    },
+    {
+      "from": "Get MCP tools",
+      "to": "获取 MCP 工具"
+    },
+    {
+      "from": "label:\"Get MCP tools\"",
+      "to": "label:\"获取 MCP 工具\""
+    },
+    {
+      "from": "title:\"Get MCP tools\"",
+      "to": "title:\"获取 MCP 工具\""
+    },
+    {
+      "from": "description:\"Get MCP tools\"",
+      "to": "description:\"获取 MCP 工具\""
+    },
+    {
+      "from": "aria-label:\"Get MCP tools\"",
+      "to": "aria-label:\"获取 MCP 工具\""
+    },
+    {
+      "from": "MCP Allowlist",
+      "to": "MCP 白名单"
+    },
+    {
+      "from": "label:\"MCP Allowlist\"",
+      "to": "label:\"MCP 白名单\""
+    },
+    {
+      "from": "title:\"MCP Allowlist\"",
+      "to": "title:\"MCP 白名单\""
+    },
+    {
+      "from": "description:\"MCP Allowlist\"",
+      "to": "description:\"MCP 白名单\""
+    },
+    {
+      "from": "aria-label:\"MCP Allowlist\"",
+      "to": "aria-label:\"MCP 白名单\""
+    },
+    {
+      "from": "Publish Skill",
+      "to": "发布技能"
+    },
+    {
+      "from": "label:\"Publish Skill\"",
+      "to": "label:\"发布技能\""
+    },
+    {
+      "from": "title:\"Publish Skill\"",
+      "to": "title:\"发布技能\""
+    },
+    {
+      "from": "description:\"Publish Skill\"",
+      "to": "description:\"发布技能\""
+    },
+    {
+      "from": "aria-label:\"Publish Skill\"",
+      "to": "aria-label:\"发布技能\""
+    },
+    {
+      "from": "Replace Agent",
+      "to": "替换 Agent"
+    },
+    {
+      "from": "label:\"Replace Agent\"",
+      "to": "label:\"替换 Agent\""
+    },
+    {
+      "from": "description:\"Replace Agent\"",
+      "to": "description:\"替换 Agent\""
+    },
+    {
+      "from": "aria-label:\"Replace Agent\"",
+      "to": "aria-label:\"替换 Agent\""
+    },
+    {
+      "from": "Replace Skill",
+      "to": "替换技能"
+    },
+    {
+      "from": "label:\"Replace Skill\"",
+      "to": "label:\"替换技能\""
+    },
+    {
+      "from": "title:\"Replace Skill\"",
+      "to": "title:\"替换技能\""
+    },
+    {
+      "from": "description:\"Replace Skill\"",
+      "to": "description:\"替换技能\""
+    },
+    {
+      "from": "aria-label:\"Replace Skill\"",
+      "to": "aria-label:\"替换技能\""
+    },
+    {
+      "from": "Update Cursor",
+      "to": "更新 Cursor"
+    },
+    {
+      "from": "label:\"Update Cursor\"",
+      "to": "label:\"更新 Cursor\""
+    },
+    {
+      "from": "title:\"Update Cursor\"",
+      "to": "title:\"更新 Cursor\""
+    },
+    {
+      "from": "description:\"Update Cursor\"",
+      "to": "description:\"更新 Cursor\""
+    },
+    {
+      "from": "aria-label:\"Update Cursor\"",
+      "to": "aria-label:\"更新 Cursor\""
+    },
+    {
+      "from": "Manage plugins",
+      "to": "管理插件"
+    },
+    {
+      "from": "label:\"Manage plugins\"",
+      "to": "label:\"管理插件\""
+    },
+    {
+      "from": "title:\"Manage plugins\"",
+      "to": "title:\"管理插件\""
+    },
+    {
+      "from": "description:\"Manage plugins\"",
+      "to": "description:\"管理插件\""
+    },
+    {
+      "from": "aria-label:\"Manage plugins\"",
+      "to": "aria-label:\"管理插件\""
+    },
+    {
+      "from": "No MCP servers",
+      "to": "暂无 MCP 服务器"
+    },
+    {
+      "from": "label:\"No MCP servers\"",
+      "to": "label:\"暂无 MCP 服务器\""
+    },
+    {
+      "from": "title:\"No MCP servers\"",
+      "to": "title:\"暂无 MCP 服务器\""
+    },
+    {
+      "from": "description:\"No MCP servers\"",
+      "to": "description:\"暂无 MCP 服务器\""
+    },
+    {
+      "from": "aria-label:\"No MCP servers\"",
+      "to": "aria-label:\"暂无 MCP 服务器\""
+    },
+    {
+      "from": "No plugins yet",
+      "to": "暂无插件"
+    },
+    {
+      "from": "label:\"No plugins yet\"",
+      "to": "label:\"暂无插件\""
+    },
+    {
+      "from": "title:\"No plugins yet\"",
+      "to": "title:\"暂无插件\""
+    },
+    {
+      "from": "description:\"No plugins yet\"",
+      "to": "description:\"暂无插件\""
+    },
+    {
+      "from": "aria-label:\"No plugins yet\"",
+      "to": "aria-label:\"暂无插件\""
+    },
+    {
+      "from": "Open Subagents",
+      "to": "打开子 Agent"
+    },
+    {
+      "from": "label:\"Open Subagents\"",
+      "to": "label:\"打开子 Agent\""
+    },
+    {
+      "from": "title:\"Open Subagents\"",
+      "to": "title:\"打开子 Agent\""
+    },
+    {
+      "from": "description:\"Open Subagents\"",
+      "to": "description:\"打开子 Agent\""
+    },
+    {
+      "from": "aria-label:\"Open Subagents\"",
+      "to": "aria-label:\"打开子 Agent\""
+    },
+    {
+      "from": "Delete Subagent",
+      "to": "删除子 Agent"
+    },
+    {
+      "from": "label:\"Delete Subagent\"",
+      "to": "label:\"删除子 Agent\""
+    },
+    {
+      "from": "title:\"Delete Subagent\"",
+      "to": "title:\"删除子 Agent\""
+    },
+    {
+      "from": "description:\"Delete Subagent\"",
+      "to": "description:\"删除子 Agent\""
+    },
+    {
+      "from": "aria-label:\"Delete Subagent\"",
+      "to": "aria-label:\"删除子 Agent\""
+    },
+    {
+      "from": "Find with Agent",
+      "to": "用 Agent 查找"
+    },
+    {
+      "from": "label:\"Find with Agent\"",
+      "to": "label:\"用 Agent 查找\""
+    },
+    {
+      "from": "title:\"Find with Agent\"",
+      "to": "title:\"用 Agent 查找\""
+    },
+    {
+      "from": "description:\"Find with Agent\"",
+      "to": "description:\"用 Agent 查找\""
+    },
+    {
+      "from": "aria-label:\"Find with Agent\"",
+      "to": "aria-label:\"用 Agent 查找\""
+    },
+    {
+      "from": "Last Agent Turn",
+      "to": "上次 Agent 回合"
+    },
+    {
+      "from": "label:\"Last Agent Turn\"",
+      "to": "label:\"上次 Agent 回合\""
+    },
+    {
+      "from": "title:\"Last Agent Turn\"",
+      "to": "title:\"上次 Agent 回合\""
+    },
+    {
+      "from": "description:\"Last Agent Turn\"",
+      "to": "description:\"上次 Agent 回合\""
+    },
+    {
+      "from": "aria-label:\"Last Agent Turn\"",
+      "to": "aria-label:\"上次 Agent 回合\""
+    },
+    {
+      "from": "No agents found",
+      "to": "未找到 Agent"
+    },
+    {
+      "from": "label:\"No agents found\"",
+      "to": "label:\"未找到 Agent\""
+    },
+    {
+      "from": "title:\"No agents found\"",
+      "to": "title:\"未找到 Agent\""
+    },
+    {
+      "from": "description:\"No agents found\"",
+      "to": "description:\"未找到 Agent\""
+    },
+    {
+      "from": "aria-label:\"No agents found\"",
+      "to": "aria-label:\"未找到 Agent\""
+    },
+    {
+      "from": "Unpublish Skill",
+      "to": "取消发布技能"
+    },
+    {
+      "from": "label:\"Unpublish Skill\"",
+      "to": "label:\"取消发布技能\""
+    },
+    {
+      "from": "title:\"Unpublish Skill\"",
+      "to": "title:\"取消发布技能\""
+    },
+    {
+      "from": "description:\"Unpublish Skill\"",
+      "to": "description:\"取消发布技能\""
+    },
+    {
+      "from": "aria-label:\"Unpublish Skill\"",
+      "to": "aria-label:\"取消发布技能\""
+    },
+    {
+      "from": "Add MCP tools...",
+      "to": "添加 MCP 工具..."
+    },
+    {
+      "from": "label:\"Add MCP tools...\"",
+      "to": "label:\"添加 MCP 工具...\""
+    },
+    {
+      "from": "title:\"Add MCP tools...\"",
+      "to": "title:\"添加 MCP 工具...\""
+    },
+    {
+      "from": "description:\"Add MCP tools...\"",
+      "to": "description:\"添加 MCP 工具...\""
+    },
+    {
+      "from": "aria-label:\"Add MCP tools...\"",
+      "to": "aria-label:\"添加 MCP 工具...\""
+    },
+    {
+      "from": "Agent is blocked",
+      "to": "Agent 已被阻止"
+    },
+    {
+      "from": "label:\"Agent is blocked\"",
+      "to": "label:\"Agent 已被阻止\""
+    },
+    {
+      "from": "title:\"Agent is blocked\"",
+      "to": "title:\"Agent 已被阻止\""
+    },
+    {
+      "from": "description:\"Agent is blocked\"",
+      "to": "description:\"Agent 已被阻止\""
+    },
+    {
+      "from": "aria-label:\"Agent is blocked\"",
+      "to": "aria-label:\"Agent 已被阻止\""
+    },
+    {
+      "from": "Can't use Cursor",
+      "to": "无法使用 Cursor"
+    },
+    {
+      "from": "label:\"Can't use Cursor\"",
+      "to": "label:\"无法使用 Cursor\""
+    },
+    {
+      "from": "title:\"Can't use Cursor\"",
+      "to": "title:\"无法使用 Cursor\""
+    },
+    {
+      "from": "description:\"Can't use Cursor\"",
+      "to": "description:\"无法使用 Cursor\""
+    },
+    {
+      "from": "aria-label:\"Can't use Cursor\"",
+      "to": "aria-label:\"无法使用 Cursor\""
+    },
+    {
+      "from": "Cursor Changelog",
+      "to": "Cursor 更新日志"
+    },
+    {
+      "from": "label:\"Cursor Changelog\"",
+      "to": "label:\"Cursor 更新日志\""
+    },
+    {
+      "from": "title:\"Cursor Changelog\"",
+      "to": "title:\"Cursor 更新日志\""
+    },
+    {
+      "from": "description:\"Cursor Changelog\"",
+      "to": "description:\"Cursor 更新日志\""
+    },
+    {
+      "from": "aria-label:\"Cursor Changelog\"",
+      "to": "aria-label:\"Cursor 更新日志\""
+    },
+    {
+      "from": "Install a plugin",
+      "to": "安装插件"
+    },
+    {
+      "from": "label:\"Install a plugin\"",
+      "to": "label:\"安装插件\""
+    },
+    {
+      "from": "title:\"Install a plugin\"",
+      "to": "title:\"安装插件\""
+    },
+    {
+      "from": "description:\"Install a plugin\"",
+      "to": "description:\"安装插件\""
+    },
+    {
+      "from": "aria-label:\"Install a plugin\"",
+      "to": "aria-label:\"安装插件\""
+    },
+    {
+      "from": "MCP Notification",
+      "to": "MCP 通知"
+    },
+    {
+      "from": "label:\"MCP Notification\"",
+      "to": "label:\"MCP 通知\""
+    },
+    {
+      "from": "title:\"MCP Notification\"",
+      "to": "title:\"MCP 通知\""
+    },
+    {
+      "from": "description:\"MCP Notification\"",
+      "to": "description:\"MCP 通知\""
+    },
+    {
+      "from": "aria-label:\"MCP Notification\"",
+      "to": "aria-label:\"MCP 通知\""
+    },
+    {
+      "from": "No linked agents",
+      "to": "没有已关联的 Agent"
+    },
+    {
+      "from": "label:\"No linked agents\"",
+      "to": "label:\"没有已关联的 Agent\""
+    },
+    {
+      "from": "title:\"No linked agents\"",
+      "to": "title:\"没有已关联的 Agent\""
+    },
+    {
+      "from": "description:\"No linked agents\"",
+      "to": "description:\"没有已关联的 Agent\""
+    },
+    {
+      "from": "aria-label:\"No linked agents\"",
+      "to": "aria-label:\"没有已关联的 Agent\""
+    },
+    {
+      "from": "No plugins found",
+      "to": "未找到插件"
+    },
+    {
+      "from": "label:\"No plugins found\"",
+      "to": "label:\"未找到插件\""
+    },
+    {
+      "from": "title:\"No plugins found\"",
+      "to": "title:\"未找到插件\""
+    },
+    {
+      "from": "description:\"No plugins found\"",
+      "to": "description:\"未找到插件\""
+    },
+    {
+      "from": "aria-label:\"No plugins found\"",
+      "to": "aria-label:\"未找到插件\""
+    },
+    {
+      "from": "No Subagents Yet",
+      "to": "暂无子 Agent"
+    },
+    {
+      "from": "label:\"No Subagents Yet\"",
+      "to": "label:\"暂无子 Agent\""
+    },
+    {
+      "from": "title:\"No Subagents Yet\"",
+      "to": "title:\"暂无子 Agent\""
+    },
+    {
+      "from": "description:\"No Subagents Yet\"",
+      "to": "description:\"暂无子 Agent\""
+    },
+    {
+      "from": "aria-label:\"No Subagents Yet\"",
+      "to": "aria-label:\"暂无子 Agent\""
+    },
+    {
+      "from": "Search Agents...",
+      "to": "搜索 Agent..."
+    },
+    {
+      "from": "label:\"Search Agents...\"",
+      "to": "label:\"搜索 Agent...\""
+    },
+    {
+      "from": "title:\"Search Agents...\"",
+      "to": "title:\"搜索 Agent...\""
+    },
+    {
+      "from": "description:\"Search Agents...\"",
+      "to": "description:\"搜索 Agent...\""
+    },
+    {
+      "from": "aria-label:\"Search Agents...\"",
+      "to": "aria-label:\"搜索 Agent...\""
+    },
+    {
+      "from": "Agent unavailable",
+      "to": "Agent 不可用"
+    },
+    {
+      "from": "label:\"Agent unavailable\"",
+      "to": "label:\"Agent 不可用\""
+    },
+    {
+      "from": "title:\"Agent unavailable\"",
+      "to": "title:\"Agent 不可用\""
+    },
+    {
+      "from": "description:\"Agent unavailable\"",
+      "to": "description:\"Agent 不可用\""
+    },
+    {
+      "from": "aria-label:\"Agent unavailable\"",
+      "to": "aria-label:\"Agent 不可用\""
+    },
+    {
+      "from": "Create with Agent",
+      "to": "用 Agent 创建"
+    },
+    {
+      "from": "label:\"Create with Agent\"",
+      "to": "label:\"用 Agent 创建\""
+    },
+    {
+      "from": "title:\"Create with Agent\"",
+      "to": "title:\"用 Agent 创建\""
+    },
+    {
+      "from": "description:\"Create with Agent\"",
+      "to": "description:\"用 Agent 创建\""
+    },
+    {
+      "from": "aria-label:\"Create with Agent\"",
+      "to": "aria-label:\"用 Agent 创建\""
+    },
+    {
+      "from": "Created by Cursor",
+      "to": "由 Cursor 创建"
+    },
+    {
+      "from": "label:\"Created by Cursor\"",
+      "to": "label:\"由 Cursor 创建\""
+    },
+    {
+      "from": "title:\"Created by Cursor\"",
+      "to": "title:\"由 Cursor 创建\""
+    },
+    {
+      "from": "description:\"Created by Cursor\"",
+      "to": "description:\"由 Cursor 创建\""
+    },
+    {
+      "from": "aria-label:\"Created by Cursor\"",
+      "to": "aria-label:\"由 Cursor 创建\""
+    },
+    {
+      "from": "Hidden from agent",
+      "to": "对 Agent 隐藏"
+    },
+    {
+      "from": "label:\"Hidden from agent\"",
+      "to": "label:\"对 Agent 隐藏\""
+    },
+    {
+      "from": "title:\"Hidden from agent\"",
+      "to": "title:\"对 Agent 隐藏\""
+    },
+    {
+      "from": "description:\"Hidden from agent\"",
+      "to": "description:\"对 Agent 隐藏\""
+    },
+    {
+      "from": "aria-label:\"Hidden from agent\"",
+      "to": "aria-label:\"对 Agent 隐藏\""
+    },
+    {
+      "from": "New Composer Chat",
+      "to": "新建 Composer 对话"
+    },
+    {
+      "from": "label:\"New Composer Chat\"",
+      "to": "label:\"新建 Composer 对话\""
+    },
+    {
+      "from": "title:\"New Composer Chat\"",
+      "to": "title:\"新建 Composer 对话\""
+    },
+    {
+      "from": "description:\"New Composer Chat\"",
+      "to": "description:\"新建 Composer 对话\""
+    },
+    {
+      "from": "aria-label:\"New Composer Chat\"",
+      "to": "aria-label:\"新建 Composer 对话\""
+    },
+    {
+      "from": "Read MCP resource",
+      "to": "读取 MCP 资源"
+    },
+    {
+      "from": "label:\"Read MCP resource\"",
+      "to": "label:\"读取 MCP 资源\""
+    },
+    {
+      "from": "title:\"Read MCP resource\"",
+      "to": "title:\"读取 MCP 资源\""
+    },
+    {
+      "from": "description:\"Read MCP resource\"",
+      "to": "description:\"读取 MCP 资源\""
+    },
+    {
+      "from": "aria-label:\"Read MCP resource\"",
+      "to": "aria-label:\"读取 MCP 资源\""
+    },
+    {
+      "from": "Agent disconnected",
+      "to": "Agent 已断开"
+    },
+    {
+      "from": "label:\"Agent disconnected\"",
+      "to": "label:\"Agent 已断开\""
+    },
+    {
+      "from": "title:\"Agent disconnected\"",
+      "to": "title:\"Agent 已断开\""
+    },
+    {
+      "from": "description:\"Agent disconnected\"",
+      "to": "description:\"Agent 已断开\""
+    },
+    {
+      "from": "aria-label:\"Agent disconnected\"",
+      "to": "aria-label:\"Agent 已断开\""
+    },
+    {
+      "from": "Agent Instructions",
+      "to": "Agent 说明"
+    },
+    {
+      "from": "label:\"Agent Instructions\"",
+      "to": "label:\"Agent 说明\""
+    },
+    {
+      "from": "title:\"Agent Instructions\"",
+      "to": "title:\"Agent 说明\""
+    },
+    {
+      "from": "description:\"Agent Instructions\"",
+      "to": "description:\"Agent 说明\""
+    },
+    {
+      "from": "aria-label:\"Agent Instructions\"",
+      "to": "aria-label:\"Agent 说明\""
+    },
+    {
+      "from": "Copy worktree path",
+      "to": "复制工作树路径"
+    },
+    {
+      "from": "label:\"Copy worktree path\"",
+      "to": "label:\"复制工作树路径\""
+    },
+    {
+      "from": "title:\"Copy worktree path\"",
+      "to": "title:\"复制工作树路径\""
+    },
+    {
+      "from": "description:\"Copy worktree path\"",
+      "to": "description:\"复制工作树路径\""
+    },
+    {
+      "from": "aria-label:\"Copy worktree path\"",
+      "to": "aria-label:\"复制工作树路径\""
+    },
+    {
+      "from": "Get Cursor for iOS",
+      "to": "获取 Cursor iOS 版"
+    },
+    {
+      "from": "label:\"Get Cursor for iOS\"",
+      "to": "label:\"获取 Cursor iOS 版\""
+    },
+    {
+      "from": "title:\"Get Cursor for iOS\"",
+      "to": "title:\"获取 Cursor iOS 版\""
+    },
+    {
+      "from": "description:\"Get Cursor for iOS\"",
+      "to": "description:\"获取 Cursor iOS 版\""
+    },
+    {
+      "from": "aria-label:\"Get Cursor for iOS\"",
+      "to": "aria-label:\"获取 Cursor iOS 版\""
+    },
+    {
+      "from": "Loading plugins...",
+      "to": "正在加载插件..."
+    },
+    {
+      "from": "label:\"Loading plugins...\"",
+      "to": "label:\"正在加载插件...\""
+    },
+    {
+      "from": "title:\"Loading plugins...\"",
+      "to": "title:\"正在加载插件...\""
+    },
+    {
+      "from": "description:\"Loading plugins...\"",
+      "to": "description:\"正在加载插件...\""
+    },
+    {
+      "from": "aria-label:\"Loading plugins...\"",
+      "to": "aria-label:\"正在加载插件...\""
+    },
+    {
+      "from": "No matching agents",
+      "to": "没有匹配的 Agent"
+    },
+    {
+      "from": "label:\"No matching agents\"",
+      "to": "label:\"没有匹配的 Agent\""
+    },
+    {
+      "from": "title:\"No matching agents\"",
+      "to": "title:\"没有匹配的 Agent\""
+    },
+    {
+      "from": "description:\"No matching agents\"",
+      "to": "description:\"没有匹配的 Agent\""
+    },
+    {
+      "from": "aria-label:\"No matching agents\"",
+      "to": "aria-label:\"没有匹配的 Agent\""
+    },
+    {
+      "from": "No subagents found",
+      "to": "未找到子 Agent"
+    },
+    {
+      "from": "label:\"No subagents found\"",
+      "to": "label:\"未找到子 Agent\""
+    },
+    {
+      "from": "title:\"No subagents found\"",
+      "to": "title:\"未找到子 Agent\""
+    },
+    {
+      "from": "description:\"No subagents found\"",
+      "to": "description:\"未找到子 Agent\""
+    },
+    {
+      "from": "aria-label:\"No subagents found\"",
+      "to": "aria-label:\"未找到子 Agent\""
+    },
+    {
+      "from": "Use Cursor Browser",
+      "to": "使用 Cursor 浏览器"
+    },
+    {
+      "from": "label:\"Use Cursor Browser\"",
+      "to": "label:\"使用 Cursor 浏览器\""
+    },
+    {
+      "from": "title:\"Use Cursor Browser\"",
+      "to": "title:\"使用 Cursor 浏览器\""
+    },
+    {
+      "from": "description:\"Use Cursor Browser\"",
+      "to": "description:\"使用 Cursor 浏览器\""
+    },
+    {
+      "from": "aria-label:\"Use Cursor Browser\"",
+      "to": "aria-label:\"使用 Cursor 浏览器\""
+    },
+    {
+      "from": "Verified by Cursor",
+      "to": "已由 Cursor 验证"
+    },
+    {
+      "from": "label:\"Verified by Cursor\"",
+      "to": "label:\"已由 Cursor 验证\""
+    },
+    {
+      "from": "title:\"Verified by Cursor\"",
+      "to": "title:\"已由 Cursor 验证\""
+    },
+    {
+      "from": "description:\"Verified by Cursor\"",
+      "to": "description:\"已由 Cursor 验证\""
+    },
+    {
+      "from": "aria-label:\"Verified by Cursor\"",
+      "to": "aria-label:\"已由 Cursor 验证\""
+    },
+    {
+      "from": "Agent Conversations",
+      "to": "Agent 对话"
+    },
+    {
+      "from": "description:\"Agent Conversations\"",
+      "to": "description:\"Agent 对话\""
+    },
+    {
+      "from": "aria-label:\"Agent Conversations\"",
+      "to": "aria-label:\"Agent 对话\""
+    },
+    {
+      "from": "Cursor Pro Required",
+      "to": "需要 Cursor Pro"
+    },
+    {
+      "from": "label:\"Cursor Pro Required\"",
+      "to": "label:\"需要 Cursor Pro\""
+    },
+    {
+      "from": "title:\"Cursor Pro Required\"",
+      "to": "title:\"需要 Cursor Pro\""
+    },
+    {
+      "from": "description:\"Cursor Pro Required\"",
+      "to": "description:\"需要 Cursor Pro\""
+    },
+    {
+      "from": "aria-label:\"Cursor Pro Required\"",
+      "to": "aria-label:\"需要 Cursor Pro\""
+    },
+    {
+      "from": "Install MCP server?",
+      "to": "安装 MCP 服务器？"
+    },
+    {
+      "from": "label:\"Install MCP server?\"",
+      "to": "label:\"安装 MCP 服务器？\""
+    },
+    {
+      "from": "title:\"Install MCP server?\"",
+      "to": "title:\"安装 MCP 服务器？\""
+    },
+    {
+      "from": "description:\"Install MCP server?\"",
+      "to": "description:\"安装 MCP 服务器？\""
+    },
+    {
+      "from": "aria-label:\"Install MCP server?\"",
+      "to": "aria-label:\"安装 MCP 服务器？\""
+    },
+    {
+      "from": "No skills available",
+      "to": "暂无可用技能"
+    },
+    {
+      "from": "label:\"No skills available\"",
+      "to": "label:\"暂无可用技能\""
+    },
+    {
+      "from": "title:\"No skills available\"",
+      "to": "title:\"暂无可用技能\""
+    },
+    {
+      "from": "description:\"No skills available\"",
+      "to": "description:\"暂无可用技能\""
+    },
+    {
+      "from": "aria-label:\"No skills available\"",
+      "to": "aria-label:\"暂无可用技能\""
+    },
+    {
+      "from": "Plugin Installation",
+      "to": "插件安装"
+    },
+    {
+      "from": "label:\"Plugin Installation\"",
+      "to": "label:\"插件安装\""
+    },
+    {
+      "from": "title:\"Plugin Installation\"",
+      "to": "title:\"插件安装\""
+    },
+    {
+      "from": "description:\"Plugin Installation\"",
+      "to": "description:\"插件安装\""
+    },
+    {
+      "from": "aria-label:\"Plugin Installation\"",
+      "to": "aria-label:\"插件安装\""
+    },
+    {
+      "from": "Error loading plugin",
+      "to": "加载插件出错"
+    },
+    {
+      "from": "label:\"Error loading plugin\"",
+      "to": "label:\"加载插件出错\""
+    },
+    {
+      "from": "title:\"Error loading plugin\"",
+      "to": "title:\"加载插件出错\""
+    },
+    {
+      "from": "description:\"Error loading plugin\"",
+      "to": "description:\"加载插件出错\""
+    },
+    {
+      "from": "aria-label:\"Error loading plugin\"",
+      "to": "aria-label:\"加载插件出错\""
+    },
+    {
+      "from": "MCP Tools Protection",
+      "to": "MCP 工具保护"
+    },
+    {
+      "from": "label:\"MCP Tools Protection\"",
+      "to": "label:\"MCP 工具保护\""
+    },
+    {
+      "from": "title:\"MCP Tools Protection\"",
+      "to": "title:\"MCP 工具保护\""
+    },
+    {
+      "from": "description:\"MCP Tools Protection\"",
+      "to": "description:\"MCP 工具保护\""
+    },
+    {
+      "from": "aria-label:\"MCP Tools Protection\"",
+      "to": "aria-label:\"MCP 工具保护\""
+    },
+    {
+      "from": "New Agent with Model",
+      "to": "使用指定模型新建 Agent"
+    },
+    {
+      "from": "label:\"New Agent with Model\"",
+      "to": "label:\"使用指定模型新建 Agent\""
+    },
+    {
+      "from": "description:\"New Agent with Model\"",
+      "to": "description:\"使用指定模型新建 Agent\""
+    },
+    {
+      "from": "aria-label:\"New Agent with Model\"",
+      "to": "aria-label:\"使用指定模型新建 Agent\""
+    },
+    {
+      "from": "New Agent with Query",
+      "to": "使用指定问题新建 Agent"
+    },
+    {
+      "from": "label:\"New Agent with Query\"",
+      "to": "label:\"使用指定问题新建 Agent\""
+    },
+    {
+      "from": "description:\"New Agent with Query\"",
+      "to": "description:\"使用指定问题新建 Agent\""
+    },
+    {
+      "from": "aria-label:\"New Agent with Query\"",
+      "to": "aria-label:\"使用指定问题新建 Agent\""
+    },
+    {
+      "from": "Configure local agent",
+      "to": "配置本地 Agent"
+    },
+    {
+      "from": "label:\"Configure local agent\"",
+      "to": "label:\"配置本地 Agent\""
+    },
+    {
+      "from": "title:\"Configure local agent\"",
+      "to": "title:\"配置本地 Agent\""
+    },
+    {
+      "from": "description:\"Configure local agent\"",
+      "to": "description:\"配置本地 Agent\""
+    },
+    {
+      "from": "aria-label:\"Configure local agent\"",
+      "to": "aria-label:\"配置本地 Agent\""
+    },
+    {
+      "from": "No recent agents yet.",
+      "to": "还没有最近的 Agent。"
+    },
+    {
+      "from": "label:\"No recent agents yet.\"",
+      "to": "label:\"还没有最近的 Agent。\""
+    },
+    {
+      "from": "title:\"No recent agents yet.\"",
+      "to": "title:\"还没有最近的 Agent。\""
+    },
+    {
+      "from": "description:\"No recent agents yet.\"",
+      "to": "description:\"还没有最近的 Agent。\""
+    },
+    {
+      "from": "aria-label:\"No recent agents yet.\"",
+      "to": "aria-label:\"还没有最近的 Agent。\""
+    },
+    {
+      "from": "Search MCP servers...",
+      "to": "搜索 MCP 服务器..."
+    },
+    {
+      "from": "label:\"Search MCP servers...\"",
+      "to": "label:\"搜索 MCP 服务器...\""
+    },
+    {
+      "from": "title:\"Search MCP servers...\"",
+      "to": "title:\"搜索 MCP 服务器...\""
+    },
+    {
+      "from": "description:\"Search MCP servers...\"",
+      "to": "description:\"搜索 MCP 服务器...\""
+    },
+    {
+      "from": "aria-label:\"Search MCP servers...\"",
+      "to": "aria-label:\"搜索 MCP 服务器...\""
+    },
+    {
+      "from": "Agent stopped retrying",
+      "to": "Agent 已停止重试"
+    },
+    {
+      "from": "label:\"Agent stopped retrying\"",
+      "to": "label:\"Agent 已停止重试\""
+    },
+    {
+      "from": "title:\"Agent stopped retrying\"",
+      "to": "title:\"Agent 已停止重试\""
+    },
+    {
+      "from": "description:\"Agent stopped retrying\"",
+      "to": "description:\"Agent 已停止重试\""
+    },
+    {
+      "from": "aria-label:\"Agent stopped retrying\"",
+      "to": "aria-label:\"Agent 已停止重试\""
+    },
+    {
+      "from": "Loading team agents...",
+      "to": "正在加载团队 Agent..."
+    },
+    {
+      "from": "label:\"Loading team agents...\"",
+      "to": "label:\"正在加载团队 Agent...\""
+    },
+    {
+      "from": "title:\"Loading team agents...\"",
+      "to": "title:\"正在加载团队 Agent...\""
+    },
+    {
+      "from": "description:\"Loading team agents...\"",
+      "to": "description:\"正在加载团队 Agent...\""
+    },
+    {
+      "from": "aria-label:\"Loading team agents...\"",
+      "to": "aria-label:\"正在加载团队 Agent...\""
+    },
+    {
+      "from": "New Agent with Context",
+      "to": "带上下文新建 Agent"
+    },
+    {
+      "from": "label:\"New Agent with Context\"",
+      "to": "label:\"带上下文新建 Agent\""
+    },
+    {
+      "from": "description:\"New Agent with Context\"",
+      "to": "description:\"带上下文新建 Agent\""
+    },
+    {
+      "from": "aria-label:\"New Agent with Context\"",
+      "to": "aria-label:\"带上下文新建 Agent\""
+    },
+    {
+      "from": "Open Composer Settings",
+      "to": "打开 Composer 设置"
+    },
+    {
+      "from": "label:\"Open Composer Settings\"",
+      "to": "label:\"打开 Composer 设置\""
+    },
+    {
+      "from": "title:\"Open Composer Settings\"",
+      "to": "title:\"打开 Composer 设置\""
+    },
+    {
+      "from": "description:\"Open Composer Settings\"",
+      "to": "description:\"打开 Composer 设置\""
+    },
+    {
+      "from": "aria-label:\"Open Composer Settings\"",
+      "to": "aria-label:\"打开 Composer 设置\""
+    },
+    {
+      "from": "Add a Custom MCP Server",
+      "to": "添加自定义 MCP 服务器"
+    },
+    {
+      "from": "label:\"Add a Custom MCP Server\"",
+      "to": "label:\"添加自定义 MCP 服务器\""
+    },
+    {
+      "from": "title:\"Add a Custom MCP Server\"",
+      "to": "title:\"添加自定义 MCP 服务器\""
+    },
+    {
+      "from": "description:\"Add a Custom MCP Server\"",
+      "to": "description:\"添加自定义 MCP 服务器\""
+    },
+    {
+      "from": "aria-label:\"Add a Custom MCP Server\"",
+      "to": "aria-label:\"添加自定义 MCP 服务器\""
+    },
+    {
+      "from": "Add File to Cursor Chat",
+      "to": "将文件添加到 Cursor 对话"
+    },
+    {
+      "from": "label:\"Add File to Cursor Chat\"",
+      "to": "label:\"将文件添加到 Cursor 对话\""
+    },
+    {
+      "from": "title:\"Add File to Cursor Chat\"",
+      "to": "title:\"将文件添加到 Cursor 对话\""
+    },
+    {
+      "from": "description:\"Add File to Cursor Chat\"",
+      "to": "description:\"将文件添加到 Cursor 对话\""
+    },
+    {
+      "from": "aria-label:\"Add File to Cursor Chat\"",
+      "to": "aria-label:\"将文件添加到 Cursor 对话\""
+    },
+    {
+      "from": "Add your own MCP server",
+      "to": "添加你自己的 MCP 服务器"
+    },
+    {
+      "from": "label:\"Add your own MCP server\"",
+      "to": "label:\"添加你自己的 MCP 服务器\""
+    },
+    {
+      "from": "title:\"Add your own MCP server\"",
+      "to": "title:\"添加你自己的 MCP 服务器\""
+    },
+    {
+      "from": "description:\"Add your own MCP server\"",
+      "to": "description:\"添加你自己的 MCP 服务器\""
+    },
+    {
+      "from": "aria-label:\"Add your own MCP server\"",
+      "to": "aria-label:\"添加你自己的 MCP 服务器\""
+    },
+    {
+      "from": "Get started with Cursor",
+      "to": "开始使用 Cursor"
+    },
+    {
+      "from": "label:\"Get started with Cursor\"",
+      "to": "label:\"开始使用 Cursor\""
+    },
+    {
+      "from": "title:\"Get started with Cursor\"",
+      "to": "title:\"开始使用 Cursor\""
+    },
+    {
+      "from": "description:\"Get started with Cursor\"",
+      "to": "description:\"开始使用 Cursor\""
+    },
+    {
+      "from": "aria-label:\"Get started with Cursor\"",
+      "to": "aria-label:\"开始使用 Cursor\""
+    },
+    {
+      "from": "Get started with Cursor.",
+      "to": "开始使用 Cursor。"
+    },
+    {
+      "from": "label:\"Get started with Cursor.\"",
+      "to": "label:\"开始使用 Cursor。\""
+    },
+    {
+      "from": "title:\"Get started with Cursor.\"",
+      "to": "title:\"开始使用 Cursor。\""
+    },
+    {
+      "from": "description:\"Get started with Cursor.\"",
+      "to": "description:\"开始使用 Cursor。\""
+    },
+    {
+      "from": "aria-label:\"Get started with Cursor.\"",
+      "to": "aria-label:\"开始使用 Cursor。\""
+    },
+    {
+      "from": "Review Code with Bugbot",
+      "to": "用 Bugbot 审查代码"
+    },
+    {
+      "from": "label:\"Review Code with Bugbot\"",
+      "to": "label:\"用 Bugbot 审查代码\""
+    },
+    {
+      "from": "title:\"Review Code with Bugbot\"",
+      "to": "title:\"用 Bugbot 审查代码\""
+    },
+    {
+      "from": "description:\"Review Code with Bugbot\"",
+      "to": "description:\"用 Bugbot 审查代码\""
+    },
+    {
+      "from": "aria-label:\"Review Code with Bugbot\"",
+      "to": "aria-label:\"用 Bugbot 审查代码\""
+    },
+    {
+      "from": "Could Not Load Subagents",
+      "to": "无法加载子 Agent"
+    },
+    {
+      "from": "label:\"Could Not Load Subagents\"",
+      "to": "label:\"无法加载子 Agent\""
+    },
+    {
+      "from": "title:\"Could Not Load Subagents\"",
+      "to": "title:\"无法加载子 Agent\""
+    },
+    {
+      "from": "description:\"Could Not Load Subagents\"",
+      "to": "description:\"无法加载子 Agent\""
+    },
+    {
+      "from": "aria-label:\"Could Not Load Subagents\"",
+      "to": "aria-label:\"无法加载子 Agent\""
+    },
+    {
+      "from": "No agents matching filter",
+      "to": "没有符合筛选条件的 Agent"
+    },
+    {
+      "from": "label:\"No agents matching filter\"",
+      "to": "label:\"没有符合筛选条件的 Agent\""
+    },
+    {
+      "from": "title:\"No agents matching filter\"",
+      "to": "title:\"没有符合筛选条件的 Agent\""
+    },
+    {
+      "from": "description:\"No agents matching filter\"",
+      "to": "description:\"没有符合筛选条件的 Agent\""
+    },
+    {
+      "from": "aria-label:\"No agents matching filter\"",
+      "to": "aria-label:\"没有符合筛选条件的 Agent\""
+    },
+    {
+      "from": "Open terminal in worktree",
+      "to": "在工作树中打开终端"
+    },
+    {
+      "from": "label:\"Open terminal in worktree\"",
+      "to": "label:\"在工作树中打开终端\""
+    },
+    {
+      "from": "title:\"Open terminal in worktree\"",
+      "to": "title:\"在工作树中打开终端\""
+    },
+    {
+      "from": "description:\"Open terminal in worktree\"",
+      "to": "description:\"在工作树中打开终端\""
+    },
+    {
+      "from": "aria-label:\"Open terminal in worktree\"",
+      "to": "aria-label:\"在工作树中打开终端\""
+    },
+    {
+      "from": "Add a plugin to this agent",
+      "to": "为此 Agent 添加插件"
+    },
+    {
+      "from": "label:\"Add a plugin to this agent\"",
+      "to": "label:\"为此 Agent 添加插件\""
+    },
+    {
+      "from": "title:\"Add a plugin to this agent\"",
+      "to": "title:\"为此 Agent 添加插件\""
+    },
+    {
+      "from": "description:\"Add a plugin to this agent\"",
+      "to": "description:\"为此 Agent 添加插件\""
+    },
+    {
+      "from": "aria-label:\"Add a plugin to this agent\"",
+      "to": "aria-label:\"为此 Agent 添加插件\""
+    },
+    {
+      "from": "Delegate Work to Subagents",
+      "to": "将工作委派给子 Agent"
+    },
+    {
+      "from": "label:\"Delegate Work to Subagents\"",
+      "to": "label:\"将工作委派给子 Agent\""
+    },
+    {
+      "from": "title:\"Delegate Work to Subagents\"",
+      "to": "title:\"将工作委派给子 Agent\""
+    },
+    {
+      "from": "description:\"Delegate Work to Subagents\"",
+      "to": "description:\"将工作委派给子 Agent\""
+    },
+    {
+      "from": "aria-label:\"Delegate Work to Subagents\"",
+      "to": "aria-label:\"将工作委派给子 Agent\""
+    },
+    {
+      "from": "No MCP resources available",
+      "to": "暂无可用的 MCP 资源"
+    },
+    {
+      "from": "label:\"No MCP resources available\"",
+      "to": "label:\"暂无可用的 MCP 资源\""
+    },
+    {
+      "from": "title:\"No MCP resources available\"",
+      "to": "title:\"暂无可用的 MCP 资源\""
+    },
+    {
+      "from": "description:\"No MCP resources available\"",
+      "to": "description:\"暂无可用的 MCP 资源\""
+    },
+    {
+      "from": "aria-label:\"No MCP resources available\"",
+      "to": "aria-label:\"暂无可用的 MCP 资源\""
+    },
+    {
+      "from": "Select a local plugin repo",
+      "to": "选择本地插件仓库"
+    },
+    {
+      "from": "label:\"Select a local plugin repo\"",
+      "to": "label:\"选择本地插件仓库\""
+    },
+    {
+      "from": "title:\"Select a local plugin repo\"",
+      "to": "title:\"选择本地插件仓库\""
+    },
+    {
+      "from": "description:\"Select a local plugin repo\"",
+      "to": "description:\"选择本地插件仓库\""
+    },
+    {
+      "from": "aria-label:\"Select a local plugin repo\"",
+      "to": "aria-label:\"选择本地插件仓库\""
+    },
+    {
+      "from": "Add an agent to get started",
+      "to": "添加 Agent 以开始使用"
+    },
+    {
+      "from": "label:\"Add an agent to get started\"",
+      "to": "label:\"添加 Agent 以开始使用\""
+    },
+    {
+      "from": "title:\"Add an agent to get started\"",
+      "to": "title:\"添加 Agent 以开始使用\""
+    },
+    {
+      "from": "description:\"Add an agent to get started\"",
+      "to": "description:\"添加 Agent 以开始使用\""
+    },
+    {
+      "from": "aria-label:\"Add an agent to get started\"",
+      "to": "aria-label:\"添加 Agent 以开始使用\""
+    },
+    {
+      "from": "Add File to New Cursor Chat",
+      "to": "将文件添加到新的 Cursor 对话"
+    },
+    {
+      "from": "label:\"Add File to New Cursor Chat\"",
+      "to": "label:\"将文件添加到新的 Cursor 对话\""
+    },
+    {
+      "from": "title:\"Add File to New Cursor Chat\"",
+      "to": "title:\"将文件添加到新的 Cursor 对话\""
+    },
+    {
+      "from": "description:\"Add File to New Cursor Chat\"",
+      "to": "description:\"将文件添加到新的 Cursor 对话\""
+    },
+    {
+      "from": "aria-label:\"Add File to New Cursor Chat\"",
+      "to": "aria-label:\"将文件添加到新的 Cursor 对话\""
+    },
+    {
+      "from": "Agent Decides When to Apply",
+      "to": "由 Agent 决定何时应用"
+    },
+    {
+      "from": "label:\"Agent Decides When to Apply\"",
+      "to": "label:\"由 Agent 决定何时应用\""
+    },
+    {
+      "from": "title:\"Agent Decides When to Apply\"",
+      "to": "title:\"由 Agent 决定何时应用\""
+    },
+    {
+      "from": "description:\"Agent Decides When to Apply\"",
+      "to": "description:\"由 Agent 决定何时应用\""
+    },
+    {
+      "from": "aria-label:\"Agent Decides When to Apply\"",
+      "to": "aria-label:\"由 Agent 决定何时应用\""
+    },
+    {
+      "from": "Loading cloud agent data...",
+      "to": "正在加载云端 Agent 数据..."
+    },
+    {
+      "from": "label:\"Loading cloud agent data...\"",
+      "to": "label:\"正在加载云端 Agent 数据...\""
+    },
+    {
+      "from": "title:\"Loading cloud agent data...\"",
+      "to": "title:\"正在加载云端 Agent 数据...\""
+    },
+    {
+      "from": "description:\"Loading cloud agent data...\"",
+      "to": "description:\"正在加载云端 Agent 数据...\""
+    },
+    {
+      "from": "aria-label:\"Loading cloud agent data...\"",
+      "to": "aria-label:\"正在加载云端 Agent 数据...\""
+    },
+    {
+      "from": "Stop Agent and send message",
+      "to": "停止 Agent 并发送消息"
+    },
+    {
+      "from": "label:\"Stop Agent and send message\"",
+      "to": "label:\"停止 Agent 并发送消息\""
+    },
+    {
+      "from": "title:\"Stop Agent and send message\"",
+      "to": "title:\"停止 Agent 并发送消息\""
+    },
+    {
+      "from": "description:\"Stop Agent and send message\"",
+      "to": "description:\"停止 Agent 并发送消息\""
+    },
+    {
+      "from": "aria-label:\"Stop Agent and send message\"",
+      "to": "aria-label:\"停止 Agent 并发送消息\""
+    },
+    {
+      "from": "Add Agents & Project Context",
+      "to": "添加 Agent 与项目上下文"
+    },
+    {
+      "from": "label:\"Add Agents & Project Context\"",
+      "to": "label:\"添加 Agent 与项目上下文\""
+    },
+    {
+      "from": "title:\"Add Agents & Project Context\"",
+      "to": "title:\"添加 Agent 与项目上下文\""
+    },
+    {
+      "from": "description:\"Add Agents & Project Context\"",
+      "to": "description:\"添加 Agent 与项目上下文\""
+    },
+    {
+      "from": "aria-label:\"Add Agents & Project Context\"",
+      "to": "aria-label:\"添加 Agent 与项目上下文\""
+    },
+    {
+      "from": "Add Directory to Cursor Chat",
+      "to": "将目录添加到 Cursor 对话"
+    },
+    {
+      "from": "label:\"Add Directory to Cursor Chat\"",
+      "to": "label:\"将目录添加到 Cursor 对话\""
+    },
+    {
+      "from": "title:\"Add Directory to Cursor Chat\"",
+      "to": "title:\"将目录添加到 Cursor 对话\""
+    },
+    {
+      "from": "description:\"Add Directory to Cursor Chat\"",
+      "to": "description:\"将目录添加到 Cursor 对话\""
+    },
+    {
+      "from": "aria-label:\"Add Directory to Cursor Chat\"",
+      "to": "aria-label:\"将目录添加到 Cursor 对话\""
+    },
+    {
+      "from": "Switch where this agent runs",
+      "to": "切换此 Agent 的运行位置"
+    },
+    {
+      "from": "label:\"Switch where this agent runs\"",
+      "to": "label:\"切换此 Agent 的运行位置\""
+    },
+    {
+      "from": "title:\"Switch where this agent runs\"",
+      "to": "title:\"切换此 Agent 的运行位置\""
+    },
+    {
+      "from": "description:\"Switch where this agent runs\"",
+      "to": "description:\"切换此 Agent 的运行位置\""
+    },
+    {
+      "from": "aria-label:\"Switch where this agent runs\"",
+      "to": "aria-label:\"切换此 Agent 的运行位置\""
+    },
+    {
+      "from": "Add agents, context, tools...",
+      "to": "添加 Agent、上下文、工具..."
+    },
+    {
+      "from": "label:\"Add agents, context, tools...\"",
+      "to": "label:\"添加 Agent、上下文、工具...\""
+    },
+    {
+      "from": "title:\"Add agents, context, tools...\"",
+      "to": "title:\"添加 Agent、上下文、工具...\""
+    },
+    {
+      "from": "description:\"Add agents, context, tools...\"",
+      "to": "description:\"添加 Agent、上下文、工具...\""
+    },
+    {
+      "from": "aria-label:\"Add agents, context, tools...\"",
+      "to": "aria-label:\"添加 Agent、上下文、工具...\""
+    },
+    {
+      "from": "Choose Explore subagent model",
+      "to": "选择 Explore 子 Agent 模型"
+    },
+    {
+      "from": "label:\"Choose Explore subagent model\"",
+      "to": "label:\"选择 Explore 子 Agent 模型\""
+    },
+    {
+      "from": "title:\"Choose Explore subagent model\"",
+      "to": "title:\"选择 Explore 子 Agent 模型\""
+    },
+    {
+      "from": "description:\"Choose Explore subagent model\"",
+      "to": "description:\"选择 Explore 子 Agent 模型\""
+    },
+    {
+      "from": "aria-label:\"Choose Explore subagent model\"",
+      "to": "aria-label:\"选择 Explore 子 Agent 模型\""
+    },
+    {
+      "from": "Not in Cursor Enterprise team",
+      "to": "不属于 Cursor 企业版团队"
+    },
+    {
+      "from": "label:\"Not in Cursor Enterprise team\"",
+      "to": "label:\"不属于 Cursor 企业版团队\""
+    },
+    {
+      "from": "title:\"Not in Cursor Enterprise team\"",
+      "to": "title:\"不属于 Cursor 企业版团队\""
+    },
+    {
+      "from": "description:\"Not in Cursor Enterprise team\"",
+      "to": "description:\"不属于 Cursor 企业版团队\""
+    },
+    {
+      "from": "aria-label:\"Not in Cursor Enterprise team\"",
+      "to": "aria-label:\"不属于 Cursor 企业版团队\""
+    },
+    {
+      "from": "Uninstall an installed plugin",
+      "to": "卸载已安装的插件"
+    },
+    {
+      "from": "label:\"Uninstall an installed plugin\"",
+      "to": "label:\"卸载已安装的插件\""
+    },
+    {
+      "from": "title:\"Uninstall an installed plugin\"",
+      "to": "title:\"卸载已安装的插件\""
+    },
+    {
+      "from": "description:\"Uninstall an installed plugin\"",
+      "to": "description:\"卸载已安装的插件\""
+    },
+    {
+      "from": "aria-label:\"Uninstall an installed plugin\"",
+      "to": "aria-label:\"卸载已安装的插件\""
+    },
+    {
+      "from": "Open a pull request in Cursor.",
+      "to": "在 Cursor 中打开拉取请求。"
+    },
+    {
+      "from": "label:\"Open a pull request in Cursor.\"",
+      "to": "label:\"在 Cursor 中打开拉取请求。\""
+    },
+    {
+      "from": "title:\"Open a pull request in Cursor.\"",
+      "to": "title:\"在 Cursor 中打开拉取请求。\""
+    },
+    {
+      "from": "description:\"Open a pull request in Cursor.\"",
+      "to": "description:\"在 Cursor 中打开拉取请求。\""
+    },
+    {
+      "from": "aria-label:\"Open a pull request in Cursor.\"",
+      "to": "aria-label:\"在 Cursor 中打开拉取请求。\""
+    },
+    {
+      "from": "Reset this pane to a new agent",
+      "to": "将此窗格重置为新 Agent"
+    },
+    {
+      "from": "label:\"Reset this pane to a new agent\"",
+      "to": "label:\"将此窗格重置为新 Agent\""
+    },
+    {
+      "from": "title:\"Reset this pane to a new agent\"",
+      "to": "title:\"将此窗格重置为新 Agent\""
+    },
+    {
+      "from": "description:\"Reset this pane to a new agent\"",
+      "to": "description:\"将此窗格重置为新 Agent\""
+    },
+    {
+      "from": "aria-label:\"Reset this pane to a new agent\"",
+      "to": "aria-label:\"将此窗格重置为新 Agent\""
+    },
+    {
+      "from": "Loading plugin configuration...",
+      "to": "正在加载插件配置..."
+    },
+    {
+      "from": "label:\"Loading plugin configuration...\"",
+      "to": "label:\"正在加载插件配置...\""
+    },
+    {
+      "from": "title:\"Loading plugin configuration...\"",
+      "to": "title:\"正在加载插件配置...\""
+    },
+    {
+      "from": "description:\"Loading plugin configuration...\"",
+      "to": "description:\"正在加载插件配置...\""
+    },
+    {
+      "from": "aria-label:\"Loading plugin configuration...\"",
+      "to": "aria-label:\"正在加载插件配置...\""
+    },
+    {
+      "from": "Model to use for subagent tasks",
+      "to": "子 Agent 任务使用的模型"
+    },
+    {
+      "from": "label:\"Model to use for subagent tasks\"",
+      "to": "label:\"子 Agent 任务使用的模型\""
+    },
+    {
+      "from": "title:\"Model to use for subagent tasks\"",
+      "to": "title:\"子 Agent 任务使用的模型\""
+    },
+    {
+      "from": "description:\"Model to use for subagent tasks\"",
+      "to": "description:\"子 Agent 任务使用的模型\""
+    },
+    {
+      "from": "aria-label:\"Model to use for subagent tasks\"",
+      "to": "aria-label:\"子 Agent 任务使用的模型\""
+    },
+    {
+      "from": "Remove a plugin from this agent",
+      "to": "从此 Agent 移除插件"
+    },
+    {
+      "from": "label:\"Remove a plugin from this agent\"",
+      "to": "label:\"从此 Agent 移除插件\""
+    },
+    {
+      "from": "title:\"Remove a plugin from this agent\"",
+      "to": "title:\"从此 Agent 移除插件\""
+    },
+    {
+      "from": "description:\"Remove a plugin from this agent\"",
+      "to": "description:\"从此 Agent 移除插件\""
+    },
+    {
+      "from": "aria-label:\"Remove a plugin from this agent\"",
+      "to": "aria-label:\"从此 Agent 移除插件\""
+    },
+    {
+      "from": "Add Directory to New Cursor Chat",
+      "to": "将目录添加到新的 Cursor 对话"
+    },
+    {
+      "from": "label:\"Add Directory to New Cursor Chat\"",
+      "to": "label:\"将目录添加到新的 Cursor 对话\""
+    },
+    {
+      "from": "title:\"Add Directory to New Cursor Chat\"",
+      "to": "title:\"将目录添加到新的 Cursor 对话\""
+    },
+    {
+      "from": "description:\"Add Directory to New Cursor Chat\"",
+      "to": "description:\"将目录添加到新的 Cursor 对话\""
+    },
+    {
+      "from": "aria-label:\"Add Directory to New Cursor Chat\"",
+      "to": "aria-label:\"将目录添加到新的 Cursor 对话\""
+    },
+    {
+      "from": "Your personal cloud MCP servers.",
+      "to": "你的个人云端 MCP 服务器。"
+    },
+    {
+      "from": "label:\"Your personal cloud MCP servers.\"",
+      "to": "label:\"你的个人云端 MCP 服务器。\""
+    },
+    {
+      "from": "title:\"Your personal cloud MCP servers.\"",
+      "to": "title:\"你的个人云端 MCP 服务器。\""
+    },
+    {
+      "from": "description:\"Your personal cloud MCP servers.\"",
+      "to": "description:\"你的个人云端 MCP 服务器。\""
+    },
+    {
+      "from": "aria-label:\"Your personal cloud MCP servers.\"",
+      "to": "aria-label:\"你的个人云端 MCP 服务器。\""
+    },
+    {
+      "from": "Create rules to guide Agent behavior",
+      "to": "创建规则以引导 Agent 行为"
+    },
+    {
+      "from": "label:\"Create rules to guide Agent behavior\"",
+      "to": "label:\"创建规则以引导 Agent 行为\""
+    },
+    {
+      "from": "title:\"Create rules to guide Agent behavior\"",
+      "to": "title:\"创建规则以引导 Agent 行为\""
+    },
+    {
+      "from": "description:\"Create rules to guide Agent behavior\"",
+      "to": "description:\"创建规则以引导 Agent 行为\""
+    },
+    {
+      "from": "aria-label:\"Create rules to guide Agent behavior\"",
+      "to": "aria-label:\"创建规则以引导 Agent 行为\""
+    },
+    {
+      "from": "Enable Run Everything for this agent",
+      "to": "为此 Agent 启用全部自动运行"
+    },
+    {
+      "from": "label:\"Enable Run Everything for this agent\"",
+      "to": "label:\"为此 Agent 启用全部自动运行\""
+    },
+    {
+      "from": "title:\"Enable Run Everything for this agent\"",
+      "to": "title:\"为此 Agent 启用全部自动运行\""
+    },
+    {
+      "from": "description:\"Enable Run Everything for this agent\"",
+      "to": "description:\"为此 Agent 启用全部自动运行\""
+    },
+    {
+      "from": "aria-label:\"Enable Run Everything for this agent\"",
+      "to": "aria-label:\"为此 Agent 启用全部自动运行\""
+    },
+    {
+      "from": "Request an agent to review your code",
+      "to": "请求 Agent 审查你的代码"
+    },
+    {
+      "from": "label:\"Request an agent to review your code\"",
+      "to": "label:\"请求 Agent 审查你的代码\""
+    },
+    {
+      "from": "title:\"Request an agent to review your code\"",
+      "to": "title:\"请求 Agent 审查你的代码\""
+    },
+    {
+      "from": "description:\"Request an agent to review your code\"",
+      "to": "description:\"请求 Agent 审查你的代码\""
+    },
+    {
+      "from": "aria-label:\"Request an agent to review your code\"",
+      "to": "aria-label:\"请求 Agent 审查你的代码\""
+    },
+    {
+      "from": "Run this agent in a new git worktree",
+      "to": "在新的 Git 工作树中运行此 Agent"
+    },
+    {
+      "from": "label:\"Run this agent in a new git worktree\"",
+      "to": "label:\"在新的 Git 工作树中运行此 Agent\""
+    },
+    {
+      "from": "title:\"Run this agent in a new git worktree\"",
+      "to": "title:\"在新的 Git 工作树中运行此 Agent\""
+    },
+    {
+      "from": "description:\"Run this agent in a new git worktree\"",
+      "to": "description:\"在新的 Git 工作树中运行此 Agent\""
+    },
+    {
+      "from": "aria-label:\"Run this agent in a new git worktree\"",
+      "to": "aria-label:\"在新的 Git 工作树中运行此 Agent\""
+    },
+    {
+      "from": "Run this agent in a new SSH worktree",
+      "to": "在新的 SSH 工作树中运行此 Agent"
+    },
+    {
+      "from": "label:\"Run this agent in a new SSH worktree\"",
+      "to": "label:\"在新的 SSH 工作树中运行此 Agent\""
+    },
+    {
+      "from": "title:\"Run this agent in a new SSH worktree\"",
+      "to": "title:\"在新的 SSH 工作树中运行此 Agent\""
+    },
+    {
+      "from": "description:\"Run this agent in a new SSH worktree\"",
+      "to": "description:\"在新的 SSH 工作树中运行此 Agent\""
+    },
+    {
+      "from": "aria-label:\"Run this agent in a new SSH worktree\"",
+      "to": "aria-label:\"在新的 SSH 工作树中运行此 Agent\""
+    },
+    {
+      "from": "Unlock 3x more usage on Agent & more",
+      "to": "解锁 Agent 3 倍用量及其他权益"
+    },
+    {
+      "from": "label:\"Unlock 3x more usage on Agent & more\"",
+      "to": "label:\"解锁 Agent 3 倍用量及其他权益\""
+    },
+    {
+      "from": "title:\"Unlock 3x more usage on Agent & more\"",
+      "to": "title:\"解锁 Agent 3 倍用量及其他权益\""
+    },
+    {
+      "from": "description:\"Unlock 3x more usage on Agent & more\"",
+      "to": "description:\"解锁 Agent 3 倍用量及其他权益\""
+    },
+    {
+      "from": "aria-label:\"Unlock 3x more usage on Agent & more\"",
+      "to": "aria-label:\"解锁 Agent 3 倍用量及其他权益\""
+    },
+    {
+      "from": "What model new agents use by default",
+      "to": "新 Agent 默认使用的模型"
+    },
+    {
+      "from": "label:\"What model new agents use by default\"",
+      "to": "label:\"新 Agent 默认使用的模型\""
+    },
+    {
+      "from": "title:\"What model new agents use by default\"",
+      "to": "title:\"新 Agent 默认使用的模型\""
+    },
+    {
+      "from": "description:\"What model new agents use by default\"",
+      "to": "description:\"新 Agent 默认使用的模型\""
+    },
+    {
+      "from": "aria-label:\"What model new agents use by default\"",
+      "to": "aria-label:\"新 Agent 默认使用的模型\""
+    },
+    {
+      "from": "Ask follow-ups to the Cloud Agent...",
+      "to": "向云端 Agent 发送后续问题..."
+    },
+    {
+      "from": "label:\"Ask follow-ups to the Cloud Agent...\"",
+      "to": "label:\"向云端 Agent 发送后续问题...\""
+    },
+    {
+      "from": "title:\"Ask follow-ups to the Cloud Agent...\"",
+      "to": "title:\"向云端 Agent 发送后续问题...\""
+    },
+    {
+      "from": "description:\"Ask follow-ups to the Cloud Agent...\"",
+      "to": "description:\"向云端 Agent 发送后续问题...\""
+    },
+    {
+      "from": "aria-label:\"Ask follow-ups to the Cloud Agent...\"",
+      "to": "aria-label:\"向云端 Agent 发送后续问题...\""
+    },
+    {
+      "from": "Cloud MCP servers shared by your team.",
+      "to": "团队共享的云端 MCP 服务器。"
+    },
+    {
+      "from": "label:\"Cloud MCP servers shared by your team.\"",
+      "to": "label:\"团队共享的云端 MCP 服务器。\""
+    },
+    {
+      "from": "title:\"Cloud MCP servers shared by your team.\"",
+      "to": "title:\"团队共享的云端 MCP 服务器。\""
+    },
+    {
+      "from": "description:\"Cloud MCP servers shared by your team.\"",
+      "to": "description:\"团队共享的云端 MCP 服务器。\""
+    },
+    {
+      "from": "aria-label:\"Cloud MCP servers shared by your team.\"",
+      "to": "aria-label:\"团队共享的云端 MCP 服务器。\""
+    },
+    {
+      "from": "Disable Cursor Tab for these languages",
+      "to": "对这些语言禁用 Cursor Tab"
+    },
+    {
+      "from": "label:\"Disable Cursor Tab for these languages\"",
+      "to": "label:\"对这些语言禁用 Cursor Tab\""
+    },
+    {
+      "from": "title:\"Disable Cursor Tab for these languages\"",
+      "to": "title:\"对这些语言禁用 Cursor Tab\""
+    },
+    {
+      "from": "description:\"Disable Cursor Tab for these languages\"",
+      "to": "description:\"对这些语言禁用 Cursor Tab\""
+    },
+    {
+      "from": "aria-label:\"Disable Cursor Tab for these languages\"",
+      "to": "aria-label:\"对这些语言禁用 Cursor Tab\""
+    },
+    {
+      "from": "Control this agent from another machine",
+      "to": "从另一台机器控制此 Agent"
+    },
+    {
+      "from": "label:\"Control this agent from another machine\"",
+      "to": "label:\"从另一台机器控制此 Agent\""
+    },
+    {
+      "from": "title:\"Control this agent from another machine\"",
+      "to": "title:\"从另一台机器控制此 Agent\""
+    },
+    {
+      "from": "description:\"Control this agent from another machine\"",
+      "to": "description:\"从另一台机器控制此 Agent\""
+    },
+    {
+      "from": "aria-label:\"Control this agent from another machine\"",
+      "to": "aria-label:\"从另一台机器控制此 Agent\""
+    },
+    {
+      "from": "Define a new skill for the agent to use",
+      "to": "定义供 Agent 使用的新技能"
+    },
+    {
+      "from": "label:\"Define a new skill for the agent to use\"",
+      "to": "label:\"定义供 Agent 使用的新技能\""
+    },
+    {
+      "from": "title:\"Define a new skill for the agent to use\"",
+      "to": "title:\"定义供 Agent 使用的新技能\""
+    },
+    {
+      "from": "description:\"Define a new skill for the agent to use\"",
+      "to": "description:\"定义供 Agent 使用的新技能\""
+    },
+    {
+      "from": "aria-label:\"Define a new skill for the agent to use\"",
+      "to": "aria-label:\"定义供 Agent 使用的新技能\""
+    },
+    {
+      "from": "Ask Cursor questions about your codebase",
+      "to": "向 Cursor 询问关于代码库的问题"
+    },
+    {
+      "from": "label:\"Ask Cursor questions about your codebase\"",
+      "to": "label:\"向 Cursor 询问关于代码库的问题\""
+    },
+    {
+      "from": "title:\"Ask Cursor questions about your codebase\"",
+      "to": "title:\"向 Cursor 询问关于代码库的问题\""
+    },
+    {
+      "from": "description:\"Ask Cursor questions about your codebase\"",
+      "to": "description:\"向 Cursor 询问关于代码库的问题\""
+    },
+    {
+      "from": "aria-label:\"Ask Cursor questions about your codebase\"",
+      "to": "aria-label:\"向 Cursor 询问关于代码库的问题\""
+    },
+    {
+      "from": "Orchestrate multiple subagents in parallel",
+      "to": "并行编排多个子 Agent"
+    },
+    {
+      "from": "label:\"Orchestrate multiple subagents in parallel\"",
+      "to": "label:\"并行编排多个子 Agent\""
+    },
+    {
+      "from": "title:\"Orchestrate multiple subagents in parallel\"",
+      "to": "title:\"并行编排多个子 Agent\""
+    },
+    {
+      "from": "description:\"Orchestrate multiple subagents in parallel\"",
+      "to": "description:\"并行编排多个子 Agent\""
+    },
+    {
+      "from": "aria-label:\"Orchestrate multiple subagents in parallel\"",
+      "to": "aria-label:\"并行编排多个子 Agent\""
+    },
+    {
+      "from": "The agent hasn't worked on this branch yet",
+      "to": "Agent 尚未在此分支上工作过"
+    },
+    {
+      "from": "label:\"The agent hasn't worked on this branch yet\"",
+      "to": "label:\"Agent 尚未在此分支上工作过\""
+    },
+    {
+      "from": "title:\"The agent hasn't worked on this branch yet\"",
+      "to": "title:\"Agent 尚未在此分支上工作过\""
+    },
+    {
+      "from": "description:\"The agent hasn't worked on this branch yet\"",
+      "to": "description:\"Agent 尚未在此分支上工作过\""
+    },
+    {
+      "from": "aria-label:\"The agent hasn't worked on this branch yet\"",
+      "to": "aria-label:\"Agent 尚未在此分支上工作过\""
+    },
+    {
+      "from": "Wrap long lines in Agent chat code blocks.",
+      "to": "在 Agent 对话的代码块中自动换行。"
+    },
+    {
+      "from": "label:\"Wrap long lines in Agent chat code blocks.\"",
+      "to": "label:\"在 Agent 对话的代码块中自动换行。\""
+    },
+    {
+      "from": "title:\"Wrap long lines in Agent chat code blocks.\"",
+      "to": "title:\"在 Agent 对话的代码块中自动换行。\""
+    },
+    {
+      "from": "description:\"Wrap long lines in Agent chat code blocks.\"",
+      "to": "description:\"在 Agent 对话的代码块中自动换行。\""
+    },
+    {
+      "from": "aria-label:\"Wrap long lines in Agent chat code blocks.\"",
+      "to": "aria-label:\"在 Agent 对话的代码块中自动换行。\""
+    },
+    {
+      "from": "Sync your chats and continue them in Cursor",
+      "to": "同步对话并在 Cursor 中继续"
+    },
+    {
+      "from": "label:\"Sync your chats and continue them in Cursor\"",
+      "to": "label:\"同步对话并在 Cursor 中继续\""
+    },
+    {
+      "from": "title:\"Sync your chats and continue them in Cursor\"",
+      "to": "title:\"同步对话并在 Cursor 中继续\""
+    },
+    {
+      "from": "description:\"Sync your chats and continue them in Cursor\"",
+      "to": "description:\"同步对话并在 Cursor 中继续\""
+    },
+    {
+      "from": "aria-label:\"Sync your chats and continue them in Cursor\"",
+      "to": "aria-label:\"同步对话并在 Cursor 中继续\""
+    },
+    {
+      "from": "Automatically save files in normal composers",
+      "to": "在普通 Composer 中自动保存文件"
+    },
+    {
+      "from": "label:\"Automatically save files in normal composers\"",
+      "to": "label:\"在普通 Composer 中自动保存文件\""
+    },
+    {
+      "from": "title:\"Automatically save files in normal composers\"",
+      "to": "title:\"在普通 Composer 中自动保存文件\""
+    },
+    {
+      "from": "description:\"Automatically save files in normal composers\"",
+      "to": "description:\"在普通 Composer 中自动保存文件\""
+    },
+    {
+      "from": "aria-label:\"Automatically save files in normal composers\"",
+      "to": "aria-label:\"在普通 Composer 中自动保存文件\""
+    },
+    {
+      "from": "No Cursor-managed worktrees on this machine.",
+      "to": "此机器上没有 Cursor 托管的工作树。"
+    },
+    {
+      "from": "label:\"No Cursor-managed worktrees on this machine.\"",
+      "to": "label:\"此机器上没有 Cursor 托管的工作树。\""
+    },
+    {
+      "from": "title:\"No Cursor-managed worktrees on this machine.\"",
+      "to": "title:\"此机器上没有 Cursor 托管的工作树。\""
+    },
+    {
+      "from": "description:\"No Cursor-managed worktrees on this machine.\"",
+      "to": "description:\"此机器上没有 Cursor 托管的工作树。\""
+    },
+    {
+      "from": "aria-label:\"No Cursor-managed worktrees on this machine.\"",
+      "to": "aria-label:\"此机器上没有 Cursor 托管的工作树。\""
+    },
+    {
+      "from": "Write your instructions for the agent here...",
+      "to": "在此填写给 Agent 的说明..."
+    },
+    {
+      "from": "label:\"Write your instructions for the agent here...\"",
+      "to": "label:\"在此填写给 Agent 的说明...\""
+    },
+    {
+      "from": "title:\"Write your instructions for the agent here...\"",
+      "to": "title:\"在此填写给 Agent 的说明...\""
+    },
+    {
+      "from": "description:\"Write your instructions for the agent here...\"",
+      "to": "description:\"在此填写给 Agent 的说明...\""
+    },
+    {
+      "from": "aria-label:\"Write your instructions for the agent here...\"",
+      "to": "aria-label:\"在此填写给 Agent 的说明...\""
+    },
+    {
+      "from": "Add a custom MCP tool in your Home MCP config.",
+      "to": "在个人 MCP 配置中添加自定义 MCP 工具。"
+    },
+    {
+      "from": "label:\"Add a custom MCP tool in your Home MCP config.\"",
+      "to": "label:\"在个人 MCP 配置中添加自定义 MCP 工具。\""
+    },
+    {
+      "from": "title:\"Add a custom MCP tool in your Home MCP config.\"",
+      "to": "title:\"在个人 MCP 配置中添加自定义 MCP 工具。\""
+    },
+    {
+      "from": "description:\"Add a custom MCP tool in your Home MCP config.\"",
+      "to": "description:\"在个人 MCP 配置中添加自定义 MCP 工具。\""
+    },
+    {
+      "from": "aria-label:\"Add a custom MCP tool in your Home MCP config.\"",
+      "to": "aria-label:\"在个人 MCP 配置中添加自定义 MCP 工具。\""
+    },
+    {
+      "from": "Cloud Agents require data storage to function.",
+      "to": "云端 Agent 需要数据存储才能运行。"
+    },
+    {
+      "from": "label:\"Cloud Agents require data storage to function.\"",
+      "to": "label:\"云端 Agent 需要数据存储才能运行。\""
+    },
+    {
+      "from": "title:\"Cloud Agents require data storage to function.\"",
+      "to": "title:\"云端 Agent 需要数据存储才能运行。\""
+    },
+    {
+      "from": "description:\"Cloud Agents require data storage to function.\"",
+      "to": "description:\"云端 Agent 需要数据存储才能运行。\""
+    },
+    {
+      "from": "aria-label:\"Cloud Agents require data storage to function.\"",
+      "to": "aria-label:\"云端 Agent 需要数据存储才能运行。\""
+    },
+    {
+      "from": "Create a cursor rule from the highlighted text",
+      "to": "根据所选文本创建 Cursor 规则"
+    },
+    {
+      "from": "label:\"Create a cursor rule from the highlighted text\"",
+      "to": "label:\"根据所选文本创建 Cursor 规则\""
+    },
+    {
+      "from": "title:\"Create a cursor rule from the highlighted text\"",
+      "to": "title:\"根据所选文本创建 Cursor 规则\""
+    },
+    {
+      "from": "description:\"Create a cursor rule from the highlighted text\"",
+      "to": "description:\"根据所选文本创建 Cursor 规则\""
+    },
+    {
+      "from": "aria-label:\"Create a cursor rule from the highlighted text\"",
+      "to": "aria-label:\"根据所选文本创建 Cursor 规则\""
+    },
+    {
+      "from": "Choose which source configures this MCP server.",
+      "to": "选择此 MCP 服务器的配置来源。"
+    },
+    {
+      "from": "label:\"Choose which source configures this MCP server.\"",
+      "to": "label:\"选择此 MCP 服务器的配置来源。\""
+    },
+    {
+      "from": "title:\"Choose which source configures this MCP server.\"",
+      "to": "title:\"选择此 MCP 服务器的配置来源。\""
+    },
+    {
+      "from": "description:\"Choose which source configures this MCP server.\"",
+      "to": "description:\"选择此 MCP 服务器的配置来源。\""
+    },
+    {
+      "from": "aria-label:\"Choose which source configures this MCP server.\"",
+      "to": "aria-label:\"选择此 MCP 服务器的配置来源。\""
+    },
+    {
+      "from": "Skills help the agent accomplish specific tasks",
+      "to": "技能可帮助 Agent 完成特定任务"
+    },
+    {
+      "from": "label:\"Skills help the agent accomplish specific tasks\"",
+      "to": "label:\"技能可帮助 Agent 完成特定任务\""
+    },
+    {
+      "from": "title:\"Skills help the agent accomplish specific tasks\"",
+      "to": "title:\"技能可帮助 Agent 完成特定任务\""
+    },
+    {
+      "from": "description:\"Skills help the agent accomplish specific tasks\"",
+      "to": "description:\"技能可帮助 Agent 完成特定任务\""
+    },
+    {
+      "from": "aria-label:\"Skills help the agent accomplish specific tasks\"",
+      "to": "aria-label:\"技能可帮助 Agent 完成特定任务\""
+    },
+    {
+      "from": "Switch between Agent and Editor default layouts",
+      "to": "在 Agent 与编辑器默认布局之间切换"
+    },
+    {
+      "from": "label:\"Switch between Agent and Editor default layouts\"",
+      "to": "label:\"在 Agent 与编辑器默认布局之间切换\""
+    },
+    {
+      "from": "title:\"Switch between Agent and Editor default layouts\"",
+      "to": "title:\"在 Agent 与编辑器默认布局之间切换\""
+    },
+    {
+      "from": "description:\"Switch between Agent and Editor default layouts\"",
+      "to": "description:\"在 Agent 与编辑器默认布局之间切换\""
+    },
+    {
+      "from": "aria-label:\"Switch between Agent and Editor default layouts\"",
+      "to": "aria-label:\"在 Agent 与编辑器默认布局之间切换\""
+    },
+    {
+      "from": "Create specialized agents to handle focused tasks",
+      "to": "创建专门的 Agent 以处理聚焦任务"
+    },
+    {
+      "from": "label:\"Create specialized agents to handle focused tasks\"",
+      "to": "label:\"创建专门的 Agent 以处理聚焦任务\""
+    },
+    {
+      "from": "title:\"Create specialized agents to handle focused tasks\"",
+      "to": "title:\"创建专门的 Agent 以处理聚焦任务\""
+    },
+    {
+      "from": "description:\"Create specialized agents to handle focused tasks\"",
+      "to": "description:\"创建专门的 Agent 以处理聚焦任务\""
+    },
+    {
+      "from": "aria-label:\"Create specialized agents to handle focused tasks\"",
+      "to": "aria-label:\"创建专门的 Agent 以处理聚焦任务\""
+    },
+    {
+      "from": "Move Cursor rules and commands into Agent Skills.",
+      "to": "将 Cursor 规则和命令迁移到 Agent 技能。"
+    },
+    {
+      "from": "label:\"Move Cursor rules and commands into Agent Skills.\"",
+      "to": "label:\"将 Cursor 规则和命令迁移到 Agent 技能。\""
+    },
+    {
+      "from": "title:\"Move Cursor rules and commands into Agent Skills.\"",
+      "to": "title:\"将 Cursor 规则和命令迁移到 Agent 技能。\""
+    },
+    {
+      "from": "description:\"Move Cursor rules and commands into Agent Skills.\"",
+      "to": "description:\"将 Cursor 规则和命令迁移到 Agent 技能。\""
+    },
+    {
+      "from": "aria-label:\"Move Cursor rules and commands into Agent Skills.\"",
+      "to": "aria-label:\"将 Cursor 规则和命令迁移到 Agent 技能。\""
+    },
+    {
+      "from": "Play a sound when agents finish or need attention",
+      "to": "当 Agent 完成或需要关注时播放提示音"
+    },
+    {
+      "from": "label:\"Play a sound when agents finish or need attention\"",
+      "to": "label:\"当 Agent 完成或需要关注时播放提示音\""
+    },
+    {
+      "from": "title:\"Play a sound when agents finish or need attention\"",
+      "to": "title:\"当 Agent 完成或需要关注时播放提示音\""
+    },
+    {
+      "from": "description:\"Play a sound when agents finish or need attention\"",
+      "to": "description:\"当 Agent 完成或需要关注时播放提示音\""
+    },
+    {
+      "from": "aria-label:\"Play a sound when agents finish or need attention\"",
+      "to": "aria-label:\"当 Agent 完成或需要关注时播放提示音\""
+    },
+    {
+      "from": "What sending a message while Agent is running does",
+      "to": "Agent 运行时发送消息的行为"
+    },
+    {
+      "from": "label:\"What sending a message while Agent is running does\"",
+      "to": "label:\"Agent 运行时发送消息的行为\""
+    },
+    {
+      "from": "title:\"What sending a message while Agent is running does\"",
+      "to": "title:\"Agent 运行时发送消息的行为\""
+    },
+    {
+      "from": "description:\"What sending a message while Agent is running does\"",
+      "to": "description:\"Agent 运行时发送消息的行为\""
+    },
+    {
+      "from": "aria-label:\"What sending a message while Agent is running does\"",
+      "to": "aria-label:\"Agent 运行时发送消息的行为\""
+    },
+    {
+      "from": "All MCP servers from this plugin are already added.",
+      "to": "此插件的所有 MCP 服务器均已添加。"
+    },
+    {
+      "from": "label:\"All MCP servers from this plugin are already added.\"",
+      "to": "label:\"此插件的所有 MCP 服务器均已添加。\""
+    },
+    {
+      "from": "title:\"All MCP servers from this plugin are already added.\"",
+      "to": "title:\"此插件的所有 MCP 服务器均已添加。\""
+    },
+    {
+      "from": "description:\"All MCP servers from this plugin are already added.\"",
+      "to": "description:\"此插件的所有 MCP 服务器均已添加。\""
+    },
+    {
+      "from": "aria-label:\"All MCP servers from this plugin are already added.\"",
+      "to": "aria-label:\"此插件的所有 MCP 服务器均已添加。\""
+    },
+    {
+      "from": "New messages now steer Agent instead of interrupting",
+      "to": "新消息现在会引导 Agent，而不再打断它"
+    },
+    {
+      "from": "label:\"New messages now steer Agent instead of interrupting\"",
+      "to": "label:\"新消息现在会引导 Agent，而不再打断它\""
+    },
+    {
+      "from": "title:\"New messages now steer Agent instead of interrupting\"",
+      "to": "title:\"新消息现在会引导 Agent，而不再打断它\""
+    },
+    {
+      "from": "description:\"New messages now steer Agent instead of interrupting\"",
+      "to": "description:\"新消息现在会引导 Agent，而不再打断它\""
+    },
+    {
+      "from": "aria-label:\"New messages now steer Agent instead of interrupting\"",
+      "to": "aria-label:\"新消息现在会引导 Agent，而不再打断它\""
+    },
+    {
+      "from": "Turn a recorded demonstration into a reusable skill.",
+      "to": "将录制的演示转换为可复用技能。"
+    },
+    {
+      "from": "label:\"Turn a recorded demonstration into a reusable skill.\"",
+      "to": "label:\"将录制的演示转换为可复用技能。\""
+    },
+    {
+      "from": "title:\"Turn a recorded demonstration into a reusable skill.\"",
+      "to": "title:\"将录制的演示转换为可复用技能。\""
+    },
+    {
+      "from": "description:\"Turn a recorded demonstration into a reusable skill.\"",
+      "to": "description:\"将录制的演示转换为可复用技能。\""
+    },
+    {
+      "from": "aria-label:\"Turn a recorded demonstration into a reusable skill.\"",
+      "to": "aria-label:\"将录制的演示转换为可复用技能。\""
+    },
+    {
+      "from": "Coordinate long-horizon tasks with delegated subagents",
+      "to": "通过委派子 Agent 协调长周期任务"
+    },
+    {
+      "from": "label:\"Coordinate long-horizon tasks with delegated subagents\"",
+      "to": "label:\"通过委派子 Agent 协调长周期任务\""
+    },
+    {
+      "from": "title:\"Coordinate long-horizon tasks with delegated subagents\"",
+      "to": "title:\"通过委派子 Agent 协调长周期任务\""
+    },
+    {
+      "from": "description:\"Coordinate long-horizon tasks with delegated subagents\"",
+      "to": "description:\"通过委派子 Agent 协调长周期任务\""
+    },
+    {
+      "from": "aria-label:\"Coordinate long-horizon tasks with delegated subagents\"",
+      "to": "aria-label:\"通过委派子 Agent 协调长周期任务\""
+    },
+    {
+      "from": "Choose team Named Agents to show in your Glass sidebar.",
+      "to": "选择要显示在 Glass 侧栏中的团队 Named Agent。"
+    },
+    {
+      "from": "label:\"Choose team Named Agents to show in your Glass sidebar.\"",
+      "to": "label:\"选择要显示在 Glass 侧栏中的团队 Named Agent。\""
+    },
+    {
+      "from": "title:\"Choose team Named Agents to show in your Glass sidebar.\"",
+      "to": "title:\"选择要显示在 Glass 侧栏中的团队 Named Agent。\""
+    },
+    {
+      "from": "description:\"Choose team Named Agents to show in your Glass sidebar.\"",
+      "to": "description:\"选择要显示在 Glass 侧栏中的团队 Named Agent。\""
+    },
+    {
+      "from": "aria-label:\"Choose team Named Agents to show in your Glass sidebar.\"",
+      "to": "aria-label:\"选择要显示在 Glass 侧栏中的团队 Named Agent。\""
+    },
+    {
+      "from": "Trigger an agent to run based on a trigger or schedule.",
+      "to": "根据触发条件或计划运行 Agent。"
+    },
+    {
+      "from": "label:\"Trigger an agent to run based on a trigger or schedule.\"",
+      "to": "label:\"根据触发条件或计划运行 Agent。\""
+    },
+    {
+      "from": "title:\"Trigger an agent to run based on a trigger or schedule.\"",
+      "to": "title:\"根据触发条件或计划运行 Agent。\""
+    },
+    {
+      "from": "description:\"Trigger an agent to run based on a trigger or schedule.\"",
+      "to": "description:\"根据触发条件或计划运行 Agent。\""
+    },
+    {
+      "from": "aria-label:\"Trigger an agent to run based on a trigger or schedule.\"",
+      "to": "aria-label:\"根据触发条件或计划运行 Agent。\""
+    },
+    {
+      "from": "Cloud Agents require a Git repository in an open folder.",
+      "to": "云端 Agent 需要在已打开的文件夹中有 Git 仓库。"
+    },
+    {
+      "from": "label:\"Cloud Agents require a Git repository in an open folder.\"",
+      "to": "label:\"云端 Agent 需要在已打开的文件夹中有 Git 仓库。\""
+    },
+    {
+      "from": "title:\"Cloud Agents require a Git repository in an open folder.\"",
+      "to": "title:\"云端 Agent 需要在已打开的文件夹中有 Git 仓库。\""
+    },
+    {
+      "from": "description:\"Cloud Agents require a Git repository in an open folder.\"",
+      "to": "description:\"云端 Agent 需要在已打开的文件夹中有 Git 仓库。\""
+    },
+    {
+      "from": "aria-label:\"Cloud Agents require a Git repository in an open folder.\"",
+      "to": "aria-label:\"云端 Agent 需要在已打开的文件夹中有 Git 仓库。\""
+    },
+    {
+      "from": "Create or select an agent first, then retry this action.",
+      "to": "请先创建或选择一个 Agent，然后重试此操作。"
+    },
+    {
+      "from": "label:\"Create or select an agent first, then retry this action.\"",
+      "to": "label:\"请先创建或选择一个 Agent，然后重试此操作。\""
+    },
+    {
+      "from": "title:\"Create or select an agent first, then retry this action.\"",
+      "to": "title:\"请先创建或选择一个 Agent，然后重试此操作。\""
+    },
+    {
+      "from": "description:\"Create or select an agent first, then retry this action.\"",
+      "to": "description:\"请先创建或选择一个 Agent，然后重试此操作。\""
+    },
+    {
+      "from": "aria-label:\"Create or select an agent first, then retry this action.\"",
+      "to": "aria-label:\"请先创建或选择一个 Agent，然后重试此操作。\""
+    },
+    {
+      "from": "Scheduled tasks run on this machine while Cursor is open",
+      "to": "计划任务在 Cursor 打开时于本机运行"
+    },
+    {
+      "from": "label:\"Scheduled tasks run on this machine while Cursor is open\"",
+      "to": "label:\"计划任务在 Cursor 打开时于本机运行\""
+    },
+    {
+      "from": "title:\"Scheduled tasks run on this machine while Cursor is open\"",
+      "to": "title:\"计划任务在 Cursor 打开时于本机运行\""
+    },
+    {
+      "from": "description:\"Scheduled tasks run on this machine while Cursor is open\"",
+      "to": "description:\"计划任务在 Cursor 打开时于本机运行\""
+    },
+    {
+      "from": "aria-label:\"Scheduled tasks run on this machine while Cursor is open\"",
+      "to": "aria-label:\"计划任务在 Cursor 打开时于本机运行\""
+    },
+    {
+      "from": "Browse the marketplace or import custom plugins to extend",
+      "to": "浏览市场或导入自定义插件以扩展功能"
+    },
+    {
+      "from": "label:\"Browse the marketplace or import custom plugins to extend\"",
+      "to": "label:\"浏览市场或导入自定义插件以扩展功能\""
+    },
+    {
+      "from": "title:\"Browse the marketplace or import custom plugins to extend\"",
+      "to": "title:\"浏览市场或导入自定义插件以扩展功能\""
+    },
+    {
+      "from": "description:\"Browse the marketplace or import custom plugins to extend\"",
+      "to": "description:\"浏览市场或导入自定义插件以扩展功能\""
+    },
+    {
+      "from": "aria-label:\"Browse the marketplace or import custom plugins to extend\"",
+      "to": "aria-label:\"浏览市场或导入自定义插件以扩展功能\""
+    },
+    {
+      "from": "Hooks that run during the agent's loop will show up here.",
+      "to": "在 Agent 循环中运行的钩子会显示在这里。"
+    },
+    {
+      "from": "label:\"Hooks that run during the agent's loop will show up here.\"",
+      "to": "label:\"在 Agent 循环中运行的钩子会显示在这里。\""
+    },
+    {
+      "from": "title:\"Hooks that run during the agent's loop will show up here.\"",
+      "to": "title:\"在 Agent 循环中运行的钩子会显示在这里。\""
+    },
+    {
+      "from": "description:\"Hooks that run during the agent's loop will show up here.\"",
+      "to": "description:\"在 Agent 循环中运行的钩子会显示在这里。\""
+    },
+    {
+      "from": "aria-label:\"Hooks that run during the agent's loop will show up here.\"",
+      "to": "aria-label:\"在 Agent 循环中运行的钩子会显示在这里。\""
+    },
+    {
+      "from": "Let Cursor see logs and view your app with Playwright MCP",
+      "to": "让 Cursor 通过 Playwright MCP 查看日志和应用"
+    },
+    {
+      "from": "label:\"Let Cursor see logs and view your app with Playwright MCP\"",
+      "to": "label:\"让 Cursor 通过 Playwright MCP 查看日志和应用\""
+    },
+    {
+      "from": "title:\"Let Cursor see logs and view your app with Playwright MCP\"",
+      "to": "title:\"让 Cursor 通过 Playwright MCP 查看日志和应用\""
+    },
+    {
+      "from": "description:\"Let Cursor see logs and view your app with Playwright MCP\"",
+      "to": "description:\"让 Cursor 通过 Playwright MCP 查看日志和应用\""
+    },
+    {
+      "from": "aria-label:\"Let Cursor see logs and view your app with Playwright MCP\"",
+      "to": "aria-label:\"让 Cursor 通过 Playwright MCP 查看日志和应用\""
+    },
+    {
+      "from": "You'll be logged out of your Cursor account on this device.",
+      "to": "你将在此设备上退出 Cursor 账户。"
+    },
+    {
+      "from": "label:\"You'll be logged out of your Cursor account on this device.\"",
+      "to": "label:\"你将在此设备上退出 Cursor 账户。\""
+    },
+    {
+      "from": "title:\"You'll be logged out of your Cursor account on this device.\"",
+      "to": "title:\"你将在此设备上退出 Cursor 账户。\""
+    },
+    {
+      "from": "description:\"You'll be logged out of your Cursor account on this device.\"",
+      "to": "description:\"你将在此设备上退出 Cursor 账户。\""
+    },
+    {
+      "from": "aria-label:\"You'll be logged out of your Cursor account on this device.\"",
+      "to": "aria-label:\"你将在此设备上退出 Cursor 账户。\""
+    },
+    {
+      "from": "Jump back to the Agents Window to keep working across repos.",
+      "to": "返回 Agents 窗口以继续跨仓库工作。"
+    },
+    {
+      "from": "label:\"Jump back to the Agents Window to keep working across repos.\"",
+      "to": "label:\"返回 Agents 窗口以继续跨仓库工作。\""
+    },
+    {
+      "from": "title:\"Jump back to the Agents Window to keep working across repos.\"",
+      "to": "title:\"返回 Agents 窗口以继续跨仓库工作。\""
+    },
+    {
+      "from": "description:\"Jump back to the Agents Window to keep working across repos.\"",
+      "to": "description:\"返回 Agents 窗口以继续跨仓库工作。\""
+    },
+    {
+      "from": "aria-label:\"Jump back to the Agents Window to keep working across repos.\"",
+      "to": "aria-label:\"返回 Agents 窗口以继续跨仓库工作。\""
+    },
+    {
+      "from": "Review the configuration before adding it to your MCP servers.",
+      "to": "添加到 MCP 服务器之前请先检查配置。"
+    },
+    {
+      "from": "label:\"Review the configuration before adding it to your MCP servers.\"",
+      "to": "label:\"添加到 MCP 服务器之前请先检查配置。\""
+    },
+    {
+      "from": "title:\"Review the configuration before adding it to your MCP servers.\"",
+      "to": "title:\"添加到 MCP 服务器之前请先检查配置。\""
+    },
+    {
+      "from": "description:\"Review the configuration before adding it to your MCP servers.\"",
+      "to": "description:\"添加到 MCP 服务器之前请先检查配置。\""
+    },
+    {
+      "from": "aria-label:\"Review the configuration before adding it to your MCP servers.\"",
+      "to": "aria-label:\"添加到 MCP 服务器之前请先检查配置。\""
+    },
+    {
+      "from": "Team admins can configure shared MCP servers in the dashboard.",
+      "to": "团队管理员可在控制台中配置共享 MCP 服务器。"
+    },
+    {
+      "from": "label:\"Team admins can configure shared MCP servers in the dashboard.\"",
+      "to": "label:\"团队管理员可在控制台中配置共享 MCP 服务器。\""
+    },
+    {
+      "from": "title:\"Team admins can configure shared MCP servers in the dashboard.\"",
+      "to": "title:\"团队管理员可在控制台中配置共享 MCP 服务器。\""
+    },
+    {
+      "from": "description:\"Team admins can configure shared MCP servers in the dashboard.\"",
+      "to": "description:\"团队管理员可在控制台中配置共享 MCP 服务器。\""
+    },
+    {
+      "from": "aria-label:\"Team admins can configure shared MCP servers in the dashboard.\"",
+      "to": "aria-label:\"团队管理员可在控制台中配置共享 MCP 服务器。\""
+    },
+    {
+      "from": "Choose the default behavior of messages sent while Agent is working",
+      "to": "选择 Agent 工作时发送消息的默认行为"
+    },
+    {
+      "from": "label:\"Choose the default behavior of messages sent while Agent is working\"",
+      "to": "label:\"选择 Agent 工作时发送消息的默认行为\""
+    },
+    {
+      "from": "title:\"Choose the default behavior of messages sent while Agent is working\"",
+      "to": "title:\"选择 Agent 工作时发送消息的默认行为\""
+    },
+    {
+      "from": "description:\"Choose the default behavior of messages sent while Agent is working\"",
+      "to": "description:\"选择 Agent 工作时发送消息的默认行为\""
+    },
+    {
+      "from": "aria-label:\"Choose the default behavior of messages sent while Agent is working\"",
+      "to": "aria-label:\"选择 Agent 工作时发送消息的默认行为\""
+    },
+    {
+      "from": "It'll be saved to Cursor Origin, so you can come back to it anytime.",
+      "to": "它会保存到 Cursor Origin，你可以随时回来继续。"
+    },
+    {
+      "from": "label:\"It'll be saved to Cursor Origin, so you can come back to it anytime.\"",
+      "to": "label:\"它会保存到 Cursor Origin，你可以随时回来继续。\""
+    },
+    {
+      "from": "title:\"It'll be saved to Cursor Origin, so you can come back to it anytime.\"",
+      "to": "title:\"它会保存到 Cursor Origin，你可以随时回来继续。\""
+    },
+    {
+      "from": "description:\"It'll be saved to Cursor Origin, so you can come back to it anytime.\"",
+      "to": "description:\"它会保存到 Cursor Origin，你可以随时回来继续。\""
+    },
+    {
+      "from": "aria-label:\"It'll be saved to Cursor Origin, so you can come back to it anytime.\"",
+      "to": "aria-label:\"它会保存到 Cursor Origin，你可以随时回来继续。\""
+    },
+    {
+      "from": "Add plugins or import from GitHub to make them available for your team.",
+      "to": "添加插件或从 GitHub 导入，供团队使用。"
+    },
+    {
+      "from": "label:\"Add plugins or import from GitHub to make them available for your team.\"",
+      "to": "label:\"添加插件或从 GitHub 导入，供团队使用。\""
+    },
+    {
+      "from": "title:\"Add plugins or import from GitHub to make them available for your team.\"",
+      "to": "title:\"添加插件或从 GitHub 导入，供团队使用。\""
+    },
+    {
+      "from": "description:\"Add plugins or import from GitHub to make them available for your team.\"",
+      "to": "description:\"添加插件或从 GitHub 导入，供团队使用。\""
+    },
+    {
+      "from": "aria-label:\"Add plugins or import from GitHub to make them available for your team.\"",
+      "to": "aria-label:\"添加插件或从 GitHub 导入，供团队使用。\""
+    },
+    {
+      "from": "Adjust the default behavior of sending a message while Agent is streaming",
+      "to": "调整 Agent 流式输出时发送消息的默认行为"
+    },
+    {
+      "from": "label:\"Adjust the default behavior of sending a message while Agent is streaming\"",
+      "to": "label:\"调整 Agent 流式输出时发送消息的默认行为\""
+    },
+    {
+      "from": "title:\"Adjust the default behavior of sending a message while Agent is streaming\"",
+      "to": "title:\"调整 Agent 流式输出时发送消息的默认行为\""
+    },
+    {
+      "from": "description:\"Adjust the default behavior of sending a message while Agent is streaming\"",
+      "to": "description:\"调整 Agent 流式输出时发送消息的默认行为\""
+    },
+    {
+      "from": "aria-label:\"Adjust the default behavior of sending a message while Agent is streaming\"",
+      "to": "aria-label:\"调整 Agent 流式输出时发送消息的默认行为\""
+    },
+    {
+      "from": "Add a personal cloud MCP server to make it available to your cloud agents.",
+      "to": "添加个人云端 MCP 服务器，供云端 Agent 使用。"
+    },
+    {
+      "from": "label:\"Add a personal cloud MCP server to make it available to your cloud agents.\"",
+      "to": "label:\"添加个人云端 MCP 服务器，供云端 Agent 使用。\""
+    },
+    {
+      "from": "title:\"Add a personal cloud MCP server to make it available to your cloud agents.\"",
+      "to": "title:\"添加个人云端 MCP 服务器，供云端 Agent 使用。\""
+    },
+    {
+      "from": "description:\"Add a personal cloud MCP server to make it available to your cloud agents.\"",
+      "to": "description:\"添加个人云端 MCP 服务器，供云端 Agent 使用。\""
+    },
+    {
+      "from": "aria-label:\"Add a personal cloud MCP server to make it available to your cloud agents.\"",
+      "to": "aria-label:\"添加个人云端 MCP 服务器，供云端 Agent 使用。\""
+    },
+    {
+      "from": "Allow agents on this machine to be controlled remotely from mobile and web",
+      "to": "允许通过手机和网页远程控制此机器上的 Agent"
+    },
+    {
+      "from": "label:\"Allow agents on this machine to be controlled remotely from mobile and web\"",
+      "to": "label:\"允许通过手机和网页远程控制此机器上的 Agent\""
+    },
+    {
+      "from": "title:\"Allow agents on this machine to be controlled remotely from mobile and web\"",
+      "to": "title:\"允许通过手机和网页远程控制此机器上的 Agent\""
+    },
+    {
+      "from": "description:\"Allow agents on this machine to be controlled remotely from mobile and web\"",
+      "to": "description:\"允许通过手机和网页远程控制此机器上的 Agent\""
+    },
+    {
+      "from": "aria-label:\"Allow agents on this machine to be controlled remotely from mobile and web\"",
+      "to": "aria-label:\"允许通过手机和网页远程控制此机器上的 Agent\""
+    },
+    {
+      "from": "Privacy Mode (Legacy) is enabled. Background Agent and some features not available.",
+      "to": "已启用隐私模式（旧版）。后台 Agent 及部分功能不可用。"
+    },
+    {
+      "from": "label:\"Privacy Mode (Legacy) is enabled. Background Agent and some features not available.\"",
+      "to": "label:\"已启用隐私模式（旧版）。后台 Agent 及部分功能不可用。\""
+    },
+    {
+      "from": "title:\"Privacy Mode (Legacy) is enabled. Background Agent and some features not available.\"",
+      "to": "title:\"已启用隐私模式（旧版）。后台 Agent 及部分功能不可用。\""
+    },
+    {
+      "from": "description:\"Privacy Mode (Legacy) is enabled. Background Agent and some features not available.\"",
+      "to": "description:\"已启用隐私模式（旧版）。后台 Agent 及部分功能不可用。\""
+    },
+    {
+      "from": "aria-label:\"Privacy Mode (Legacy) is enabled. Background Agent and some features not available.\"",
+      "to": "aria-label:\"已启用隐私模式（旧版）。后台 Agent 及部分功能不可用。\""
+    },
+    {
+      "from": "Agents can only belong to one group. Moving this agent will remove it from its current group.",
+      "to": "Agent 只能属于一个分组。移动此 Agent 会把它从当前分组中移除。"
+    },
+    {
+      "from": "label:\"Agents can only belong to one group. Moving this agent will remove it from its current group.\"",
+      "to": "label:\"Agent 只能属于一个分组。移动此 Agent 会把它从当前分组中移除。\""
+    },
+    {
+      "from": "title:\"Agents can only belong to one group. Moving this agent will remove it from its current group.\"",
+      "to": "title:\"Agent 只能属于一个分组。移动此 Agent 会把它从当前分组中移除。\""
+    },
+    {
+      "from": "description:\"Agents can only belong to one group. Moving this agent will remove it from its current group.\"",
+      "to": "description:\"Agent 只能属于一个分组。移动此 Agent 会把它从当前分组中移除。\""
+    },
+    {
+      "from": "aria-label:\"Agents can only belong to one group. Moving this agent will remove it from its current group.\"",
+      "to": "aria-label:\"Agent 只能属于一个分组。移动此 Agent 会把它从当前分组中移除。\""
+    },
+    {
+      "from": "Choose the default behavior of messages sent manually from the queue while Agent is streaming",
+      "to": "选择 Agent 流式输出时从队列手动发送消息的默认行为"
+    },
+    {
+      "from": "label:\"Choose the default behavior of messages sent manually from the queue while Agent is streaming\"",
+      "to": "label:\"选择 Agent 流式输出时从队列手动发送消息的默认行为\""
+    },
+    {
+      "from": "title:\"Choose the default behavior of messages sent manually from the queue while Agent is streaming\"",
+      "to": "title:\"选择 Agent 流式输出时从队列手动发送消息的默认行为\""
+    },
+    {
+      "from": "description:\"Choose the default behavior of messages sent manually from the queue while Agent is streaming\"",
+      "to": "description:\"选择 Agent 流式输出时从队列手动发送消息的默认行为\""
+    },
+    {
+      "from": "aria-label:\"Choose the default behavior of messages sent manually from the queue while Agent is streaming\"",
+      "to": "aria-label:\"选择 Agent 流式输出时从队列手动发送消息的默认行为\""
+    },
+    {
+      "from": "Allow agent to switch to modes without asking. When off, skips if unanswered within 15 seconds.",
+      "to": "允许 Agent 在不问询的情况下切换模式。关闭后，若 15 秒内未回答则跳过。"
+    },
+    {
+      "from": "label:\"Allow agent to switch to modes without asking. When off, skips if unanswered within 15 seconds.\"",
+      "to": "label:\"允许 Agent 在不问询的情况下切换模式。关闭后，若 15 秒内未回答则跳过。\""
+    },
+    {
+      "from": "title:\"Allow agent to switch to modes without asking. When off, skips if unanswered within 15 seconds.\"",
+      "to": "title:\"允许 Agent 在不问询的情况下切换模式。关闭后，若 15 秒内未回答则跳过。\""
+    },
+    {
+      "from": "description:\"Allow agent to switch to modes without asking. When off, skips if unanswered within 15 seconds.\"",
+      "to": "description:\"允许 Agent 在不问询的情况下切换模式。关闭后，若 15 秒内未回答则跳过。\""
+    },
+    {
+      "from": "aria-label:\"Allow agent to switch to modes without asking. When off, skips if unanswered within 15 seconds.\"",
+      "to": "aria-label:\"允许 Agent 在不问询的情况下切换模式。关闭后，若 15 秒内未回答则跳过。\""
+    },
+    {
+      "from": "Rules give Agent persistent, system-level instructions for your coding standards and workflows.",
+      "to": "规则为 Agent 提供持久的系统级说明，用于你的编码标准和流程。"
+    },
+    {
+      "from": "label:\"Rules give Agent persistent, system-level instructions for your coding standards and workflows.\"",
+      "to": "label:\"规则为 Agent 提供持久的系统级说明，用于你的编码标准和流程。\""
+    },
+    {
+      "from": "title:\"Rules give Agent persistent, system-level instructions for your coding standards and workflows.\"",
+      "to": "title:\"规则为 Agent 提供持久的系统级说明，用于你的编码标准和流程。\""
+    },
+    {
+      "from": "description:\"Rules give Agent persistent, system-level instructions for your coding standards and workflows.\"",
+      "to": "description:\"规则为 Agent 提供持久的系统级说明，用于你的编码标准和流程。\""
+    },
+    {
+      "from": "aria-label:\"Rules give Agent persistent, system-level instructions for your coding standards and workflows.\"",
+      "to": "aria-label:\"规则为 Agent 提供持久的系统级说明，用于你的编码标准和流程。\""
+    },
+    {
+      "from": "This track will silently download and install updates without prompting whenever Cursor is closed.",
+      "to": "此通道会在 Cursor 关闭时静默下载并安装更新，不再弹出提示。"
+    },
+    {
+      "from": "label:\"This track will silently download and install updates without prompting whenever Cursor is closed.\"",
+      "to": "label:\"此通道会在 Cursor 关闭时静默下载并安装更新，不再弹出提示。\""
+    },
+    {
+      "from": "title:\"This track will silently download and install updates without prompting whenever Cursor is closed.\"",
+      "to": "title:\"此通道会在 Cursor 关闭时静默下载并安装更新，不再弹出提示。\""
+    },
+    {
+      "from": "description:\"This track will silently download and install updates without prompting whenever Cursor is closed.\"",
+      "to": "description:\"此通道会在 Cursor 关闭时静默下载并安装更新，不再弹出提示。\""
+    },
+    {
+      "from": "aria-label:\"This track will silently download and install updates without prompting whenever Cursor is closed.\"",
+      "to": "aria-label:\"此通道会在 Cursor 关闭时静默下载并安装更新，不再弹出提示。\""
+    },
+    {
+      "from": "You don't have access to this agent's machine. The conversation and pull request are still available.",
+      "to": "你无权访问此 Agent 的机器。对话和拉取请求仍可查看。"
+    },
+    {
+      "from": "label:\"You don't have access to this agent's machine. The conversation and pull request are still available.\"",
+      "to": "label:\"你无权访问此 Agent 的机器。对话和拉取请求仍可查看。\""
+    },
+    {
+      "from": "title:\"You don't have access to this agent's machine. The conversation and pull request are still available.\"",
+      "to": "title:\"你无权访问此 Agent 的机器。对话和拉取请求仍可查看。\""
+    },
+    {
+      "from": "description:\"You don't have access to this agent's machine. The conversation and pull request are still available.\"",
+      "to": "description:\"你无权访问此 Agent 的机器。对话和拉取请求仍可查看。\""
+    },
+    {
+      "from": "aria-label:\"You don't have access to this agent's machine. The conversation and pull request are still available.\"",
+      "to": "aria-label:\"你无权访问此 Agent 的机器。对话和拉取请求仍可查看。\""
+    },
+    {
+      "from": "Bring over your chats, and send a follow-up to fork it. Your plugins and skills are synced by default.",
+      "to": "带上你的对话并发送后续消息即可分叉。插件和技能默认会同步。"
+    },
+    {
+      "from": "label:\"Bring over your chats, and send a follow-up to fork it. Your plugins and skills are synced by default.\"",
+      "to": "label:\"带上你的对话并发送后续消息即可分叉。插件和技能默认会同步。\""
+    },
+    {
+      "from": "title:\"Bring over your chats, and send a follow-up to fork it. Your plugins and skills are synced by default.\"",
+      "to": "title:\"带上你的对话并发送后续消息即可分叉。插件和技能默认会同步。\""
+    },
+    {
+      "from": "description:\"Bring over your chats, and send a follow-up to fork it. Your plugins and skills are synced by default.\"",
+      "to": "description:\"带上你的对话并发送后续消息即可分叉。插件和技能默认会同步。\""
+    },
+    {
+      "from": "aria-label:\"Bring over your chats, and send a follow-up to fork it. Your plugins and skills are synced by default.\"",
+      "to": "aria-label:\"带上你的对话并发送后续消息即可分叉。插件和技能默认会同步。\""
+    },
+    {
+      "from": "When data sharing is enabled, Cursor learns from code to help your team get the best experience possible.",
+      "to": "启用数据共享后，Cursor 会从代码中学习，帮助团队获得更好的体验。"
+    },
+    {
+      "from": "label:\"When data sharing is enabled, Cursor learns from code to help your team get the best experience possible.\"",
+      "to": "label:\"启用数据共享后，Cursor 会从代码中学习，帮助团队获得更好的体验。\""
+    },
+    {
+      "from": "title:\"When data sharing is enabled, Cursor learns from code to help your team get the best experience possible.\"",
+      "to": "title:\"启用数据共享后，Cursor 会从代码中学习，帮助团队获得更好的体验。\""
+    },
+    {
+      "from": "description:\"When data sharing is enabled, Cursor learns from code to help your team get the best experience possible.\"",
+      "to": "description:\"启用数据共享后，Cursor 会从代码中学习，帮助团队获得更好的体验。\""
+    },
+    {
+      "from": "aria-label:\"When data sharing is enabled, Cursor learns from code to help your team get the best experience possible.\"",
+      "to": "aria-label:\"启用数据共享后，Cursor 会从代码中学习，帮助团队获得更好的体验。\""
+    },
+    {
+      "from": "Several agent tasks are competing for system resources. Run fewer in parallel to keep your system responsive.",
+      "to": "多个 Agent 任务正在争用系统资源。减少并行数量可保持系统流畅。"
+    },
+    {
+      "from": "label:\"Several agent tasks are competing for system resources. Run fewer in parallel to keep your system responsive.\"",
+      "to": "label:\"多个 Agent 任务正在争用系统资源。减少并行数量可保持系统流畅。\""
+    },
+    {
+      "from": "title:\"Several agent tasks are competing for system resources. Run fewer in parallel to keep your system responsive.\"",
+      "to": "title:\"多个 Agent 任务正在争用系统资源。减少并行数量可保持系统流畅。\""
+    },
+    {
+      "from": "description:\"Several agent tasks are competing for system resources. Run fewer in parallel to keep your system responsive.\"",
+      "to": "description:\"多个 Agent 任务正在争用系统资源。减少并行数量可保持系统流畅。\""
+    },
+    {
+      "from": "aria-label:\"Several agent tasks are competing for system resources. Run fewer in parallel to keep your system responsive.\"",
+      "to": "aria-label:\"多个 Agent 任务正在争用系统资源。减少并行数量可保持系统流畅。\""
+    },
+    {
+      "from": "Allow agent to switch to modes like Plan or Debug without asking. When off, Cursor asks first, but skips if unanswered within 15 seconds.",
+      "to": "允许 Agent 在不问询的情况下切换到计划或调试等模式。关闭后 Cursor 会先询问，但若 15 秒内未回答则跳过。"
+    },
+    {
+      "from": "label:\"Allow agent to switch to modes like Plan or Debug without asking. When off, Cursor asks first, but skips if unanswered within 15 seconds.\"",
+      "to": "label:\"允许 Agent 在不问询的情况下切换到计划或调试等模式。关闭后 Cursor 会先询问，但若 15 秒内未回答则跳过。\""
+    },
+    {
+      "from": "title:\"Allow agent to switch to modes like Plan or Debug without asking. When off, Cursor asks first, but skips if unanswered within 15 seconds.\"",
+      "to": "title:\"允许 Agent 在不问询的情况下切换到计划或调试等模式。关闭后 Cursor 会先询问，但若 15 秒内未回答则跳过。\""
+    },
+    {
+      "from": "description:\"Allow agent to switch to modes like Plan or Debug without asking. When off, Cursor asks first, but skips if unanswered within 15 seconds.\"",
+      "to": "description:\"允许 Agent 在不问询的情况下切换到计划或调试等模式。关闭后 Cursor 会先询问，但若 15 秒内未回答则跳过。\""
+    },
+    {
+      "from": "aria-label:\"Allow agent to switch to modes like Plan or Debug without asking. When off, Cursor asks first, but skips if unanswered within 15 seconds.\"",
+      "to": "aria-label:\"允许 Agent 在不问询的情况下切换到计划或调试等模式。关闭后 Cursor 会先询问，但若 15 秒内未回答则跳过。\""
+    },
+    {
+      "from": "Your code data will not be trained on or used to improve the product. Code may be stored to provide features such as Background Agent.",
+      "to": "你的代码数据不会用于训练或改进产品。代码可能会被存储，以便提供后台 Agent 等功能。"
+    },
+    {
+      "from": "label:\"Your code data will not be trained on or used to improve the product. Code may be stored to provide features such as Background Agent.\"",
+      "to": "label:\"你的代码数据不会用于训练或改进产品。代码可能会被存储，以便提供后台 Agent 等功能。\""
+    },
+    {
+      "from": "title:\"Your code data will not be trained on or used to improve the product. Code may be stored to provide features such as Background Agent.\"",
+      "to": "title:\"你的代码数据不会用于训练或改进产品。代码可能会被存储，以便提供后台 Agent 等功能。\""
+    },
+    {
+      "from": "description:\"Your code data will not be trained on or used to improve the product. Code may be stored to provide features such as Background Agent.\"",
+      "to": "description:\"你的代码数据不会用于训练或改进产品。代码可能会被存储，以便提供后台 Agent 等功能。\""
+    },
+    {
+      "from": "aria-label:\"Your code data will not be trained on or used to improve the product. Code may be stored to provide features such as Background Agent.\"",
+      "to": "aria-label:\"你的代码数据不会用于训练或改进产品。代码可能会被存储，以便提供后台 Agent 等功能。\""
+    },
+    {
+      "from": "Add a custom MCP tool in your user MCP config or configure workspace-specific tools in <project-root>/.cursor/mcp.json.",
+      "to": "在用户 MCP 配置中添加自定义 MCP 工具，或在 <project-root>/.cursor/mcp.json 中配置工作区专用工具。"
+    },
+    {
+      "from": "label:\"Add a custom MCP tool in your user MCP config or configure workspace-specific tools in <project-root>/.cursor/mcp.json.\"",
+      "to": "label:\"在用户 MCP 配置中添加自定义 MCP 工具，或在 <project-root>/.cursor/mcp.json 中配置工作区专用工具。\""
+    },
+    {
+      "from": "title:\"Add a custom MCP tool in your user MCP config or configure workspace-specific tools in <project-root>/.cursor/mcp.json.\"",
+      "to": "title:\"在用户 MCP 配置中添加自定义 MCP 工具，或在 <project-root>/.cursor/mcp.json 中配置工作区专用工具。\""
+    },
+    {
+      "from": "description:\"Add a custom MCP tool in your user MCP config or configure workspace-specific tools in <project-root>/.cursor/mcp.json.\"",
+      "to": "description:\"在用户 MCP 配置中添加自定义 MCP 工具，或在 <project-root>/.cursor/mcp.json 中配置工作区专用工具。\""
+    },
+    {
+      "from": "aria-label:\"Add a custom MCP tool in your user MCP config or configure workspace-specific tools in <project-root>/.cursor/mcp.json.\"",
+      "to": "aria-label:\"在用户 MCP 配置中添加自定义 MCP 工具，或在 <project-root>/.cursor/mcp.json 中配置工作区专用工具。\""
+    },
+    {
+      "from": "Open environment.json",
+      "to": "打开 environment.json"
+    },
+    {
+      "from": "label:\"Open environment.json\"",
+      "to": "label:\"打开 environment.json\""
+    },
+    {
+      "from": "title:\"Open environment.json\"",
+      "to": "title:\"打开 environment.json\""
+    },
+    {
+      "from": "description:\"Open environment.json\"",
+      "to": "description:\"打开 environment.json\""
+    },
+    {
+      "from": "aria-label:\"Open environment.json\"",
+      "to": "aria-label:\"打开 environment.json\""
+    },
+    {
+      "from": "Report Issue",
+      "to": "报告问题"
+    },
+    {
+      "from": "label:\"Report Issue\"",
+      "to": "label:\"报告问题\""
+    },
+    {
+      "from": "title:\"Report Issue\"",
+      "to": "title:\"报告问题\""
+    },
+    {
+      "from": "description:\"Report Issue\"",
+      "to": "description:\"报告问题\""
+    },
+    {
+      "from": "aria-label:\"Report Issue\"",
+      "to": "aria-label:\"报告问题\""
+    },
+    {
+      "from": "Clear override",
+      "to": "清除覆盖"
+    },
+    {
+      "from": "label:\"Clear override\"",
+      "to": "label:\"清除覆盖\""
+    },
+    {
+      "from": "title:\"Clear override\"",
+      "to": "title:\"清除覆盖\""
+    },
+    {
+      "from": "description:\"Clear override\"",
+      "to": "description:\"清除覆盖\""
+    },
+    {
+      "from": "aria-label:\"Clear override\"",
+      "to": "aria-label:\"清除覆盖\""
+    },
+    {
+      "from": "Allow All",
+      "to": "全部允许"
+    },
+    {
+      "from": "label:\"Allow All\"",
+      "to": "label:\"全部允许\""
+    },
+    {
+      "from": "title:\"Allow All\"",
+      "to": "title:\"全部允许\""
+    },
+    {
+      "from": "description:\"Allow All\"",
+      "to": "description:\"全部允许\""
+    },
+    {
+      "from": "aria-label:\"Allow All\"",
+      "to": "aria-label:\"全部允许\""
+    },
+    {
+      "from": "Allow network access",
+      "to": "允许网络访问"
+    },
+    {
+      "from": "label:\"Allow network access\"",
+      "to": "label:\"允许网络访问\""
+    },
+    {
+      "from": "title:\"Allow network access\"",
+      "to": "title:\"允许网络访问\""
+    },
+    {
+      "from": "description:\"Allow network access\"",
+      "to": "description:\"允许网络访问\""
+    },
+    {
+      "from": "aria-label:\"Allow network access\"",
+      "to": "aria-label:\"允许网络访问\""
+    },
+    {
+      "from": "Already added",
+      "to": "已添加"
+    },
+    {
+      "from": "label:\"Already added\"",
+      "to": "label:\"已添加\""
+    },
+    {
+      "from": "title:\"Already added\"",
+      "to": "title:\"已添加\""
+    },
+    {
+      "from": "description:\"Already added\"",
+      "to": "description:\"已添加\""
+    },
+    {
+      "from": "aria-label:\"Already added\"",
+      "to": "aria-label:\"已添加\""
+    },
+    {
+      "from": "Answer questions without making edits",
+      "to": "只回答问题，不进行编辑"
+    },
+    {
+      "from": "label:\"Answer questions without making edits\"",
+      "to": "label:\"只回答问题，不进行编辑\""
+    },
+    {
+      "from": "title:\"Answer questions without making edits\"",
+      "to": "title:\"只回答问题，不进行编辑\""
+    },
+    {
+      "from": "description:\"Answer questions without making edits\"",
+      "to": "description:\"只回答问题，不进行编辑\""
+    },
+    {
+      "from": "aria-label:\"Answer questions without making edits\"",
+      "to": "aria-label:\"只回答问题，不进行编辑\""
+    },
+    {
+      "from": "Approve this server",
+      "to": "批准此服务器"
+    },
+    {
+      "from": "label:\"Approve this server\"",
+      "to": "label:\"批准此服务器\""
+    },
+    {
+      "from": "title:\"Approve this server\"",
+      "to": "title:\"批准此服务器\""
+    },
+    {
+      "from": "description:\"Approve this server\"",
+      "to": "description:\"批准此服务器\""
+    },
+    {
+      "from": "aria-label:\"Approve this server\"",
+      "to": "aria-label:\"批准此服务器\""
+    },
+    {
+      "from": "Approve this tool",
+      "to": "批准此工具"
+    },
+    {
+      "from": "label:\"Approve this tool\"",
+      "to": "label:\"批准此工具\""
+    },
+    {
+      "from": "title:\"Approve this tool\"",
+      "to": "title:\"批准此工具\""
+    },
+    {
+      "from": "description:\"Approve this tool\"",
+      "to": "description:\"批准此工具\""
+    },
+    {
+      "from": "aria-label:\"Approve this tool\"",
+      "to": "aria-label:\"批准此工具\""
+    },
+    {
+      "from": "Can't connect to server",
+      "to": "无法连接到服务器"
+    },
+    {
+      "from": "label:\"Can't connect to server\"",
+      "to": "label:\"无法连接到服务器\""
+    },
+    {
+      "from": "title:\"Can't connect to server\"",
+      "to": "title:\"无法连接到服务器\""
+    },
+    {
+      "from": "description:\"Can't connect to server\"",
+      "to": "description:\"无法连接到服务器\""
+    },
+    {
+      "from": "aria-label:\"Can't connect to server\"",
+      "to": "aria-label:\"无法连接到服务器\""
+    },
+    {
+      "from": "Cannot Move To Local",
+      "to": "无法移至本地"
+    },
+    {
+      "from": "label:\"Cannot Move To Local\"",
+      "to": "label:\"无法移至本地\""
+    },
+    {
+      "from": "title:\"Cannot Move To Local\"",
+      "to": "title:\"无法移至本地\""
+    },
+    {
+      "from": "description:\"Cannot Move To Local\"",
+      "to": "description:\"无法移至本地\""
+    },
+    {
+      "from": "aria-label:\"Cannot Move To Local\"",
+      "to": "aria-label:\"无法移至本地\""
+    },
+    {
+      "from": "e.g. My Team Plugins",
+      "to": "例如：我的团队插件"
+    },
+    {
+      "from": "label:\"e.g. My Team Plugins\"",
+      "to": "label:\"例如：我的团队插件\""
+    },
+    {
+      "from": "title:\"e.g. My Team Plugins\"",
+      "to": "title:\"例如：我的团队插件\""
+    },
+    {
+      "from": "description:\"e.g. My Team Plugins\"",
+      "to": "description:\"例如：我的团队插件\""
+    },
+    {
+      "from": "aria-label:\"e.g. My Team Plugins\"",
+      "to": "aria-label:\"例如：我的团队插件\""
     }
   ]
 }

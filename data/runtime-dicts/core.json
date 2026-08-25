@@ -1,6 +1,6 @@
 {
   "description": "通用界面精确匹配词典（设置侧栏、Agent 窗口等）",
-  "updatedAt": "2026-08-18",
+  "updatedAt": "2026-08-25",
   "entries": [
     [
       "Cannot create project rules without a workspace. Please open a folder first.",
@@ -1165,6 +1165,1022 @@
     [
       "Jump to Next Diff on Accept",
       "接受时跳到下一处差异"
+    ],
+    [
+      "Start New Chat",
+      "开始新对话"
+    ],
+    [
+      "Start New Chat?",
+      "开始新对话？"
+    ],
+    [
+      "Needs Attention",
+      "需要关注"
+    ],
+    [
+      "Connect your Repos to Cursor",
+      "将仓库连接到 Cursor"
+    ],
+    [
+      "Data Sharing",
+      "数据共享"
+    ],
+    [
+      "Export Transcript",
+      "导出记录"
+    ],
+    [
+      "Share Transcript",
+      "分享记录"
+    ],
+    [
+      "Import Chat",
+      "导入对话"
+    ],
+    [
+      "Export Chat (Developer)",
+      "导出对话（开发者）"
+    ],
+    [
+      "Servers available in this workspace.",
+      "此工作区可用的服务器。"
+    ],
+    [
+      "Servers available to cloud agents.",
+      "云端 Agent 可用的服务器。"
+    ],
+    [
+      "Delete MCP server",
+      "删除 MCP 服务器"
+    ],
+    [
+      "Edit MCP configuration",
+      "编辑 MCP 配置"
+    ],
+    [
+      "Edit MCP config",
+      "编辑 MCP 配置"
+    ],
+    [
+      "Chat Too Old",
+      "对话过旧"
+    ],
+    [
+      "Always Applied",
+      "始终应用"
+    ],
+    [
+      "Apply to Specific Files & Folders",
+      "应用到指定文件和文件夹"
+    ],
+    [
+      "Plugins, MCPs, Skills, and Rules have moved to Customize",
+      "插件、MCP、技能和规则已移至「自定义」"
+    ],
+    [
+      "Project Command",
+      "项目命令"
+    ],
+    [
+      "Project Rule",
+      "项目规则"
+    ],
+    [
+      "User Command",
+      "用户命令"
+    ],
+    [
+      "Manually Sent Messages from Queue",
+      "从队列手动发送的消息"
+    ],
+    [
+      "New Agents Window (Glass)",
+      "新建 Agents 窗口 (Glass)"
+    ],
+    [
+      "Switch to Agents Window (Glass)",
+      "切换到 Agents 窗口 (Glass)"
+    ],
+    [
+      "Open or Focus Agents Window (Glass)",
+      "打开或聚焦 Agents 窗口 (Glass)"
+    ],
+    [
+      "Open Agent",
+      "打开 Agent"
+    ],
+    [
+      "View Agent",
+      "查看 Agent"
+    ],
+    [
+      "Ask Agent",
+      "询问 Agent"
+    ],
+    [
+      "Past Chat",
+      "历史对话"
+    ],
+    [
+      "Remove local plugin",
+      "移除本地插件"
+    ],
+    [
+      "Retry cloud agent request",
+      "重试云端 Agent 请求"
+    ],
+    [
+      "Show notifications for less urgent issues",
+      "显示较低紧急程度问题的通知"
+    ],
+    [
+      "Submission blocked by hook",
+      "提交被钩子拦截"
+    ],
+    [
+      "Team Pool",
+      "团队池"
+    ],
+    [
+      "Upgrade to Pro+",
+      "升级到 Pro+"
+    ],
+    [
+      "Upgrade to Ultra",
+      "升级到 Ultra"
+    ],
+    [
+      "Help Improve Cursor",
+      "帮助改进 Cursor"
+    ],
+    [
+      "Help improve Cursor for everyone",
+      "帮助改进 Cursor，惠及所有人"
+    ],
+    [
+      "Last Used",
+      "最近使用"
+    ],
+    [
+      "Most Used",
+      "最常用"
+    ],
+    [
+      "Last 7 Days",
+      "最近 7 天"
+    ],
+    [
+      "Last 30 Days",
+      "最近 30 天"
+    ],
+    [
+      "Grant repository access",
+      "授予仓库访问权限"
+    ],
+    [
+      "Configured in the dashboard",
+      "已在控制台中配置"
+    ],
+    [
+      "Enable auto-keep",
+      "启用自动保留"
+    ],
+    [
+      "Import from GitHub/GitLab",
+      "从 GitHub/GitLab 导入"
+    ],
+    [
+      "MCP Servers",
+      "MCP 服务器"
+    ],
+    [
+      "MCP Server",
+      "MCP 服务器"
+    ],
+    [
+      "My Machines",
+      "我的机器"
+    ],
+    [
+      "Use Multiple Models",
+      "使用多个模型"
+    ],
+    [
+      "Review Changes",
+      "审查更改"
+    ],
+    [
+      "About Cursor",
+      "关于 Cursor"
+    ],
+    [
+      "Accept Edits",
+      "接受编辑"
+    ],
+    [
+      "Cancel Edits",
+      "取消编辑"
+    ],
+    [
+      "Continue Anyway",
+      "仍要继续"
+    ],
+    [
+      "Copy Link",
+      "复制链接"
+    ],
+    [
+      "Copy link",
+      "复制链接"
+    ],
+    [
+      "Don't revert",
+      "不还原"
+    ],
+    [
+      "Reset to default",
+      "重置为默认"
+    ],
+    [
+      "Skip this parameter",
+      "跳过此参数"
+    ],
+    [
+      "Submit from a previous message?",
+      "从先前的消息提交？"
+    ],
+    [
+      "View Details",
+      "查看详情"
+    ],
+    [
+      "Workspace Not Found",
+      "未找到工作区"
+    ],
+    [
+      "Needs authentication",
+      "需要身份验证"
+    ],
+    [
+      "Connection failed",
+      "连接失败"
+    ],
+    [
+      "New Messages",
+      "新消息"
+    ],
+    [
+      "All team members can view",
+      "所有团队成员均可查看"
+    ],
+    [
+      "Conversation Corrupted",
+      "对话已损坏"
+    ],
+    [
+      "Build in Cloud",
+      "在云端构建"
+    ],
+    [
+      "Build in Parallel",
+      "并行构建"
+    ],
+    [
+      "Build Locally",
+      "在本地构建"
+    ],
+    [
+      "Change run mode",
+      "更改运行模式"
+    ],
+    [
+      "Checkout & Move to Local",
+      "检出并移至本地"
+    ],
+    [
+      "Add MCP",
+      "添加 MCP"
+    ],
+    [
+      "Open MCPs",
+      "打开 MCP"
+    ],
+    [
+      "Browse MCPs",
+      "浏览 MCP"
+    ],
+    [
+      "Add Skills",
+      "添加技能"
+    ],
+    [
+      "Open Skills",
+      "打开技能"
+    ],
+    [
+      "Agent Name",
+      "Agent 名称"
+    ],
+    [
+      "Agent Edit",
+      "编辑 Agent"
+    ],
+    [
+      "No Plugins",
+      "暂无插件"
+    ],
+    [
+      "Custom MCP",
+      "自定义 MCP"
+    ],
+    [
+      "Team agents",
+      "团队 Agent"
+    ],
+    [
+      "Go to Plugin",
+      "前往插件"
+    ],
+    [
+      "New worktree",
+      "新建工作树"
+    ],
+    [
+      "Open Plugins",
+      "打开插件"
+    ],
+    [
+      "Other Agents",
+      "其他 Agent"
+    ],
+    [
+      "Agent blocked",
+      "Agent 已阻止"
+    ],
+    [
+      "Copy Agent ID",
+      "复制 Agent ID"
+    ],
+    [
+      "Get MCP tools",
+      "获取 MCP 工具"
+    ],
+    [
+      "MCP Allowlist",
+      "MCP 白名单"
+    ],
+    [
+      "Publish Skill",
+      "发布技能"
+    ],
+    [
+      "Replace Agent",
+      "替换 Agent"
+    ],
+    [
+      "Replace Skill",
+      "替换技能"
+    ],
+    [
+      "Update Cursor",
+      "更新 Cursor"
+    ],
+    [
+      "Manage plugins",
+      "管理插件"
+    ],
+    [
+      "No MCP servers",
+      "暂无 MCP 服务器"
+    ],
+    [
+      "No plugins yet",
+      "暂无插件"
+    ],
+    [
+      "Open Subagents",
+      "打开子 Agent"
+    ],
+    [
+      "Delete Subagent",
+      "删除子 Agent"
+    ],
+    [
+      "Find with Agent",
+      "用 Agent 查找"
+    ],
+    [
+      "Last Agent Turn",
+      "上次 Agent 回合"
+    ],
+    [
+      "No agents found",
+      "未找到 Agent"
+    ],
+    [
+      "Unpublish Skill",
+      "取消发布技能"
+    ],
+    [
+      "Add MCP tools...",
+      "添加 MCP 工具..."
+    ],
+    [
+      "Agent is blocked",
+      "Agent 已被阻止"
+    ],
+    [
+      "Can't use Cursor",
+      "无法使用 Cursor"
+    ],
+    [
+      "Cursor Changelog",
+      "Cursor 更新日志"
+    ],
+    [
+      "Install a plugin",
+      "安装插件"
+    ],
+    [
+      "MCP Notification",
+      "MCP 通知"
+    ],
+    [
+      "No linked agents",
+      "没有已关联的 Agent"
+    ],
+    [
+      "No plugins found",
+      "未找到插件"
+    ],
+    [
+      "No Subagents Yet",
+      "暂无子 Agent"
+    ],
+    [
+      "Search Agents...",
+      "搜索 Agent..."
+    ],
+    [
+      "Agent unavailable",
+      "Agent 不可用"
+    ],
+    [
+      "Create with Agent",
+      "用 Agent 创建"
+    ],
+    [
+      "Created by Cursor",
+      "由 Cursor 创建"
+    ],
+    [
+      "Hidden from agent",
+      "对 Agent 隐藏"
+    ],
+    [
+      "New Composer Chat",
+      "新建 Composer 对话"
+    ],
+    [
+      "Read MCP resource",
+      "读取 MCP 资源"
+    ],
+    [
+      "Agent disconnected",
+      "Agent 已断开"
+    ],
+    [
+      "Agent Instructions",
+      "Agent 说明"
+    ],
+    [
+      "Copy worktree path",
+      "复制工作树路径"
+    ],
+    [
+      "Get Cursor for iOS",
+      "获取 Cursor iOS 版"
+    ],
+    [
+      "Loading plugins...",
+      "正在加载插件..."
+    ],
+    [
+      "No matching agents",
+      "没有匹配的 Agent"
+    ],
+    [
+      "No subagents found",
+      "未找到子 Agent"
+    ],
+    [
+      "Use Cursor Browser",
+      "使用 Cursor 浏览器"
+    ],
+    [
+      "Verified by Cursor",
+      "已由 Cursor 验证"
+    ],
+    [
+      "Agent Conversations",
+      "Agent 对话"
+    ],
+    [
+      "Cursor Pro Required",
+      "需要 Cursor Pro"
+    ],
+    [
+      "Install MCP server?",
+      "安装 MCP 服务器？"
+    ],
+    [
+      "No skills available",
+      "暂无可用技能"
+    ],
+    [
+      "Plugin Installation",
+      "插件安装"
+    ],
+    [
+      "Error loading plugin",
+      "加载插件出错"
+    ],
+    [
+      "MCP Tools Protection",
+      "MCP 工具保护"
+    ],
+    [
+      "New Agent with Model",
+      "使用指定模型新建 Agent"
+    ],
+    [
+      "New Agent with Query",
+      "使用指定问题新建 Agent"
+    ],
+    [
+      "Configure local agent",
+      "配置本地 Agent"
+    ],
+    [
+      "No recent agents yet.",
+      "还没有最近的 Agent。"
+    ],
+    [
+      "Search MCP servers...",
+      "搜索 MCP 服务器..."
+    ],
+    [
+      "Agent stopped retrying",
+      "Agent 已停止重试"
+    ],
+    [
+      "Loading team agents...",
+      "正在加载团队 Agent..."
+    ],
+    [
+      "New Agent with Context",
+      "带上下文新建 Agent"
+    ],
+    [
+      "Open Composer Settings",
+      "打开 Composer 设置"
+    ],
+    [
+      "Add a Custom MCP Server",
+      "添加自定义 MCP 服务器"
+    ],
+    [
+      "Add File to Cursor Chat",
+      "将文件添加到 Cursor 对话"
+    ],
+    [
+      "Add your own MCP server",
+      "添加你自己的 MCP 服务器"
+    ],
+    [
+      "Get started with Cursor",
+      "开始使用 Cursor"
+    ],
+    [
+      "Get started with Cursor.",
+      "开始使用 Cursor。"
+    ],
+    [
+      "Review Code with Bugbot",
+      "用 Bugbot 审查代码"
+    ],
+    [
+      "Could Not Load Subagents",
+      "无法加载子 Agent"
+    ],
+    [
+      "No agents matching filter",
+      "没有符合筛选条件的 Agent"
+    ],
+    [
+      "Open terminal in worktree",
+      "在工作树中打开终端"
+    ],
+    [
+      "Add a plugin to this agent",
+      "为此 Agent 添加插件"
+    ],
+    [
+      "Delegate Work to Subagents",
+      "将工作委派给子 Agent"
+    ],
+    [
+      "No MCP resources available",
+      "暂无可用的 MCP 资源"
+    ],
+    [
+      "Select a local plugin repo",
+      "选择本地插件仓库"
+    ],
+    [
+      "Add an agent to get started",
+      "添加 Agent 以开始使用"
+    ],
+    [
+      "Add File to New Cursor Chat",
+      "将文件添加到新的 Cursor 对话"
+    ],
+    [
+      "Agent Decides When to Apply",
+      "由 Agent 决定何时应用"
+    ],
+    [
+      "Loading cloud agent data...",
+      "正在加载云端 Agent 数据..."
+    ],
+    [
+      "Stop Agent and send message",
+      "停止 Agent 并发送消息"
+    ],
+    [
+      "Add Agents & Project Context",
+      "添加 Agent 与项目上下文"
+    ],
+    [
+      "Add Directory to Cursor Chat",
+      "将目录添加到 Cursor 对话"
+    ],
+    [
+      "Switch where this agent runs",
+      "切换此 Agent 的运行位置"
+    ],
+    [
+      "Add agents, context, tools...",
+      "添加 Agent、上下文、工具..."
+    ],
+    [
+      "Choose Explore subagent model",
+      "选择 Explore 子 Agent 模型"
+    ],
+    [
+      "Not in Cursor Enterprise team",
+      "不属于 Cursor 企业版团队"
+    ],
+    [
+      "Uninstall an installed plugin",
+      "卸载已安装的插件"
+    ],
+    [
+      "Open a pull request in Cursor.",
+      "在 Cursor 中打开拉取请求。"
+    ],
+    [
+      "Reset this pane to a new agent",
+      "将此窗格重置为新 Agent"
+    ],
+    [
+      "Loading plugin configuration...",
+      "正在加载插件配置..."
+    ],
+    [
+      "Model to use for subagent tasks",
+      "子 Agent 任务使用的模型"
+    ],
+    [
+      "Remove a plugin from this agent",
+      "从此 Agent 移除插件"
+    ],
+    [
+      "Add Directory to New Cursor Chat",
+      "将目录添加到新的 Cursor 对话"
+    ],
+    [
+      "Your personal cloud MCP servers.",
+      "你的个人云端 MCP 服务器。"
+    ],
+    [
+      "Create rules to guide Agent behavior",
+      "创建规则以引导 Agent 行为"
+    ],
+    [
+      "Enable Run Everything for this agent",
+      "为此 Agent 启用全部自动运行"
+    ],
+    [
+      "Request an agent to review your code",
+      "请求 Agent 审查你的代码"
+    ],
+    [
+      "Run this agent in a new git worktree",
+      "在新的 Git 工作树中运行此 Agent"
+    ],
+    [
+      "Run this agent in a new SSH worktree",
+      "在新的 SSH 工作树中运行此 Agent"
+    ],
+    [
+      "Unlock 3x more usage on Agent & more",
+      "解锁 Agent 3 倍用量及其他权益"
+    ],
+    [
+      "What model new agents use by default",
+      "新 Agent 默认使用的模型"
+    ],
+    [
+      "Ask follow-ups to the Cloud Agent...",
+      "向云端 Agent 发送后续问题..."
+    ],
+    [
+      "Cloud MCP servers shared by your team.",
+      "团队共享的云端 MCP 服务器。"
+    ],
+    [
+      "Disable Cursor Tab for these languages",
+      "对这些语言禁用 Cursor Tab"
+    ],
+    [
+      "Control this agent from another machine",
+      "从另一台机器控制此 Agent"
+    ],
+    [
+      "Define a new skill for the agent to use",
+      "定义供 Agent 使用的新技能"
+    ],
+    [
+      "Ask Cursor questions about your codebase",
+      "向 Cursor 询问关于代码库的问题"
+    ],
+    [
+      "Orchestrate multiple subagents in parallel",
+      "并行编排多个子 Agent"
+    ],
+    [
+      "The agent hasn't worked on this branch yet",
+      "Agent 尚未在此分支上工作过"
+    ],
+    [
+      "Wrap long lines in Agent chat code blocks.",
+      "在 Agent 对话的代码块中自动换行。"
+    ],
+    [
+      "Sync your chats and continue them in Cursor",
+      "同步对话并在 Cursor 中继续"
+    ],
+    [
+      "Automatically save files in normal composers",
+      "在普通 Composer 中自动保存文件"
+    ],
+    [
+      "No Cursor-managed worktrees on this machine.",
+      "此机器上没有 Cursor 托管的工作树。"
+    ],
+    [
+      "Write your instructions for the agent here...",
+      "在此填写给 Agent 的说明..."
+    ],
+    [
+      "Add a custom MCP tool in your Home MCP config.",
+      "在个人 MCP 配置中添加自定义 MCP 工具。"
+    ],
+    [
+      "Cloud Agents require data storage to function.",
+      "云端 Agent 需要数据存储才能运行。"
+    ],
+    [
+      "Create a cursor rule from the highlighted text",
+      "根据所选文本创建 Cursor 规则"
+    ],
+    [
+      "Choose which source configures this MCP server.",
+      "选择此 MCP 服务器的配置来源。"
+    ],
+    [
+      "Skills help the agent accomplish specific tasks",
+      "技能可帮助 Agent 完成特定任务"
+    ],
+    [
+      "Switch between Agent and Editor default layouts",
+      "在 Agent 与编辑器默认布局之间切换"
+    ],
+    [
+      "Create specialized agents to handle focused tasks",
+      "创建专门的 Agent 以处理聚焦任务"
+    ],
+    [
+      "Move Cursor rules and commands into Agent Skills.",
+      "将 Cursor 规则和命令迁移到 Agent 技能。"
+    ],
+    [
+      "Play a sound when agents finish or need attention",
+      "当 Agent 完成或需要关注时播放提示音"
+    ],
+    [
+      "What sending a message while Agent is running does",
+      "Agent 运行时发送消息的行为"
+    ],
+    [
+      "All MCP servers from this plugin are already added.",
+      "此插件的所有 MCP 服务器均已添加。"
+    ],
+    [
+      "New messages now steer Agent instead of interrupting",
+      "新消息现在会引导 Agent，而不再打断它"
+    ],
+    [
+      "Turn a recorded demonstration into a reusable skill.",
+      "将录制的演示转换为可复用技能。"
+    ],
+    [
+      "Coordinate long-horizon tasks with delegated subagents",
+      "通过委派子 Agent 协调长周期任务"
+    ],
+    [
+      "Choose team Named Agents to show in your Glass sidebar.",
+      "选择要显示在 Glass 侧栏中的团队 Named Agent。"
+    ],
+    [
+      "Trigger an agent to run based on a trigger or schedule.",
+      "根据触发条件或计划运行 Agent。"
+    ],
+    [
+      "Cloud Agents require a Git repository in an open folder.",
+      "云端 Agent 需要在已打开的文件夹中有 Git 仓库。"
+    ],
+    [
+      "Create or select an agent first, then retry this action.",
+      "请先创建或选择一个 Agent，然后重试此操作。"
+    ],
+    [
+      "Scheduled tasks run on this machine while Cursor is open",
+      "计划任务在 Cursor 打开时于本机运行"
+    ],
+    [
+      "Browse the marketplace or import custom plugins to extend",
+      "浏览市场或导入自定义插件以扩展功能"
+    ],
+    [
+      "Hooks that run during the agent's loop will show up here.",
+      "在 Agent 循环中运行的钩子会显示在这里。"
+    ],
+    [
+      "Let Cursor see logs and view your app with Playwright MCP",
+      "让 Cursor 通过 Playwright MCP 查看日志和应用"
+    ],
+    [
+      "You'll be logged out of your Cursor account on this device.",
+      "你将在此设备上退出 Cursor 账户。"
+    ],
+    [
+      "Jump back to the Agents Window to keep working across repos.",
+      "返回 Agents 窗口以继续跨仓库工作。"
+    ],
+    [
+      "Review the configuration before adding it to your MCP servers.",
+      "添加到 MCP 服务器之前请先检查配置。"
+    ],
+    [
+      "Team admins can configure shared MCP servers in the dashboard.",
+      "团队管理员可在控制台中配置共享 MCP 服务器。"
+    ],
+    [
+      "Choose the default behavior of messages sent while Agent is working",
+      "选择 Agent 工作时发送消息的默认行为"
+    ],
+    [
+      "It'll be saved to Cursor Origin, so you can come back to it anytime.",
+      "它会保存到 Cursor Origin，你可以随时回来继续。"
+    ],
+    [
+      "Add plugins or import from GitHub to make them available for your team.",
+      "添加插件或从 GitHub 导入，供团队使用。"
+    ],
+    [
+      "Adjust the default behavior of sending a message while Agent is streaming",
+      "调整 Agent 流式输出时发送消息的默认行为"
+    ],
+    [
+      "Add a personal cloud MCP server to make it available to your cloud agents.",
+      "添加个人云端 MCP 服务器，供云端 Agent 使用。"
+    ],
+    [
+      "Allow agents on this machine to be controlled remotely from mobile and web",
+      "允许通过手机和网页远程控制此机器上的 Agent"
+    ],
+    [
+      "Privacy Mode (Legacy) is enabled. Background Agent and some features not available.",
+      "已启用隐私模式（旧版）。后台 Agent 及部分功能不可用。"
+    ],
+    [
+      "Agents can only belong to one group. Moving this agent will remove it from its current group.",
+      "Agent 只能属于一个分组。移动此 Agent 会把它从当前分组中移除。"
+    ],
+    [
+      "Choose the default behavior of messages sent manually from the queue while Agent is streaming",
+      "选择 Agent 流式输出时从队列手动发送消息的默认行为"
+    ],
+    [
+      "Allow agent to switch to modes without asking. When off, skips if unanswered within 15 seconds.",
+      "允许 Agent 在不问询的情况下切换模式。关闭后，若 15 秒内未回答则跳过。"
+    ],
+    [
+      "Rules give Agent persistent, system-level instructions for your coding standards and workflows.",
+      "规则为 Agent 提供持久的系统级说明，用于你的编码标准和流程。"
+    ],
+    [
+      "This track will silently download and install updates without prompting whenever Cursor is closed.",
+      "此通道会在 Cursor 关闭时静默下载并安装更新，不再弹出提示。"
+    ],
+    [
+      "You don't have access to this agent's machine. The conversation and pull request are still available.",
+      "你无权访问此 Agent 的机器。对话和拉取请求仍可查看。"
+    ],
+    [
+      "Bring over your chats, and send a follow-up to fork it. Your plugins and skills are synced by default.",
+      "带上你的对话并发送后续消息即可分叉。插件和技能默认会同步。"
+    ],
+    [
+      "When data sharing is enabled, Cursor learns from code to help your team get the best experience possible.",
+      "启用数据共享后，Cursor 会从代码中学习，帮助团队获得更好的体验。"
+    ],
+    [
+      "Several agent tasks are competing for system resources. Run fewer in parallel to keep your system responsive.",
+      "多个 Agent 任务正在争用系统资源。减少并行数量可保持系统流畅。"
+    ],
+    [
+      "Allow agent to switch to modes like Plan or Debug without asking. When off, Cursor asks first, but skips if unanswered within 15 seconds.",
+      "允许 Agent 在不问询的情况下切换到计划或调试等模式。关闭后 Cursor 会先询问，但若 15 秒内未回答则跳过。"
+    ],
+    [
+      "Your code data will not be trained on or used to improve the product. Code may be stored to provide features such as Background Agent.",
+      "你的代码数据不会用于训练或改进产品。代码可能会被存储，以便提供后台 Agent 等功能。"
+    ],
+    [
+      "Add a custom MCP tool in your user MCP config or configure workspace-specific tools in <project-root>/.cursor/mcp.json.",
+      "在用户 MCP 配置中添加自定义 MCP 工具，或在 <project-root>/.cursor/mcp.json 中配置工作区专用工具。"
+    ],
+    [
+      "Open environment.json",
+      "打开 environment.json"
+    ],
+    [
+      "Report Issue",
+      "报告问题"
+    ],
+    [
+      "Clear override",
+      "清除覆盖"
+    ],
+    [
+      "Allow All",
+      "全部允许"
+    ],
+    [
+      "Allow network access",
+      "允许网络访问"
+    ],
+    [
+      "Already added",
+      "已添加"
+    ],
+    [
+      "Answer questions without making edits",
+      "只回答问题，不进行编辑"
+    ],
+    [
+      "Approve this server",
+      "批准此服务器"
+    ],
+    [
+      "Approve this tool",
+      "批准此工具"
+    ],
+    [
+      "Can't connect to server",
+      "无法连接到服务器"
+    ],
+    [
+      "Cannot Move To Local",
+      "无法移至本地"
+    ],
+    [
+      "e.g. My Team Plugins",
+      "例如：我的团队插件"
     ]
   ]
 }
